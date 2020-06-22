@@ -1,124 +1,164 @@
-# [LSMinimumSystemVersion](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSMinimumSystemVersion)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [LSMinimumSystemVersion](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSMinimumSystemVersion)
+## Minimum system version
+### The minimum operating system version required for the app to run.
 ### [Default]: "10.0.0"
-### [Show More](/docs/LSMinimumSystemVersion.md)
+### [JSON](/json/LSMinimumSystemVersion.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3041022,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "LSMinimumSystemVersion"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>The minimum operating system version required for the app to run.</p></div>",
+    "discussion": "<div><p>The Mac App Store uses this key to indicate the OS releases on which your app can run and show compatibility with the user&#8217;s Mac.</p><p>For iOS, see <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/minimumosversion\"><code><span>Minimum<wbr/>OSVersion</span></code></a>.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3374988,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3041022,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
+                    "usr": "plist:Information_Property_List.LSMinimumSystemVersion",
+                    "name": "LSMinimumSystemVersion",
+                    "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "macOS",
-                            "introduced": "10.7"
+                            "introduced": "10.0"
                         }
                     ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "defaultValue": "10.0.0",
+                    "xcodeTitle": "Minimum system version",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSMinimum<wbr/>System<wbr/>Version</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/bundleresources/information_property_list/lsminimumsystemversion"
                     ],
                     "title": {
-                        "content": "Photos Library Entitlement"
+                        "content": "LSMinimumSystemVersion"
                     },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                    "abstract": "<div><p>The minimum operating system version required for the app to run.</p></div>"
                 },
                 {
-                    "id": 3041012,
+                    "id": 3041363,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.LSMinimumSystemVersionByArchitecture",
+                    "name": "LSMinimumSystemVersionByArchitecture",
+                    "domain": "plist",
+                    "kind": "dict",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "Minimum system versions, per-architecture",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSMinimum<wbr/>System<wbr/>Version<wbr/>By<wbr/>Architecture</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/lsminimumsystemversionbyarchitecture"
+                    ],
+                    "title": {
+                        "content": "LSMinimumSystemVersionByArchitecture"
+                    },
+                    "abstract": "<div><p>The minimum version of macOS required for the app to run on a set of architectures.</p></div>"
+                },
+                {
+                    "id": 3163404,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.MinimumOSVersion",
+                    "name": "MinimumOSVersion",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "3.0"
                         },
                         {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">Minimum<wbr/>OSVersion</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/minimumosversion"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "MinimumOSVersion"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>The minimum operating system version required for the app to run on iOS, tvOS, and watchOS.</p></div>"
+                },
+                {
+                    "id": 3041023,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.LSRequiresIPhoneOS",
+                    "name": "LSRequiresIPhoneOS",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "12.0"
+                        }
+                    ],
+                    "xcodeTitle": "Application requires iPhone environment",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSRequires<wbr/>IPhone<wbr/>OS</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/lsrequiresiphoneos"
+                    ],
+                    "title": {
+                        "content": "LSRequiresIPhoneOS"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app must run in iOS.</p></div>"
+                },
+                {
+                    "id": 3040992,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.WKWatchKitApp",
+                    "name": "WKWatchKitApp",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKWatch<wbr/>Kit<wbr/>App</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/wkwatchkitapp"
+                    ],
+                    "title": {
+                        "content": "WKWatchKitApp"
+                    },
+                    "abstract": "<div><p>A Boolean value that indicates whether the bundle is a watchOS app.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Operating System Version"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.LSMinimumSystemVersion",
+    "name": "LSMinimumSystemVersion",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
-            "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.0"
         }
     ],
     "parent": {
@@ -128,9 +168,6 @@
         "domain": "plist",
         "kind": "schema",
         "role": "dictionarySymbol",
-        "paths": [
-            "documentation/bundleresources/information_property_list"
-        ],
         "title": {
             "content": "Information Property List"
         },
@@ -141,13 +178,12 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Core Services"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/coreservices"
             ],
             "platforms": [
-                "iOS",
                 "macOS"
             ]
         }
@@ -162,19 +198,18 @@
                     }
                 ],
                 "platforms": [
-                    "iOS",
                     "macOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "defaultValue": "10.0.0",
+    "xcodeTitle": "Minimum system version",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSMinimum<wbr/>System<wbr/>Version</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string LSMinimumSystemVersion\n</span>",
             "platforms": [
-                "iOS",
                 "macOS"
             ],
             "allowedTypesDetails": [
@@ -196,34 +231,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/lsminimumsystemversion"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.LSMinimumSystemVersion"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/lsminimumsystemversion"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.LSMinimumSystemVersion"
         }
     },
-    "pid": 505027,
+    "pid": 492525,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/lsminimumsystemversion"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +271,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3374879,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "Bundle Configuration"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/bundle_configuration"
                 ]
             }
         ]

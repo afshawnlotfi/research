@@ -1,118 +1,54 @@
 {
-    "id": 3041012,
+    "id": 3561701,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "UIApplicationSupportsIndirectInputEvents"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A Boolean value indicating that the app generally supports indirect input mechanisms.</p></div>",
+    "discussion": "<div><p>If this key is <em>not</em> present <em>or</em> returns <code class=\"code-voice\"><span>NO</span></code>:</p><ul><li><p>When the user clicks an indirect pointing device, UIKit generates a <a class=\"symbol-name\" href=\"/documentation/uikit/uitouch\"><code><span>UITouch</span></code></a> of type <a class=\"symbol-name\" href=\"/documentation/uikit/uitouch/touchtype/direct\"><code><span>UITouch<wbr/>.Touch<wbr/>Type<wbr/>.direct</span></code></a>.</p></li><li><p>When pinching or rotating using an indirect touch surface, UIKit creates touches a fixed distance apart that simulate the gesture on the indirect touch surface.</p></li><li><p>Because these are normal <code class=\"code-voice\"><span>UITouch</span></code> events, they may incidentally activate other gesture recognizers</p></li></ul><p>If the key <em>is</em> present <em>and</em> returns <code class=\"code-voice\"><span>YES</span></code>:</p><ul><li><p>When the user clicks an indirect pointing device, UIKit generates a <code class=\"code-voice\"><span>UITouch</span></code> of type <a class=\"symbol-name\" href=\"/documentation/uikit/uitouch/touchtype/indirectpointer\"><code><span>UITouch<wbr/>.Touch<wbr/>Type<wbr/>.indirect<wbr/>Pointer</span></code></a>.</p></li><li><p>When pinching or rotating using an indirect touch surface, UIKit drives <a class=\"symbol-name\" href=\"/documentation/uikit/uipinchgesturerecognizer\"><code><span>UIPinch<wbr/>Gesture<wbr/>Recognizer</span></code></a> and <a class=\"symbol-name\" href=\"/documentation/uikit/uirotationgesturerecognizer\"><code><span>UIRotation<wbr/>Gesture<wbr/>Recognizer</span></code></a> with an event of type <a class=\"symbol-name\" href=\"/documentation/uikit/uievent/eventtype/transform\"><code><span>UIEvent<wbr/>.Event<wbr/>Type<wbr/>.transform</span></code></a>.</p></li><li><p>Currently, only certain prepackaged gestures in UIKit, like <code class=\"code-voice\"><span>UIPinch<wbr/>Gesture<wbr/>Recognizer</span></code> and <code class=\"code-voice\"><span>UIRotation<wbr/>Gesture<wbr/>Recognizer</span></code>, are capable of handling this event. Other gestures may be added to this list in future releases.</p></li><li><p>Gestures that may have worked previously with the simulated touches no longer work.</p></li><li><p>Be careful with certain <a class=\"symbol-name\" href=\"/documentation/uikit/uigesturerecognizer\"><code><span>UIGesture<wbr/>Recognizer</span></code></a> APIs when gestures are driven by events of type <a class=\"symbol-name\" href=\"/documentation/uikit/uievent/eventtype/scroll\"><code><span>UIEvent<wbr/>.Event<wbr/>Type<wbr/>.scroll</span></code></a> or <a class=\"symbol-name\" href=\"/documentation/uikit/uievent/eventtype/transform\"><code><span>UIEvent<wbr/>.Event<wbr/>Type<wbr/>.transform</span></code></a>.<code class=\"code-voice\"><span> </span></code><a class=\"symbol-name\" href=\"/documentation/uikit/uigesturerecognizer/1624200-numberoftouches\"><code><span>number<wbr/>Of<wbr/>Touches</span></code></a> returns <code class=\"code-voice\"><span>0</span></code>, and<code class=\"code-voice\"><span> </span></code><a class=\"symbol-name\" href=\"/documentation/uikit/uigesturerecognizer/1624201-location\"><code><span>location(of<wbr/>Touch:<wbr/>in:)</span></code></a> raises an exception because there are no touches driving these gestures with those events.</p></li></ul><p>For the case when exceptions might be raised, use either <a class=\"symbol-name\" href=\"/documentation/uikit/uigesturerecognizer/3538977-shouldreceive\"><code><span>should<wbr/>Receive(_:)</span></code></a> or the delegate call of <a class=\"symbol-name\" href=\"/documentation/uikit/uigesturerecognizerdelegate/3538976-gesturerecognizer\"><code><span>gesture<wbr/>Recognizer(_:<wbr/>should<wbr/>Receive:)</span></code></a> to determine that gesture recognizers are acting on a non-touch-based event. </p><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p><code class=\"code-voice\"><span>UIApplication<wbr/>Supports<wbr/>Indirect<wbr/>Input<wbr/>Events</span></code> is a compatibility affordance to ease the adoption of indirect input for a UIKit application. In a future release, this new behavior will become the default and this key will no longer be consulted.</p></aside><p></p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3562659,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3561701,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.UIApplicationSupportsIndirectInputEvents",
+                    "name": "UIApplicationSupportsIndirectInputEvents",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "13.4"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIApplication<wbr/>Supports<wbr/>Indirect<wbr/>Input<wbr/>Events</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/uiapplicationsupportsindirectinputevents"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "UIApplicationSupportsIndirectInputEvents"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating that the app generally supports indirect input mechanisms.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Pointer Interactions"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.UIApplicationSupportsIndirectInputEvents",
+    "name": "UIApplicationSupportsIndirectInputEvents",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "13.4"
         }
     ],
     "parent": {
@@ -135,14 +71,13 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "UIKit"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/uikit"
             ],
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ]
         }
     ],
@@ -151,30 +86,27 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "boolean",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">boolean</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
-                    "iOS",
-                    "macOS"
+                    "iOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIApplication<wbr/>Supports<wbr/>Indirect<wbr/>Input<wbr/>Events</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>boolean UIApplicationSupportsIndirectInputEvents\n</span>",
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "boolean",
+                    "declaration": "<span>boolean\n</span>"
                 }
             ]
         }
@@ -190,34 +122,32 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/uiapplicationsupportsindirectinputevents"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.UIApplicationSupportsIndirectInputEvents"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/uiapplicationsupportsindirectinputevents"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.UIApplicationSupportsIndirectInputEvents"
+        }
+    },
+    "diffAvailability": {
+        "major": {
+            "change": "added",
+            "platform": "Xcode",
+            "versions": [
+                "11.0",
+                "11.6 beta 1"
+            ]
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/uiapplicationsupportsindirectinputevents"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -242,13 +172,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3375066,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "App Services"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/app_services"
                 ]
             }
         ]

@@ -1,118 +1,197 @@
 {
-    "id": 3041012,
+    "id": 3040987,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "PUICAutoLaunchAudioOptOut"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "discussion": "<div><p>If your watchOS app does not act as a remote control for the iOS app, set this key to <code class=\"code-voice\"><span>YES </span></code>in your WatchKit extension&#8217;s information property list.</p></div>",
+    "abstract": "<div><p>A Boolean value indicating whether a watchOS app should opt out of automatically launching when its companion iOS app starts playing audio content.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 2872688,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3007955,
+                    "role": "article",
+                    "paths": [
+                        "documentation/watchkit/playing_background_audio",
+                        "documentation/watchkit/storyboard_elements/playing_background_audio"
+                    ],
+                    "abstract": "<div><p>Enable background audio in your app to provide a seamless playback experience.</p></div>",
+                    "title": {
+                        "content": "Playing Background Audio"
+                    }
+                },
+                {
+                    "id": 3028418,
+                    "role": "article",
+                    "paths": [
+                        "documentation/watchkit/storyboard_elements/adding_a_now_playing_view"
+                    ],
+                    "abstract": "<div><p>Provide a view that controls the currently playing audio from your app.</p></div>",
+                    "title": {
+                        "content": "Adding a Now Playing View"
+                    }
+                },
+                {
+                    "id": 3017325,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
+                    "usr": "c:objc(cs)WKInterfaceVolumeControl",
+                    "name": "WKInterfaceVolumeControl",
                     "domain": "swift",
                     "kind": "cl",
                     "availability": [
                         {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
+                            "platform": "watchOS",
+                            "introduced": "5.0"
                         }
                     ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">WKInterface<wbr/>Volume<wbr/>Control</span></code>",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/watchkit/wkinterfacevolumecontrol"
                     ],
                     "title": {
-                        "content": "ICDeviceBrowser"
+                        "content": "WKInterfaceVolumeControl"
                     },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
+                    "abstract": "<div><p>An interface element that lets users control the audio volume from the watch or a paired iPhone.</p></div>",
                     "hasChildren": true
                 },
                 {
-                    "id": 3026875,
+                    "id": 3040987,
                     "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.PUICAutoLaunchAudioOptOut",
+                    "name": "PUICAutoLaunchAudioOptOut",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
-                            "platform": "iOS",
-                            "introduced": "7.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "platform": "watchOS",
+                            "introduced": "5.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Opt out of Auto-launch Audio App (Watch)",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">PUICAuto<wbr/>Launch<wbr/>Audio<wbr/>Opt<wbr/>Out</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/puicautolaunchaudiooptout"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "PUICAutoLaunchAudioOptOut"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether a watchOS app should opt out of automatically launching when its companion iOS app starts playing audio content.</p></div>"
+                },
+                {
+                    "id": 1628233,
+                    "role": "symbol",
+                    "usr": "c:objc(cs)WKAudioFilePlayer",
+                    "name": "WKAudioFilePlayer",
+                    "domain": "swift",
+                    "kind": "cl",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "deprecated": "6.0",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">WKAudio<wbr/>File<wbr/>Player</span></code>",
+                    "paths": [
+                        "documentation/watchkit/wkaudiofileplayer"
+                    ],
+                    "title": {
+                        "content": "WKAudioFilePlayer"
+                    },
+                    "abstract": "<div><p>An object that controls playback of a single audio item.  </p></div>",
+                    "hasChildren": true
+                },
+                {
+                    "id": 1628197,
+                    "role": "symbol",
+                    "usr": "c:objc(cs)WKAudioFileQueuePlayer",
+                    "name": "WKAudioFileQueuePlayer",
+                    "domain": "swift",
+                    "kind": "cl",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "deprecated": "6.0",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">WKAudio<wbr/>File<wbr/>Queue<wbr/>Player</span></code>",
+                    "paths": [
+                        "documentation/watchkit/wkaudiofilequeueplayer"
+                    ],
+                    "title": {
+                        "content": "WKAudioFileQueuePlayer"
+                    },
+                    "abstract": "<div><p>An object that controls playback of one or more audio items. </p></div>",
+                    "hasChildren": true
+                },
+                {
+                    "id": 1628151,
+                    "role": "symbol",
+                    "usr": "c:objc(cs)WKAudioFilePlayerItem",
+                    "name": "WKAudioFilePlayerItem",
+                    "domain": "swift",
+                    "kind": "cl",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "deprecated": "6.0",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">WKAudio<wbr/>File<wbr/>Player<wbr/>Item</span></code>",
+                    "paths": [
+                        "documentation/watchkit/wkaudiofileplayeritem"
+                    ],
+                    "title": {
+                        "content": "WKAudioFilePlayerItem"
+                    },
+                    "abstract": "<div><p>An object that manages the presentation state of an audio file while it is being played.  </p></div>",
+                    "hasChildren": true
+                },
+                {
+                    "id": 1628133,
+                    "role": "symbol",
+                    "usr": "c:objc(cs)WKAudioFileAsset",
+                    "name": "WKAudioFileAsset",
+                    "domain": "swift",
+                    "kind": "cl",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "deprecated": "6.0",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">WKAudio<wbr/>File<wbr/>Asset</span></code>",
+                    "paths": [
+                        "documentation/watchkit/wkaudiofileasset"
+                    ],
+                    "title": {
+                        "content": "WKAudioFileAsset"
+                    },
+                    "abstract": "<div><p>An object that stores a reference to an audio file and provides metadata information about that file.  </p></div>",
+                    "hasChildren": true
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Audio"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.PUICAutoLaunchAudioOptOut",
+    "name": "PUICAutoLaunchAudioOptOut",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
-            "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "platform": "watchOS",
+            "current": "6.2",
+            "introduced": "5.0"
         }
     ],
     "parent": {
@@ -122,9 +201,6 @@
         "domain": "plist",
         "kind": "schema",
         "role": "dictionarySymbol",
-        "paths": [
-            "documentation/bundleresources/information_property_list"
-        ],
         "title": {
             "content": "Information Property List"
         },
@@ -135,14 +211,13 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "WatchKit"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/watchkit"
             ],
             "platforms": [
-                "iOS",
-                "macOS"
+                "watchOS"
             ]
         }
     ],
@@ -151,30 +226,28 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "boolean",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">boolean</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
-                    "iOS",
-                    "macOS"
+                    "watchOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Opt out of Auto-launch Audio App (Watch)",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">PUICAuto<wbr/>Launch<wbr/>Audio<wbr/>Opt<wbr/>Out</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>boolean PUICAutoLaunchAudioOptOut\n</span>",
             "platforms": [
-                "iOS",
-                "macOS"
+                "watchOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "boolean",
+                    "declaration": "<span>boolean\n</span>"
                 }
             ]
         }
@@ -190,31 +263,41 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/puicautolaunchaudiooptout"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.PUICAutoLaunchAudioOptOut"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/puicautolaunchaudiooptout"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.PUICAutoLaunchAudioOptOut"
         }
     },
-    "pid": 505027,
+    "pid": 492525,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/puicautolaunchaudiooptout"
     ],
     "hierarchy": [
         [
             {
-                "id": 1613258,
+                "id": 1627081,
                 "role": "collection",
                 "title": {
-                    "content": "ImageCaptureCore"
+                    "content": "WatchKit"
                 },
                 "paths": [
-                    "documentation/imagecapturecore"
+                    "documentation/watchkit"
+                ]
+            },
+            {
+                "id": 3263423,
+                "role": "collectionGroup",
+                "title": {
+                    "content": "Storyboard Elements"
+                },
+                "paths": [
+                    "documentation/watchkit/storyboard_elements"
                 ]
             }
         ],
@@ -242,13 +325,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3375101,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "App Execution"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/app_execution"
                 ]
             }
         ]

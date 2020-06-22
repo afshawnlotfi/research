@@ -1,120 +1,129 @@
-# [NSAppleEventsUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSAppleEventsUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [NSAppleEventsUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSAppleEventsUsageDescription)
+## Privacy - AppleEvents Sending Usage Description
+### A message that tells the user why the app is requesting the ability to send Apple events.
 ### [Default]: ""
-### [Show More](/docs/NSAppleEventsUsageDescription.md)
+### [JSON](/json/NSAppleEventsUsageDescription.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3041411,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "NSAppleEventsUsageDescription"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "discussion": "<div><p>An app using Apple events to control another app might be able to gain access to sensitive user data. For example, the Mail app stores a lot of personal information in its local database that other apps can&#8217;t access directly. But because Mail can be automated with Apple events, other apps can use Mail to gain access to the data indirectly.</p><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that send Apple events.</p></aside><p></p></div>",
+    "abstract": "<div><p>A message that tells the user why the app is requesting the ability to send Apple events.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3375098,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3041411,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.NSAppleEventsUsageDescription",
+                    "name": "NSAppleEventsUsageDescription",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "7.0"
-                        },
                         {
                             "platform": "macOS",
                             "introduced": "10.14"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Privacy - AppleEvents Sending Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSApple<wbr/>Events<wbr/>Usage<wbr/>Description</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/nsappleeventsusagedescription"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "NSAppleEventsUsageDescription"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A message that tells the user why the app is requesting the ability to send Apple events.</p></div>"
+                },
+                {
+                    "id": 3041412,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSSystemAdministrationUsageDescription",
+                    "name": "NSSystemAdministrationUsageDescription",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.14"
+                        }
+                    ],
+                    "xcodeTitle": "Privacy - System Administration Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSSystem<wbr/>Administration<wbr/>Usage<wbr/>Description</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nssystemadministrationusagedescription"
+                    ],
+                    "title": {
+                        "content": "NSSystemAdministrationUsageDescription"
+                    },
+                    "abstract": "<div><p>A message in macOS that tells the user why the app is requesting to manipulate the system configuration.</p></div>"
+                },
+                {
+                    "id": 3040993,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.ITSAppUsesNonExemptEncryption",
+                    "name": "ITSAppUsesNonExemptEncryption",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "App Uses Non-Exempt Encryption",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">ITSApp<wbr/>Uses<wbr/>Non<wbr/>Exempt<wbr/>Encryption</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/itsappusesnonexemptencryption"
+                    ],
+                    "title": {
+                        "content": "ITSAppUsesNonExemptEncryption"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app uses encryption.</p></div>"
+                },
+                {
+                    "id": 3040994,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.ITSEncryptionExportComplianceCode",
+                    "name": "ITSEncryptionExportComplianceCode",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "App Encryption Export Compliance Code",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">ITSEncryption<wbr/>Export<wbr/>Compliance<wbr/>Code</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/itsencryptionexportcompliancecode"
+                    ],
+                    "title": {
+                        "content": "ITSEncryptionExportComplianceCode"
+                    },
+                    "abstract": "<div><p>The export compliance code provided by App Store Connect for apps that require it.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Security"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.NSAppleEventsUsageDescription",
+    "name": "NSAppleEventsUsageDescription",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
-        {
-            "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
-        },
         {
             "platform": "macOS",
             "current": "10.15.4",
@@ -141,13 +150,12 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Security"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/security"
             ],
             "platforms": [
-                "iOS",
                 "macOS"
             ]
         }
@@ -162,19 +170,17 @@
                     }
                 ],
                 "platforms": [
-                    "iOS",
                     "macOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Privacy - AppleEvents Sending Usage Description",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSApple<wbr/>Events<wbr/>Usage<wbr/>Description</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string NSAppleEventsUsageDescription\n</span>",
             "platforms": [
-                "iOS",
                 "macOS"
             ],
             "allowedTypesDetails": [
@@ -196,34 +202,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nsappleeventsusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSAppleEventsUsageDescription"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nsappleeventsusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSAppleEventsUsageDescription"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/nsappleeventsusagedescription"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,

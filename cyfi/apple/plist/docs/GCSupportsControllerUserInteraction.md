@@ -1,81 +1,104 @@
-# [GCSupportsControllerUserInteraction](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/GCSupportsControllerUserInteraction)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [GCSupportsControllerUserInteraction](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/GCSupportsControllerUserInteraction)
+## Supports Controller User Interaction
+### A Boolean value indicating whether the app supports a game controller.
 ### [Default]: ""
-### [Show More](/docs/GCSupportsControllerUserInteraction.md)
+### [JSON](/json/GCSupportsControllerUserInteraction.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3041004,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "GCSupportsControllerUserInteraction"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A Boolean value indicating whether the app supports a game controller.</p></div>",
+    "discussion": "<div><p>To add this key to the Information Property List, enable the Game Controllers capability in Xcode.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3112343,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3041090,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
+                    "usr": "plist:Information_Property_List.GKGameCenterBadgingDisabled",
+                    "name": "GKGameCenterBadgingDisabled",
+                    "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
-                            "platform": "macOS",
-                            "introduced": "10.7"
+                            "platform": "iOS",
+                            "introduced": "7.0"
                         }
                     ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">GKGame<wbr/>Center<wbr/>Badging<wbr/>Disabled</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/bundleresources/information_property_list/gkgamecenterbadgingdisabled"
                     ],
                     "title": {
-                        "content": "Photos Library Entitlement"
+                        "content": "GKGameCenterBadgingDisabled"
                     },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether badges can be added to a turn-based app icon.</p></div>"
                 },
                 {
-                    "id": 3041012,
+                    "id": 3041091,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.GKShowChallengeBanners",
+                    "name": "GKShowChallengeBanners",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "7.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">GKShow<wbr/>Challenge<wbr/>Banners</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/gkshowchallengebanners"
+                    ],
+                    "title": {
+                        "content": "GKShowChallengeBanners"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether challenge banners can be displayed within an app.</p></div>"
+                },
+                {
+                    "id": 3041003,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.GCSupportedGameControllers",
+                    "name": "GCSupportedGameControllers",
+                    "domain": "plist",
+                    "kind": "dict",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "7.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.9"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">GCSupported<wbr/>Game<wbr/>Controllers</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/gcsupportedgamecontrollers"
+                    ],
+                    "title": {
+                        "content": "GCSupportedGameControllers"
+                    },
+                    "abstract": "<div><p>The types of game controllers allowed or required by the app.</p></div>"
+                },
+                {
+                    "id": 3041004,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.GCSupportsControllerUserInteraction",
+                    "name": "GCSupportsControllerUserInteraction",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
@@ -85,28 +108,55 @@
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "10.9"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Supports Controller User Interaction",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">GCSupports<wbr/>Controller<wbr/>User<wbr/>Interaction</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/gcsupportscontrolleruserinteraction"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "GCSupportsControllerUserInteraction"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether the app supports a game controller.</p></div>"
+                },
+                {
+                    "id": 3041005,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.GCSupportsMultipleMicroGamepads",
+                    "name": "GCSupportsMultipleMicroGamepads",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">GCSupports<wbr/>Multiple<wbr/>Micro<wbr/>Gamepads</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/gcsupportsmultiplemicrogamepads"
+                    ],
+                    "title": {
+                        "content": "GCSupportsMultipleMicroGamepads"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the physical Apple TV Remote and the Apple TV Remote app operate as separate game controllers.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Games"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.GCSupportsControllerUserInteraction",
+    "name": "GCSupportsControllerUserInteraction",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
@@ -118,7 +168,12 @@
         {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.9"
+        },
+        {
+            "platform": "tvOS",
+            "current": "13.4",
+            "introduced": "9.0"
         }
     ],
     "parent": {
@@ -141,14 +196,15 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Game Controller"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/gamecontroller"
             ],
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "tvOS"
             ]
         }
     ],
@@ -163,19 +219,21 @@
                 ],
                 "platforms": [
                     "iOS",
-                    "macOS"
+                    "macOS",
+                    "tvOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Supports Controller User Interaction",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">GCSupports<wbr/>Controller<wbr/>User<wbr/>Interaction</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string GCSupportsControllerUserInteraction\n</span>",
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "tvOS"
             ],
             "allowedTypesDetails": [
                 {
@@ -196,34 +254,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/gcsupportscontrolleruserinteraction"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.GCSupportsControllerUserInteraction"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/gcsupportscontrolleruserinteraction"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.GCSupportsControllerUserInteraction"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/gcsupportscontrolleruserinteraction"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +294,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3375066,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "App Services"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/app_services"
                 ]
             }
         ]

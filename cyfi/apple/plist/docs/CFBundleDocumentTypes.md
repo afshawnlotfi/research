@@ -1,124 +1,166 @@
-# [CFBundleDocumentTypes](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleDocumentTypes)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [CFBundleDocumentTypes](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleDocumentTypes)
+## Document types
+### The document types supported by the bundle.
 ### [Default]: [{"CFBundleTypeName":"","LSHandlerRank":"Default"}]
-### [Show More](/docs/CFBundleDocumentTypes.md)
+### [JSON](/json/CFBundleDocumentTypes.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3040927,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "CFBundleDocumentTypes"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>The document types supported by the bundle.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3375103,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
-                    "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
+                    "id": 3040927,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.CFBundleDocumentTypes",
+                    "name": "CFBundleDocumentTypes",
+                    "domain": "plist",
+                    "kind": "dict",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "13.0"
+                            "introduced": "2.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.4"
+                            "introduced": "10.0"
                         },
                         {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "xcodeTitle": "Document types",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Document<wbr/>Types</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/bundleresources/information_property_list/cfbundledocumenttypes"
                     ],
                     "title": {
-                        "content": "ICDeviceBrowser"
+                        "content": "CFBundleDocumentTypes"
                     },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
+                    "abstract": "<div><p>The document types supported by the bundle.</p></div>",
                     "hasChildren": true
                 },
                 {
-                    "id": 3026875,
+                    "id": 3041118,
                     "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.UISupportsDocumentBrowser",
+                    "name": "UISupportsDocumentBrowser",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "11.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Supports Document Browser",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UISupports<wbr/>Document<wbr/>Browser</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/uisupportsdocumentbrowser"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "UISupportsDocumentBrowser"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether the app is a document-based app.</p></div>"
+                },
+                {
+                    "id": 3041024,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.LSSupportsOpeningDocumentsInPlace",
+                    "name": "LSSupportsOpeningDocumentsInPlace",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "12.0"
+                        }
+                    ],
+                    "xcodeTitle": "Supports opening documents in place",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSSupports<wbr/>Opening<wbr/>Documents<wbr/>In<wbr/>Place</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/lssupportsopeningdocumentsinplace"
+                    ],
+                    "title": {
+                        "content": "LSSupportsOpeningDocumentsInPlace"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app may open the original document from a file provider, rather than a copy of the document.</p></div>"
+                },
+                {
+                    "id": 3041346,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSPersistentStoreTypeKey",
+                    "name": "NSPersistentStoreTypeKey",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.4"
+                        }
+                    ],
+                    "allowedValues": [
+                        "SQLite",
+                        "XML",
+                        "Binary",
+                        "InMemory"
+                    ],
+                    "xcodeTitle": "Core Data persistent store type",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSPersistent<wbr/>Store<wbr/>Type<wbr/>Key</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nspersistentstoretypekey"
+                    ],
+                    "title": {
+                        "content": "NSPersistentStoreTypeKey"
+                    },
+                    "abstract": "<div><p>The Core Data persistent store type associated with a document type.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Documents"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.CFBundleDocumentTypes",
+    "name": "CFBundleDocumentTypes",
     "domain": "plist",
-    "kind": "tdef",
+    "kind": "dict",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
+            "introduced": "2.0"
         },
         {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.0"
+        },
+        {
+            "platform": "tvOS",
+            "current": "13.4",
+            "introduced": "9.0"
+        },
+        {
+            "platform": "watchOS",
+            "current": "6.2",
+            "introduced": "2.0"
         }
     ],
     "parent": {
@@ -141,14 +183,16 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Core Foundation"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/corefoundation"
             ],
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "tvOS",
+                "watchOS"
             ]
         }
     ],
@@ -157,35 +201,41 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "dictionary",
+                        "arrayMode": "required",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">[dictionary]</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
                     "iOS",
-                    "macOS"
+                    "macOS",
+                    "tvOS",
+                    "watchOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Document types",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Document<wbr/>Types</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>[dictionary] CFBundleDocumentTypes\n</span>",
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "tvOS",
+                "watchOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "dictionary",
+                    "arrayMode": "required",
+                    "declaration": "<span>[dictionary]\n</span>"
                 }
             ]
         }
     ],
-    "role": "symbol",
+    "role": "dictionarySymbol",
     "language": "swift",
     "roleHeading": "Property List Key",
     "titleStyle": "symbol",
@@ -196,34 +246,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/cfbundledocumenttypes"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.CFBundleDocumentTypes"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/cfbundledocumenttypes"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.CFBundleDocumentTypes"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/cfbundledocumenttypes"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +286,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3376041,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "Data and Storage"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/data_and_storage"
                 ]
             }
         ]
@@ -263,6 +301,321 @@
         "copyright": "Copyright &copy; 2020 Apple Inc. All rights reserved.",
         "termsOfUse": "https://www.apple.com/legal/internet-services/terms/site.html",
         "privacyPolicy": "https://www.apple.com/privacy/privacy-policy"
-    }
+    },
+    "tasks": [
+        {
+            "id": 3044544,
+            "role": "task",
+            "symbols": [
+                {
+                    "id": 3040928,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleDocumentTypes.CFBundleTypeIconFile",
+                    "name": "CFBundleTypeIconFile",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "Icon File Name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Type<wbr/>Icon<wbr/>File</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/cfbundledocumenttypes/cfbundletypeiconfile"
+                    ],
+                    "title": {
+                        "content": "CFBundleTypeIconFile"
+                    },
+                    "abstract": "<div><p>The icon to associate with the document type.</p></div>"
+                },
+                {
+                    "id": 3040929,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleDocumentTypes.CFBundleTypeName",
+                    "name": "CFBundleTypeName",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "required": true,
+                    "xcodeTitle": "Document Type Name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Type<wbr/>Name</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/cfbundledocumenttypes/cfbundletypename"
+                    ],
+                    "title": {
+                        "content": "CFBundleTypeName"
+                    },
+                    "abstract": "<div><p>The abstract name for the document type.</p></div>"
+                },
+                {
+                    "id": 3040930,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleDocumentTypes.CFBundleTypeRole",
+                    "name": "CFBundleTypeRole",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "allowedValues": [
+                        "Editor",
+                        "Viewer",
+                        "Shell",
+                        "QLGenerator",
+                        "None"
+                    ],
+                    "defaultValue": "None",
+                    "xcodeTitle": "Role",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Type<wbr/>Role</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/cfbundledocumenttypes/cfbundletyperole"
+                    ],
+                    "title": {
+                        "content": "CFBundleTypeRole"
+                    },
+                    "abstract": "<div><p>The app&#x27;s role with respect to the document type.</p></div>"
+                },
+                {
+                    "id": 3040931,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleDocumentTypes.LSHandlerRank",
+                    "name": "LSHandlerRank",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "allowedValues": [
+                        "Owner",
+                        "Default",
+                        "Alternate",
+                        "None"
+                    ],
+                    "defaultValue": "Default",
+                    "xcodeTitle": "Handler rank",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSHandler<wbr/>Rank</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/cfbundledocumenttypes/lshandlerrank"
+                    ],
+                    "title": {
+                        "content": "LSHandlerRank"
+                    },
+                    "abstract": "<div><p>The ranking of this app among apps that declare themselves as editors or viewers of the given file type.</p></div>"
+                },
+                {
+                    "id": 3040932,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleDocumentTypes.LSItemContentTypes",
+                    "name": "LSItemContentTypes",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "Document Content Type UTIs",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSItem<wbr/>Content<wbr/>Types</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/cfbundledocumenttypes/lsitemcontenttypes"
+                    ],
+                    "title": {
+                        "content": "LSItemContentTypes"
+                    },
+                    "abstract": "<div><p>The document file types the app supports.</p></div>"
+                },
+                {
+                    "id": 3040933,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleDocumentTypes.LSTypeIsPackage",
+                    "name": "LSTypeIsPackage",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "Document is a package or bundle",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSType<wbr/>Is<wbr/>Package</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/cfbundledocumenttypes/lstypeispackage"
+                    ],
+                    "title": {
+                        "content": "LSTypeIsPackage"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the document is distributed as a bundle.</p></div>"
+                },
+                {
+                    "id": 3040934,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleDocumentTypes.NSDocumentClass",
+                    "name": "NSDocumentClass",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "Cocoa NSDocument Class",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSDocument<wbr/>Class</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/cfbundledocumenttypes/nsdocumentclass"
+                    ],
+                    "title": {
+                        "content": "NSDocumentClass"
+                    },
+                    "abstract": "<div><p>The subclass used to create instances of this document.</p></div>"
+                },
+                {
+                    "id": 3040935,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleDocumentTypes.NSExportableTypes",
+                    "name": "NSExportableTypes",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "Exportable Type UTIs",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSExportable<wbr/>Types</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/cfbundledocumenttypes/nsexportabletypes"
+                    ],
+                    "title": {
+                        "content": "NSExportableTypes"
+                    },
+                    "abstract": "<div><p>The file types that this document can be exported to.</p></div>"
+                }
+            ],
+            "title": {
+                "content": "Property List Keys"
+            }
+        }
+    ]
 }
 ```

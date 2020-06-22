@@ -1,118 +1,198 @@
 {
-    "id": 3041012,
+    "id": 3040938,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "CFBundleIconFiles"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>The names of the bundle&#8217;s icon image files.</p></div>",
+    "discussion": "<div><aside class=\"aside aside-note\" role=\"note\"><p class=\"aside-name\">Note</p><p>For Action extensions, you can specify the <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/cfbundleicons/cfbundleprimaryicon/cfbundlesymbolname\"><code><span>CFBundle<wbr/>Symbol<wbr/>Name</span></code></a> key instead of <code class=\"code-voice\"><span>CFBundle<wbr/>Icon<wbr/>Files</span></code> to use a symbol from SF Symbols.</p></aside></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3374911,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
-                    "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
+                    "id": 3040939,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.CFBundleIcons",
+                    "name": "CFBundleIcons",
+                    "domain": "plist",
+                    "kind": "dict",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "13.0"
+                            "introduced": "5.0"
                         },
                         {
-                            "platform": "macOS",
-                            "introduced": "10.4"
+                            "platform": "tvOS",
+                            "introduced": "9.0"
                         },
                         {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "xcodeTitle": "Icon files (iOS 5)",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Icons</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/bundleresources/information_property_list/cfbundleicons"
                     ],
                     "title": {
-                        "content": "ICDeviceBrowser"
+                        "content": "CFBundleIcons"
                     },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
+                    "abstract": "<div><p>Information about all of the icons used by the app.</p></div>",
                     "hasChildren": true
                 },
                 {
-                    "id": 3026875,
+                    "id": 3040938,
                     "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.CFBundleIconFiles",
+                    "name": "CFBundleIconFiles",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "3.2"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "Icon files",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Icon<wbr/>Files</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/cfbundleiconfiles"
+                    ],
+                    "title": {
+                        "content": "CFBundleIconFiles"
+                    },
+                    "abstract": "<div><p>The names of the bundle&#8217;s icon image files.</p></div>"
+                },
+                {
+                    "id": 3040937,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleIconFile",
+                    "name": "CFBundleIconFile",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Icon file",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Icon<wbr/>File</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/cfbundleiconfile"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "CFBundleIconFile"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>The file containing the bundle&#x27;s icon.</p></div>"
+                },
+                {
+                    "id": 3041350,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleIconName",
+                    "name": "CFBundleIconName",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.13"
+                        }
+                    ],
+                    "xcodeTitle": "Icon Name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Icon<wbr/>Name</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/cfbundleiconname"
+                    ],
+                    "title": {
+                        "content": "CFBundleIconName"
+                    },
+                    "abstract": "<div><p>The name of the asset that represents the app icon.</p></div>"
+                },
+                {
+                    "id": 3040979,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.UIPrerenderedIcon",
+                    "name": "UIPrerenderedIcon",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "Icon already includes gloss effects",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIPrerendered<wbr/>Icon</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/uiprerenderedicon"
+                    ],
+                    "title": {
+                        "content": "UIPrerenderedIcon"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app&#8217;s icon already contains a shine effect.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Icons"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.CFBundleIconFiles",
+    "name": "CFBundleIconFiles",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
+            "introduced": "3.2"
         },
         {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "platform": "tvOS",
+            "current": "13.4",
+            "introduced": "9.0"
+        },
+        {
+            "platform": "watchOS",
+            "current": "6.2",
+            "introduced": "2.0"
         }
     ],
     "parent": {
@@ -135,14 +215,15 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Core Foundation"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/corefoundation"
             ],
             "platforms": [
                 "iOS",
-                "macOS"
+                "tvOS",
+                "watchOS"
             ]
         }
     ],
@@ -152,29 +233,33 @@
                 "value": [
                     {
                         "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "arrayMode": "required",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">[string]</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
                     "iOS",
-                    "macOS"
+                    "tvOS",
+                    "watchOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Icon files",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Icon<wbr/>Files</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>[string] CFBundleIconFiles\n</span>",
             "platforms": [
                 "iOS",
-                "macOS"
+                "tvOS",
+                "watchOS"
             ],
             "allowedTypesDetails": [
                 {
                     "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "arrayMode": "required",
+                    "declaration": "<span>[string]\n</span>"
                 }
             ]
         }
@@ -190,34 +275,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/cfbundleiconfiles"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.CFBundleIconFiles"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/cfbundleiconfiles"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.CFBundleIconFiles"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/cfbundleiconfiles"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -242,13 +315,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3375099,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "User Interface"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/user_interface"
                 ]
             }
         ]

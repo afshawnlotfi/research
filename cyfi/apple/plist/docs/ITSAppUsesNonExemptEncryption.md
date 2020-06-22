@@ -1,124 +1,85 @@
-# [ITSAppUsesNonExemptEncryption](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/ITSAppUsesNonExemptEncryption)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [ITSAppUsesNonExemptEncryption](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/ITSAppUsesNonExemptEncryption)
+## App Uses Non-Exempt Encryption
+### A Boolean value indicating whether the app uses encryption.
 ### [Default]: false
-### [Show More](/docs/ITSAppUsesNonExemptEncryption.md)
+### [JSON](/json/ITSAppUsesNonExemptEncryption.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3040993,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "ITSAppUsesNonExemptEncryption"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A Boolean value indicating whether the app uses encryption.</p></div>",
+    "discussion": "<div><p>Set the value for this key to <code class=\"code-voice\"><span>NO</span></code> in your app&#8217;s <a href=\"/documentation/bundleresources/information_property_list\">Information Property List</a> file to indicate that your app&#8212;including any third-party libraries you link against&#8212;either uses no encryption, or only uses encryption that&#8217;s exempt from export compliance requirements, as described in <a href=\"https://help.apple.com/app-store-connect/#/dev63c95e436\">Determine your export compliance requirements</a>. Set the value to <code class=\"code-voice\"><span>YES</span></code> to indicate that your app uses non-exempt encryption.</p><p>If you set the value to <code class=\"code-voice\"><span>YES</span></code>, you typically also provide a value for the <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/itsencryptionexportcompliancecode\"><code><span>ITSEncryption<wbr/>Export<wbr/>Compliance<wbr/>Code</span></code></a> key. You set that key&#8217;s value using a code Apple provides after successfully reviewing your export compliance documentation.</p><p>If you don&#8217;t have the <code class=\"code-voice\"><span>ITSApp<wbr/>Uses<wbr/>Non<wbr/>Exempt<wbr/>Encryption</span></code> key in your app&#8217;s <code class=\"code-voice\"><span>Info<wbr/>.plist</span></code> file, App Store Connect walks you through an export compliance questionnaire every time you upload a new version of your app. Including the key streamlines the app submission process.</p><p>For additional information, see <a href=\"/documentation/security/complying_with_encryption_export_regulations\">Complying with Encryption Export Regulations</a>.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3145046,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3040993,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.ITSAppUsesNonExemptEncryption",
+                    "name": "ITSAppUsesNonExemptEncryption",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
-                            "platform": "iOS",
-                            "introduced": "7.0"
-                        },
-                        {
                             "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "10.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "App Uses Non-Exempt Encryption",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">ITSApp<wbr/>Uses<wbr/>Non<wbr/>Exempt<wbr/>Encryption</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/itsappusesnonexemptencryption"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "ITSAppUsesNonExemptEncryption"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether the app uses encryption.</p></div>"
+                },
+                {
+                    "id": 3040994,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.ITSEncryptionExportComplianceCode",
+                    "name": "ITSEncryptionExportComplianceCode",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "App Encryption Export Compliance Code",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">ITSEncryption<wbr/>Export<wbr/>Compliance<wbr/>Code</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/itsencryptionexportcompliancecode"
+                    ],
+                    "title": {
+                        "content": "ITSEncryptionExportComplianceCode"
+                    },
+                    "abstract": "<div><p>The export compliance code provided by App Store Connect for apps that require it.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Encryption Export Compliance Keys"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.ITSAppUsesNonExemptEncryption",
+    "name": "ITSAppUsesNonExemptEncryption",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
-            "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.0"
         }
     ],
     "parent": {
@@ -141,13 +102,12 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Security"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/security"
             ],
             "platforms": [
-                "iOS",
                 "macOS"
             ]
         }
@@ -157,30 +117,28 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "boolean",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">boolean</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
-                    "iOS",
                     "macOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "App Uses Non-Exempt Encryption",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">ITSApp<wbr/>Uses<wbr/>Non<wbr/>Exempt<wbr/>Encryption</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>boolean ITSAppUsesNonExemptEncryption\n</span>",
             "platforms": [
-                "iOS",
                 "macOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "boolean",
+                    "declaration": "<span>boolean\n</span>"
                 }
             ]
         }
@@ -196,31 +154,65 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/itsappusesnonexemptencryption"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.ITSAppUsesNonExemptEncryption"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/itsappusesnonexemptencryption"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.ITSAppUsesNonExemptEncryption"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/itsappusesnonexemptencryption"
     ],
     "hierarchy": [
         [
             {
-                "id": 1613258,
+                "id": 1613484,
                 "role": "collection",
                 "title": {
-                    "content": "ImageCaptureCore"
+                    "content": "Security"
                 },
                 "paths": [
-                    "documentation/imagecapturecore"
+                    "documentation/security"
+                ]
+            },
+            {
+                "id": 3145066,
+                "role": "article",
+                "title": {
+                    "content": "Complying with Encryption Export Regulations"
+                },
+                "paths": [
+                    "documentation/security/complying_with_encryption_export_regulations",
+                    "documentation/cryptokit/complying_with_encryption_export_regulations"
+                ]
+            }
+        ],
+        [
+            {
+                "id": 3230513,
+                "role": "collection",
+                "title": {
+                    "content": "Apple CryptoKit"
+                },
+                "paths": [
+                    "documentation/cryptokit"
+                ]
+            },
+            {
+                "id": 3145066,
+                "role": "article",
+                "title": {
+                    "content": "Complying with Encryption Export Regulations"
+                },
+                "paths": [
+                    "documentation/security/complying_with_encryption_export_regulations",
+                    "documentation/cryptokit/complying_with_encryption_export_regulations"
                 ]
             }
         ],

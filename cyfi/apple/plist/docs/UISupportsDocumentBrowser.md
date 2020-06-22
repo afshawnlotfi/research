@@ -1,124 +1,151 @@
-# [UISupportsDocumentBrowser](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UISupportsDocumentBrowser)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [UISupportsDocumentBrowser](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UISupportsDocumentBrowser)
+## Supports Document Browser
+### A Boolean value indicating whether the app is a document-based app.
 ### [Default]: false
-### [Show More](/docs/UISupportsDocumentBrowser.md)
+### [JSON](/json/UISupportsDocumentBrowser.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3041118,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "UISupportsDocumentBrowser"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A Boolean value indicating whether the app is a document-based app.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3375103,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
-                    "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
+                    "id": 3040927,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.CFBundleDocumentTypes",
+                    "name": "CFBundleDocumentTypes",
+                    "domain": "plist",
+                    "kind": "dict",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "13.0"
+                            "introduced": "2.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.4"
+                            "introduced": "10.0"
                         },
                         {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "xcodeTitle": "Document types",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Document<wbr/>Types</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/bundleresources/information_property_list/cfbundledocumenttypes"
                     ],
                     "title": {
-                        "content": "ICDeviceBrowser"
+                        "content": "CFBundleDocumentTypes"
                     },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
+                    "abstract": "<div><p>The document types supported by the bundle.</p></div>",
                     "hasChildren": true
                 },
                 {
-                    "id": 3026875,
+                    "id": 3041118,
                     "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.UISupportsDocumentBrowser",
+                    "name": "UISupportsDocumentBrowser",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "11.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Supports Document Browser",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UISupports<wbr/>Document<wbr/>Browser</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/uisupportsdocumentbrowser"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "UISupportsDocumentBrowser"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether the app is a document-based app.</p></div>"
+                },
+                {
+                    "id": 3041024,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.LSSupportsOpeningDocumentsInPlace",
+                    "name": "LSSupportsOpeningDocumentsInPlace",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "12.0"
+                        }
+                    ],
+                    "xcodeTitle": "Supports opening documents in place",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSSupports<wbr/>Opening<wbr/>Documents<wbr/>In<wbr/>Place</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/lssupportsopeningdocumentsinplace"
+                    ],
+                    "title": {
+                        "content": "LSSupportsOpeningDocumentsInPlace"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app may open the original document from a file provider, rather than a copy of the document.</p></div>"
+                },
+                {
+                    "id": 3041346,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSPersistentStoreTypeKey",
+                    "name": "NSPersistentStoreTypeKey",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.4"
+                        }
+                    ],
+                    "allowedValues": [
+                        "SQLite",
+                        "XML",
+                        "Binary",
+                        "InMemory"
+                    ],
+                    "xcodeTitle": "Core Data persistent store type",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSPersistent<wbr/>Store<wbr/>Type<wbr/>Key</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nspersistentstoretypekey"
+                    ],
+                    "title": {
+                        "content": "NSPersistentStoreTypeKey"
+                    },
+                    "abstract": "<div><p>The Core Data persistent store type associated with a document type.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Documents"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.UISupportsDocumentBrowser",
+    "name": "UISupportsDocumentBrowser",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "11.0"
         }
     ],
     "parent": {
@@ -141,14 +168,13 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "UIKit"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/uikit"
             ],
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ]
         }
     ],
@@ -157,30 +183,28 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "boolean",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">boolean</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
-                    "iOS",
-                    "macOS"
+                    "iOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Supports Document Browser",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UISupports<wbr/>Document<wbr/>Browser</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>boolean UISupportsDocumentBrowser\n</span>",
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "boolean",
+                    "declaration": "<span>boolean\n</span>"
                 }
             ]
         }
@@ -196,34 +220,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/uisupportsdocumentbrowser"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.UISupportsDocumentBrowser"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/uisupportsdocumentbrowser"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.UISupportsDocumentBrowser"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/uisupportsdocumentbrowser"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +260,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3376041,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "Data and Storage"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/data_and_storage"
                 ]
             }
         ]

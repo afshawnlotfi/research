@@ -1,124 +1,188 @@
-# [APFiles](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/APFiles)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [APFiles](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/APFiles)
+## Installation files
+### Describes the files or directories the app installs on the system.
 ### [Default]: {"APFileDescriptionKey":"","APFileDestinationPath":"","APFileName":"","APFileSourcePath":""}
-### [Show More](/docs/APFiles.md)
+### [JSON](/json/APFiles.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3041326,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "APFiles"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>Describes the files or directories the app installs on the system.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3375061,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
-                    "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
+                    "id": 3041326,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.APFiles",
+                    "name": "APFiles",
+                    "domain": "plist",
+                    "kind": "dict",
                     "availability": [
                         {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
                             "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
+                            "introduced": "10.0"
                         }
                     ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "xcodeTitle": "Installation files",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">APFiles</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/bundleresources/information_property_list/apfiles"
                     ],
                     "title": {
-                        "content": "ICDeviceBrowser"
+                        "content": "APFiles"
                     },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
+                    "abstract": "<div><p>Describes the files or directories the app installs on the system.</p></div>",
                     "hasChildren": true
                 },
                 {
-                    "id": 3026875,
+                    "id": 3041333,
                     "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
+                    "usr": "plist:Information_Property_List.APInstallerURL",
+                    "name": "APInstallerURL",
+                    "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "macOS",
-                            "introduced": "10.7"
+                            "introduced": "10.0"
                         }
                     ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "xcodeTitle": "Installation directory base file URL",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">APInstaller<wbr/>URL</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/bundleresources/information_property_list/apinstallerurl"
                     ],
                     "title": {
-                        "content": "Photos Library Entitlement"
+                        "content": "APInstallerURL"
                     },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                    "abstract": "<div><p>The base path to the files or directories the app installs.</p></div>"
                 },
                 {
-                    "id": 3041012,
+                    "id": 3041089,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.NSSupportsPurgeableLocalStorage",
+                    "name": "NSSupportsPurgeableLocalStorage",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "9.3"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSSupports<wbr/>Purgeable<wbr/>Local<wbr/>Storage</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/nssupportspurgeablelocalstorage"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "NSSupportsPurgeableLocalStorage"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether the app continues working if the system purges the local storage.</p></div>"
+                },
+                {
+                    "id": 3041361,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.LSFileQuarantineEnabled",
+                    "name": "LSFileQuarantineEnabled",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "File quarantine enabled",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSFile<wbr/>Quarantine<wbr/>Enabled</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/lsfilequarantineenabled"
+                    ],
+                    "title": {
+                        "content": "LSFileQuarantineEnabled"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the files this app creates are quarantined by default.</p></div>"
+                },
+                {
+                    "id": 3040974,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.UIFileSharingEnabled",
+                    "name": "UIFileSharingEnabled",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "3.2"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "Application supports iTunes file sharing",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIFile<wbr/>Sharing<wbr/>Enabled</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/uifilesharingenabled"
+                    ],
+                    "title": {
+                        "content": "UIFileSharingEnabled"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app shares files through iTunes.</p></div>"
+                },
+                {
+                    "id": 3041356,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CSResourcesFileMapped",
+                    "name": "CSResourcesFileMapped",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "Resources should be file-mapped",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CSResources<wbr/>File<wbr/>Mapped</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/csresourcesfilemapped"
+                    ],
+                    "title": {
+                        "content": "CSResourcesFileMapped"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app&#x27;s resources files should be mapped into memory.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Storage"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.APFiles",
+    "name": "APFiles",
     "domain": "plist",
-    "kind": "tdef",
+    "kind": "dict",
     "availability": [
-        {
-            "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
-        },
         {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.0"
         }
     ],
     "parent": {
@@ -128,9 +192,6 @@
         "domain": "plist",
         "kind": "schema",
         "role": "dictionarySymbol",
-        "paths": [
-            "documentation/bundleresources/information_property_list"
-        ],
         "title": {
             "content": "Information Property List"
         },
@@ -141,13 +202,12 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "AppKit"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/appkit"
             ],
             "platforms": [
-                "iOS",
                 "macOS"
             ]
         }
@@ -157,35 +217,33 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "dictionary",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">dictionary</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
-                    "iOS",
                     "macOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Installation files",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">APFiles</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>dictionary APFiles\n</span>",
             "platforms": [
-                "iOS",
                 "macOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "dictionary",
+                    "declaration": "<span>dictionary\n</span>"
                 }
             ]
         }
     ],
-    "role": "symbol",
+    "role": "dictionarySymbol",
     "language": "swift",
     "roleHeading": "Property List Key",
     "titleStyle": "symbol",
@@ -196,34 +254,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/apfiles"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.APFiles"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/apfiles"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.APFiles"
         }
     },
-    "pid": 505027,
+    "pid": 492525,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/apfiles"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +294,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3376041,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "Data and Storage"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/data_and_storage"
                 ]
             }
         ]
@@ -263,6 +309,170 @@
         "copyright": "Copyright &copy; 2020 Apple Inc. All rights reserved.",
         "termsOfUse": "https://www.apple.com/legal/internet-services/terms/site.html",
         "privacyPolicy": "https://www.apple.com/privacy/privacy-policy"
-    }
+    },
+    "tasks": [
+        {
+            "id": 3044551,
+            "role": "task",
+            "symbols": [
+                {
+                    "id": 3041327,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.APFiles.APDisplayedAsContainer",
+                    "name": "APDisplayedAsContainer",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "Display with folder icon",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">APDisplayed<wbr/>As<wbr/>Container</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/apfiles/apdisplayedascontainer"
+                    ],
+                    "title": {
+                        "content": "APDisplayedAsContainer"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the file or a folder icon is displayed in the Info window.</p></div>"
+                },
+                {
+                    "id": 3041328,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.APFiles.APFileDescriptionKey",
+                    "name": "APFileDescriptionKey",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "required": true,
+                    "xcodeTitle": "Install file description text",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">APFile<wbr/>Description<wbr/>Key</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/apfiles/apfiledescriptionkey"
+                    ],
+                    "title": {
+                        "content": "APFileDescriptionKey"
+                    },
+                    "abstract": "<div><p>A short description of the file or folder that appears in the Info window.</p></div>"
+                },
+                {
+                    "id": 3041329,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.APFiles.APFileDestinationPath",
+                    "name": "APFileDestinationPath",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "required": true,
+                    "xcodeTitle": "File destination path",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">APFile<wbr/>Destination<wbr/>Path</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/apfiles/apfiledestinationpath"
+                    ],
+                    "title": {
+                        "content": "APFileDestinationPath"
+                    },
+                    "abstract": "<div><p>The path to use when installing the file or folder, relative to the app bundle.</p></div>"
+                },
+                {
+                    "id": 3041330,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.APFiles.APFileName",
+                    "name": "APFileName",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "required": true,
+                    "xcodeTitle": "Install file name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">APFile<wbr/>Name</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/apfiles/apfilename"
+                    ],
+                    "title": {
+                        "content": "APFileName"
+                    },
+                    "abstract": "<div><p>The name of the file or folder to install.</p></div>"
+                },
+                {
+                    "id": 3041331,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.APFiles.APFileSourcePath",
+                    "name": "APFileSourcePath",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "required": true,
+                    "xcodeTitle": "Install file source path",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">APFile<wbr/>Source<wbr/>Path</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/apfiles/apfilesourcepath"
+                    ],
+                    "title": {
+                        "content": "APFileSourcePath"
+                    },
+                    "abstract": "<div><p>The path to the file or folder in the app package, relative to the installer path.</p></div>"
+                },
+                {
+                    "id": 3041332,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.APFiles.APInstallAction",
+                    "name": "APInstallAction",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "allowedValues": [
+                        "Copy",
+                        "Open"
+                    ],
+                    "defaultValue": "Copy",
+                    "xcodeTitle": "File install action",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">APInstall<wbr/>Action</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/apfiles/apinstallaction"
+                    ],
+                    "title": {
+                        "content": "APInstallAction"
+                    },
+                    "abstract": "<div><p>The action to take on the file or folder.</p></div>"
+                }
+            ],
+            "title": {
+                "content": "Property List Keys"
+            }
+        }
+    ]
 }
 ```

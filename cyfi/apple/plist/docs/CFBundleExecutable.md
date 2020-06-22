@@ -1,124 +1,160 @@
-# [CFBundleExecutable](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleExecutable)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [CFBundleExecutable](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleExecutable)
+## Executable file
+### The name of the bundle&#8217;s executable file.
 ### [Default]: ""
-### [Show More](/docs/CFBundleExecutable.md)
+### [JSON](/json/CFBundleExecutable.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3040936,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "CFBundleExecutable"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>The name of the bundle&#8217;s executable file.</p></div>",
+    "discussion": "<div><p>For an app, this key is the executable. For a loadable bundle, it&#x27;s the binary that&#x27;s loaded dynamically by the bundle. For a framework, it&#x27;s the shared library framework and must have the same name as the framework but without the <code class=\"code-voice\"><span>.framework</span></code> extension. </p><p>macOS uses this key to locate the bundle&#8217;s executable or shared library in cases where the user renames the app or bundle directory.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3374888,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3041393,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
+                    "usr": "plist:Information_Property_List.NSPrincipalClass",
+                    "name": "NSPrincipalClass",
+                    "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "macOS",
-                            "introduced": "10.7"
+                            "introduced": "10.0"
                         }
                     ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "xcodeTitle": "Principal class",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSPrincipal<wbr/>Class</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/bundleresources/information_property_list/nsprincipalclass"
                     ],
                     "title": {
-                        "content": "Photos Library Entitlement"
+                        "content": "NSPrincipalClass"
                     },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                    "abstract": "<div><p>The name of the bundle&#8217;s main executable class.</p></div>"
                 },
                 {
-                    "id": 3041012,
+                    "id": 3040985,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.CLKComplicationPrincipalClass",
+                    "name": "CLKComplicationPrincipalClass",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "ClockKit Complication - Principal Class",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CLKComplication<wbr/>Principal<wbr/>Class</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/clkcomplicationprincipalclass"
+                    ],
+                    "title": {
+                        "content": "CLKComplicationPrincipalClass"
+                    },
+                    "abstract": "<div><p>The name of the class that implements the complication data source protocol.</p></div>"
+                },
+                {
+                    "id": 3040936,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleExecutable",
+                    "name": "CFBundleExecutable",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "2.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Executable file",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Executable</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/cfbundleexecutable"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "CFBundleExecutable"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>The name of the bundle&#8217;s executable file.</p></div>"
+                },
+                {
+                    "id": 3041360,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.LSEnvironment",
+                    "name": "LSEnvironment",
+                    "domain": "plist",
+                    "kind": "dict",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "Environment variables",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSEnvironment</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/lsenvironment"
+                    ],
+                    "title": {
+                        "content": "LSEnvironment"
+                    },
+                    "abstract": "<div><p>Environment variables to set before launching the app.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Launch"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.CFBundleExecutable",
+    "name": "CFBundleExecutable",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
+            "introduced": "2.0"
         },
         {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.0"
+        },
+        {
+            "platform": "tvOS",
+            "current": "13.4",
+            "introduced": "9.0"
+        },
+        {
+            "platform": "watchOS",
+            "current": "6.2",
+            "introduced": "2.0"
         }
     ],
     "parent": {
@@ -141,14 +177,16 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Core Foundation"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/corefoundation"
             ],
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "tvOS",
+                "watchOS"
             ]
         }
     ],
@@ -163,19 +201,23 @@
                 ],
                 "platforms": [
                     "iOS",
-                    "macOS"
+                    "macOS",
+                    "tvOS",
+                    "watchOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Executable file",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Executable</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string CFBundleExecutable\n</span>",
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "tvOS",
+                "watchOS"
             ],
             "allowedTypesDetails": [
                 {
@@ -196,34 +238,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/cfbundleexecutable"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.CFBundleExecutable"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/cfbundleexecutable"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.CFBundleExecutable"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/cfbundleexecutable"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +278,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3375101,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "App Execution"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/app_execution"
                 ]
             }
         ]

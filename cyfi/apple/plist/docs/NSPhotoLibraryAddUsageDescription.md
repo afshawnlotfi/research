@@ -1,124 +1,101 @@
-# [NSPhotoLibraryAddUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSPhotoLibraryAddUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [NSPhotoLibraryAddUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSPhotoLibraryAddUsageDescription)
+## Privacy - Photo Library Additions Usage Description
+### A message that tells the user why the app is requesting write-only access to the user&#8217;s photo library.
 ### [Default]: ""
-### [Show More](/docs/NSPhotoLibraryAddUsageDescription.md)
+### [JSON](/json/NSPhotoLibraryAddUsageDescription.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3041121,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "NSPhotoLibraryAddUsageDescription"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A message that tells the user why the app is requesting write-only access to the user&#8217;s photo library.</p></div>",
+    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that have write access to the user&#8217;s photo library.</p></aside><p></p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3112350,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
-                    "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "id": 3028445,
+                    "role": "article",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/photokit/requesting_authorization_to_access_photos",
+                        "documentation/bundleresources/information_property_list/protected_resources/requesting_authorization_to_access_photos"
                     ],
+                    "abstract": "<div><p>Prepare your app to ask for permission when accessing the user&#x27;s photo library.</p></div>",
                     "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
+                        "content": "Requesting Authorization to Access Photos"
+                    }
                 },
                 {
-                    "id": 3026875,
+                    "id": 3041121,
                     "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.NSPhotoLibraryAddUsageDescription",
+                    "name": "NSPhotoLibraryAddUsageDescription",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "11.0"
+                        }
+                    ],
+                    "xcodeTitle": "Privacy - Photo Library Additions Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSPhoto<wbr/>Library<wbr/>Add<wbr/>Usage<wbr/>Description</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsphotolibraryaddusagedescription"
+                    ],
+                    "title": {
+                        "content": "NSPhotoLibraryAddUsageDescription"
+                    },
+                    "abstract": "<div><p>A message that tells the user why the app is requesting write-only access to the user&#8217;s photo library.</p></div>"
+                },
+                {
+                    "id": 3041122,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSPhotoLibraryUsageDescription",
+                    "name": "NSPhotoLibraryUsageDescription",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "6.0"
                         },
                         {
                             "platform": "macOS",
                             "introduced": "10.14"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Privacy - Photo Library Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSPhoto<wbr/>Library<wbr/>Usage<wbr/>Description</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/nsphotolibraryusagedescription"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "NSPhotoLibraryUsageDescription"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the user&#8217;s photo library.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Photos"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.NSPhotoLibraryAddUsageDescription",
+    "name": "NSPhotoLibraryAddUsageDescription",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "11.0"
         }
     ],
     "parent": {
@@ -141,14 +118,13 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Photos"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/photokit"
             ],
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ]
         }
     ],
@@ -162,20 +138,18 @@
                     }
                 ],
                 "platforms": [
-                    "iOS",
-                    "macOS"
+                    "iOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Privacy - Photo Library Additions Usage Description",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSPhoto<wbr/>Library<wbr/>Add<wbr/>Usage<wbr/>Description</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string NSPhotoLibraryAddUsageDescription\n</span>",
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ],
             "allowedTypesDetails": [
                 {
@@ -196,34 +170,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nsphotolibraryaddusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSPhotoLibraryAddUsageDescription"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nsphotolibraryaddusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSPhotoLibraryAddUsageDescription"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/nsphotolibraryaddusagedescription"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,

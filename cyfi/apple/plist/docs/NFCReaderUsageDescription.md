@@ -1,103 +1,67 @@
-# [NFCReaderUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NFCReaderUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [NFCReaderUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NFCReaderUsageDescription)
+## Privacy - NFC Scan Usage Description
+### A message that tells the user why the app is requesting access to the device&#8217;s NFC hardware.
 ### [Default]: ""
-### [Show More](/docs/NFCReaderUsageDescription.md)
+### [JSON](/json/NFCReaderUsageDescription.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3041021,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "NFCReaderUsageDescription"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s NFC hardware.</p></div>",
+    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>You&#8217;re required to provide this key if your app uses APIs that access the NFC hardware.</p></aside><p></p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3031049,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
-                    "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "id": 3031023,
+                    "role": "sampleCode",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/corenfc/building_an_nfc_tag-reader_app"
                     ],
+                    "abstract": "<div><p>Read NFC tags with NDEF messages in your app.</p></div>",
                     "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
+                        "content": "Building an NFC Tag-Reader App"
+                    }
                 },
                 {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "id": 3031050,
+                    "role": "article",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/corenfc/adding_support_for_background_tag_reading"
                     ],
+                    "abstract": "<div><p>Allow users to scan NFC tags without an app using background tag reading.</p></div>",
                     "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                        "content": "Adding Support for Background Tag Reading"
+                    }
                 },
                 {
-                    "id": 3041012,
+                    "id": 3041021,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.NFCReaderUsageDescription",
+                    "name": "NFCReaderUsageDescription",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "11.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Privacy - NFC Scan Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NFCReader<wbr/>Usage<wbr/>Description</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/nfcreaderusagedescription"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "NFCReaderUsageDescription"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s NFC hardware.</p></div>"
                 }
             ],
             "title": {
@@ -105,20 +69,15 @@
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.NFCReaderUsageDescription",
+    "name": "NFCReaderUsageDescription",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "11.0"
         }
     ],
     "parent": {
@@ -141,14 +100,13 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Core NFC"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/corenfc"
             ],
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ]
         }
     ],
@@ -162,20 +120,18 @@
                     }
                 ],
                 "platforms": [
-                    "iOS",
-                    "macOS"
+                    "iOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Privacy - NFC Scan Usage Description",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NFCReader<wbr/>Usage<wbr/>Description</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string NFCReaderUsageDescription\n</span>",
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ],
             "allowedTypesDetails": [
                 {
@@ -196,31 +152,31 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nfcreaderusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NFCReaderUsageDescription"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nfcreaderusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NFCReaderUsageDescription"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/nfcreaderusagedescription"
     ],
     "hierarchy": [
         [
             {
-                "id": 1613258,
+                "id": 2874790,
                 "role": "collection",
                 "title": {
-                    "content": "ImageCaptureCore"
+                    "content": "Core NFC"
                 },
                 "paths": [
-                    "documentation/imagecapturecore"
+                    "documentation/corenfc"
                 ]
             }
         ],

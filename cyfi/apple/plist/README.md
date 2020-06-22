@@ -1,875 +1,555 @@
-# [CFBundleGetInfoString](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleGetInfoString)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFBundleGetInfoString.md)
-# [NFCReaderUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NFCReaderUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NFCReaderUsageDescription.md)
-# [UIViewControllerBasedStatusBarAppearance](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIViewControllerBasedStatusBarAppearance)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/UIViewControllerBasedStatusBarAppearance.md)
-# [LSHasLocalizedDisplayName](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSHasLocalizedDisplayName)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSHasLocalizedDisplayName.md)
-# [LSMultipleInstancesProhibited](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSMultipleInstancesProhibited)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSMultipleInstancesProhibited.md)
-# [CFBundleIdentifier](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleIdentifier)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFBundleIdentifier.md)
-# [NSExtensionFileProviderSupportsEnumeration](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSExtensionFileProviderSupportsEnumeration)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/NSExtensionFileProviderSupportsEnumeration.md)
-# [MetalCaptureEnabled](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/MetalCaptureEnabled)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/MetalCaptureEnabled.md)
-# [com.apple.PreferenceSync.ExcludeSyncKeys](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/com.apple.PreferenceSync.ExcludeSyncKeys)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [""]
-### [Show More](/docs/com.apple.PreferenceSync.ExcludeSyncKeys.md)
-# [MKDirectionsApplicationSupportedModes](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/MKDirectionsApplicationSupportedModes)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ["MKDirectionsModePlane"]
-### [Show More](/docs/MKDirectionsApplicationSupportedModes.md)
-# [NSExtensionFileProviderDocumentGroup](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSExtensionFileProviderDocumentGroup)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSExtensionFileProviderDocumentGroup.md)
-# [com.apple.developer.nfc.readersession.iso7816.select-identifiers](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/com.apple.developer.nfc.readersession.iso7816.select-identifiers)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [""]
-### [Show More](/docs/com.apple.developer.nfc.readersession.iso7816.select-identifiers.md)
-# [NSLocationWhenInUseUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSLocationWhenInUseUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSLocationWhenInUseUsageDescription.md)
-# [PHProjectExtensionCustomTypesEnabled](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/PHProjectExtensionCustomTypesEnabled)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/PHProjectExtensionCustomTypesEnabled.md)
-# [WKBackgroundModes](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/WKBackgroundModes)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [""]
-### [Show More](/docs/WKBackgroundModes.md)
-# [NSLocationAlwaysUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSLocationAlwaysUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSLocationAlwaysUsageDescription.md)
-# [ITSEncryptionExportComplianceCode](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/ITSEncryptionExportComplianceCode)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/ITSEncryptionExportComplianceCode.md)
-# [NSHomeKitUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHomeKitUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSHomeKitUsageDescription.md)
-# [UIAppSupportsHDR](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIAppSupportsHDR)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/UIAppSupportsHDR.md)
-# [UILaunchImageFile~ipad](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UILaunchImageFile~ipad)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/UILaunchImageFile~ipad.md)
-# [CFBundleVersion](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleVersion)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFBundleVersion.md)
-# [UINewsstandApp](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UINewsstandApp)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/UINewsstandApp.md)
-# [SMAuthorizedClients](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/SMAuthorizedClients)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [""]
-### [Show More](/docs/SMAuthorizedClients.md)
-# [BGTaskSchedulerPermittedIdentifiers](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/BGTaskSchedulerPermittedIdentifiers)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: []
-### [Show More](/docs/BGTaskSchedulerPermittedIdentifiers.md)
-# [QLPreviewHeight](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/QLPreviewHeight)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: 800
-### [Show More](/docs/QLPreviewHeight.md)
-# [APFiles](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/APFiles)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: {"APFileDescriptionKey":"","APFileDestinationPath":"","APFileName":"","APFileSourcePath":""}
-### [Show More](/docs/APFiles.md)
-# [UIMainStoryboardFile](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIMainStoryboardFile)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/UIMainStoryboardFile.md)
-# [NSVideoSubscriberAccountUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSVideoSubscriberAccountUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSVideoSubscriberAccountUsageDescription.md)
-# [CLKComplicationPrincipalClass](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CLKComplicationPrincipalClass)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [""]
-### [Show More](/docs/CLKComplicationPrincipalClass.md)
-# [UIApplicationShortcutWidget](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIApplicationShortcutWidget)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/UIApplicationShortcutWidget.md)
-# [NSFileProviderPresenceUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSFileProviderPresenceUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSFileProviderPresenceUsageDescription.md)
-# [NSHealthShareUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHealthShareUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSHealthShareUsageDescription.md)
-# [NSFileProviderDomainUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSFileProviderDomainUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSFileProviderDomainUsageDescription.md)
-# [NSDockTilePlugIn](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSDockTilePlugIn)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSDockTilePlugIn.md)
-# [kTCCServiceMediaLibrary](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/kTCCServiceMediaLibrary)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/kTCCServiceMediaLibrary.md)
-# [LSSupportsOpeningDocumentsInPlace](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSSupportsOpeningDocumentsInPlace)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSSupportsOpeningDocumentsInPlace.md)
-# [CFBundleURLTypes](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleURLTypes)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [{"CFBundleURLName":""}]
-### [Show More](/docs/CFBundleURLTypes.md)
-# [UIMainStoryboardFile~ipad](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIMainStoryboardFile~ipad)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/UIMainStoryboardFile~ipad.md)
-# [UIStatusBarTintParameters](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIStatusBarTintParameters)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: {}
-### [Show More](/docs/UIStatusBarTintParameters.md)
-# [NSSupportsAutomaticGraphicsSwitching](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSSupportsAutomaticGraphicsSwitching)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/NSSupportsAutomaticGraphicsSwitching.md)
-# [UTExportedTypeDeclarations](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UTExportedTypeDeclarations)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [{"UTTypeConformsTo":[""],"UTTypeIdentifier":"","UTTypeTagSpecification":{}}]
-### [Show More](/docs/UTExportedTypeDeclarations.md)
-# [LSPrefersCarbon](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSPrefersCarbon)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSPrefersCarbon.md)
-# [LSVisibleInClassic](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSVisibleInClassic)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSVisibleInClassic.md)
-# [OSBundleUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/OSBundleUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/OSBundleUsageDescription.md)
-# [NSPrefPaneIconFile](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSPrefPaneIconFile)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSPrefPaneIconFile.md)
-# [NSMainNibFile~iphone](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSMainNibFile~iphone)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSMainNibFile~iphone.md)
-# [LSMinimumSystemVersionByArchitecture](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSMinimumSystemVersionByArchitecture)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: {"i386":"10.0.0"}
-### [Show More](/docs/LSMinimumSystemVersionByArchitecture.md)
-# [CFBundleIcons](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleIcons)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: {"CFBundlePrimaryIcon":{"CFBundleIconFiles":[""],"UIPrerenderedIcon":false},"UINewsstandIcon":{"CFBundleIconFiles":[""],"UINewsstandBindingType":"UINewsstandBindingTypeMagazine","UINewsstandBindingEdge":"UINewsstandBindingEdgeLeft"}}
-### [Show More](/docs/CFBundleIcons.md)
-# [NSAppleEventsUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSAppleEventsUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSAppleEventsUsageDescription.md)
-# [GCSupportsControllerUserInteraction](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/GCSupportsControllerUserInteraction)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/GCSupportsControllerUserInteraction.md)
-# [NSCameraUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSCameraUsageDescription)
+# [NSCameraUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSCameraUsageDescription)
 ## Privacy - Camera Usage Description
 ### A message that tells the user why the app is requesting access to the device&#8217;s camera.
 ### [Default]: ""
 ### [Show More](/docs/NSCameraUsageDescription.md)
-# [LSUIPresentationMode](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSUIPresentationMode)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: 0
-### [Show More](/docs/LSUIPresentationMode.md)
-# [NSNetworkVolumesUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSNetworkVolumesUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [ITSEncryptionExportComplianceCode](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/ITSEncryptionExportComplianceCode)
+## App Encryption Export Compliance Code
+### The export compliance code provided by App Store Connect for apps that require it.
 ### [Default]: ""
-### [Show More](/docs/NSNetworkVolumesUsageDescription.md)
-# [NSMainNibFile~ipad](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSMainNibFile~ipad)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSMainNibFile~ipad.md)
-# [WKRunsIndependentlyOfCompanionApp](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/WKRunsIndependentlyOfCompanionApp)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/WKRunsIndependentlyOfCompanionApp.md)
-# [NSDocumentsFolderUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSDocumentsFolderUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSDocumentsFolderUsageDescription.md)
-# [NSLocationUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSLocationUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSLocationUsageDescription.md)
-# [NSMainStoryboardFile](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSMainStoryboardFile)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSMainStoryboardFile.md)
-# [LSMinimumSystemVersion](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSMinimumSystemVersion)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: "10.0.0"
-### [Show More](/docs/LSMinimumSystemVersion.md)
-# [TICapsLockLanguageSwitchCapable](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/TICapsLockLanguageSwitchCapable)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/TICapsLockLanguageSwitchCapable.md)
-# [CLKComplicationSupportedFamilies](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CLKComplicationSupportedFamilies)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [""]
-### [Show More](/docs/CLKComplicationSupportedFamilies.md)
-# [WKWatchOnly](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/WKWatchOnly)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/WKWatchOnly.md)
-# [QLThumbnailMinimumSize](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/QLThumbnailMinimumSize)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: 17
-### [Show More](/docs/QLThumbnailMinimumSize.md)
-# [NSBluetoothPeripheralUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSBluetoothPeripheralUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSBluetoothPeripheralUsageDescription.md)
-# [NSPrincipalClass](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSPrincipalClass)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSPrincipalClass.md)
-# [NSRemovableVolumesUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSRemovableVolumesUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSRemovableVolumesUsageDescription.md)
-# [UILaunchImageFile](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UILaunchImageFile)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/UILaunchImageFile.md)
-# [NSJavaRoot](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSJavaRoot)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSJavaRoot.md)
-# [UILaunchImageFile~iphone](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UILaunchImageFile~iphone)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/UILaunchImageFile~iphone.md)
-# [CFBundleLocalizations](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleLocalizations)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ["en"]
-### [Show More](/docs/CFBundleLocalizations.md)
-# [LSBundleContainsCoreMLmlmodelc](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSBundleContainsCoreMLmlmodelc)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSBundleContainsCoreMLmlmodelc.md)
-# [UIUserInterfaceStyle](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIUserInterfaceStyle)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/UIUserInterfaceStyle.md)
-# [NSAppleScriptEnabled](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSAppleScriptEnabled)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/NSAppleScriptEnabled.md)
-# [CFBundleName](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleName)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFBundleName.md)
-# [QLNeedsToBeRunInMainThread](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/QLNeedsToBeRunInMainThread)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: true
-### [Show More](/docs/QLNeedsToBeRunInMainThread.md)
-# [LSRequiresIPhoneOS](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSRequiresIPhoneOS)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSRequiresIPhoneOS.md)
-# [CFBundleSpokenName](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleSpokenName)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFBundleSpokenName.md)
-# [NSPhotoLibraryUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSPhotoLibraryUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSPhotoLibraryUsageDescription.md)
-# [LSRequiresClassic](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSRequiresClassic)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSRequiresClassic.md)
-# [CFBundleHelpBookName](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleHelpBookName)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFBundleHelpBookName.md)
-# [NSCalendarsUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSCalendarsUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/ITSEncryptionExportComplianceCode.md)
+# [NSCalendarsUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSCalendarsUsageDescription)
+## Privacy - Calendars Usage Description
+### A message that tells the user why the app is requesting access to the user&#8217;s calendar data.
 ### [Default]: ""
 ### [Show More](/docs/NSCalendarsUsageDescription.md)
-# [LSEnvironment](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSEnvironment)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: {}
-### [Show More](/docs/LSEnvironment.md)
-# [NSHumanReadableCopyright](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHumanReadableCopyright)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [UIMainStoryboardFile](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIMainStoryboardFile)
+## Main storyboard file base name
+### The name of the app&#8217;s main storyboard file.
 ### [Default]: ""
-### [Show More](/docs/NSHumanReadableCopyright.md)
-# [ITSWatchOnlyContainer](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/ITSWatchOnlyContainer)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/ITSWatchOnlyContainer.md)
-# [com.apple.developer.nfc.readersession.felica.systemcodes](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/com.apple.developer.nfc.readersession.felica.systemcodes)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [""]
-### [Show More](/docs/com.apple.developer.nfc.readersession.felica.systemcodes.md)
-# [LSExecutableArchitectures](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSExecutableArchitectures)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ["i386"]
-### [Show More](/docs/LSExecutableArchitectures.md)
-# [NSJavaPath](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSJavaPath)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [""]
-### [Show More](/docs/NSJavaPath.md)
-# [NSSpeechRecognitionUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSSpeechRecognitionUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSSpeechRecognitionUsageDescription.md)
-# [UIWhitePointAdaptivityStyle](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIWhitePointAdaptivityStyle)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: "UIWhitePointAdaptivityStyleStandard"
-### [Show More](/docs/UIWhitePointAdaptivityStyle.md)
-# [CFBundleHelpBookFolder](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleHelpBookFolder)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFBundleHelpBookFolder.md)
-# [UIMainStoryboardFile~iphone](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIMainStoryboardFile~iphone)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/UIMainStoryboardFile~iphone.md)
-# [AVInitialRouteSharingPolicy](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/AVInitialRouteSharingPolicy)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: "LongFormVideo"
-### [Show More](/docs/AVInitialRouteSharingPolicy.md)
-# [CFBundleAllowMixedLocalizations](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleAllowMixedLocalizations)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/CFBundleAllowMixedLocalizations.md)
-# [NSLocationAlwaysAndWhenInUseUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSLocationAlwaysAndWhenInUseUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSLocationAlwaysAndWhenInUseUsageDescription.md)
-# [CFBundleShortVersionString](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleShortVersionString)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFBundleShortVersionString.md)
-# [UIRequiredDeviceCapabilities](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIRequiredDeviceCapabilities)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [""]
-### [Show More](/docs/UIRequiredDeviceCapabilities.md)
-# [UIApplicationSceneManifest](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIApplicationSceneManifest)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: {"UIApplicationSupportsMultipleScenes":false,"UISceneConfigurations":{}}
-### [Show More](/docs/UIApplicationSceneManifest.md)
-# [APInstallerURL](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/APInstallerURL)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/APInstallerURL.md)
-# [OSAScriptingDefinition](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/OSAScriptingDefinition)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/OSAScriptingDefinition.md)
-# [NSSupportsSuddenTermination](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSSupportsSuddenTermination)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/NSSupportsSuddenTermination.md)
-# [NSFaceIDUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSFaceIDUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSFaceIDUsageDescription.md)
-# [ITSAppUsesNonExemptEncryption](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/ITSAppUsesNonExemptEncryption)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/ITSAppUsesNonExemptEncryption.md)
-# [ATSApplicationFontsPath](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/ATSApplicationFontsPath)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/ATSApplicationFontsPath.md)
-# [LSRequiresNativeExecution](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSRequiresNativeExecution)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSRequiresNativeExecution.md)
-# [UIStatusBarStyle](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIStatusBarStyle)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: "UIStatusBarStyleDefault"
-### [Show More](/docs/UIStatusBarStyle.md)
-# [UIApplicationExitsOnSuspend](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIApplicationExitsOnSuspend)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/UIApplicationExitsOnSuspend.md)
-# [CFBundleDevelopmentRegion](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleDevelopmentRegion)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: "en-US"
-### [Show More](/docs/CFBundleDevelopmentRegion.md)
-# [NSHighResolutionCapable](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHighResolutionCapable)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/NSHighResolutionCapable.md)
-# [LSUIElement](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSUIElement)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSUIElement.md)
-# [SMPrivilegedExecutables](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/SMPrivilegedExecutables)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: {}
-### [Show More](/docs/SMPrivilegedExecutables.md)
-# [NSExtensionFileProviderOnlyVisibleInParentApplication](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSExtensionFileProviderOnlyVisibleInParentApplication)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/NSExtensionFileProviderOnlyVisibleInParentApplication.md)
-# [NSContactsUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSContactsUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSContactsUsageDescription.md)
-# [QLPreviewWidth](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/QLPreviewWidth)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: 600
-### [Show More](/docs/QLPreviewWidth.md)
-# [UIAppFonts](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIAppFonts)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [""]
-### [Show More](/docs/UIAppFonts.md)
-# [UTImportedTypeDeclarations](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UTImportedTypeDeclarations)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [{"UTTypeConformsTo":[""],"UTTypeIdentifier":"","UTTypeTagSpecification":{}}]
-### [Show More](/docs/UTImportedTypeDeclarations.md)
-# [CSResourcesFileMapped](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CSResourcesFileMapped)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/UIMainStoryboardFile.md)
+# [CSResourcesFileMapped](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CSResourcesFileMapped)
+## Resources should be file-mapped
+### A Boolean value indicating whether the app&#x27;s resources files should be mapped into memory.
 ### [Default]: false
 ### [Show More](/docs/CSResourcesFileMapped.md)
-# [CFAppleHelpAnchor](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFAppleHelpAnchor)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFAppleHelpAnchor.md)
-# [NSSupportsAutomaticTermination](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSSupportsAutomaticTermination)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [NSAppleScriptEnabled](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSAppleScriptEnabled)
+## Scriptable
+### A Boolean value indicating whether AppleScript is enabled.
 ### [Default]: false
-### [Show More](/docs/NSSupportsAutomaticTermination.md)
-# [LSPrefersClassic](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSPrefersClassic)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/NSAppleScriptEnabled.md)
+# [LSRequiresIPhoneOS](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSRequiresIPhoneOS)
+## Application requires iPhone environment
+### A Boolean value indicating whether the app must run in iOS.
 ### [Default]: false
-### [Show More](/docs/LSPrefersClassic.md)
-# [CFPlugInDynamicRegisterFunction](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFPlugInDynamicRegisterFunction)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFPlugInDynamicRegisterFunction.md)
-# [UIInterfaceOrientation](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIInterfaceOrientation)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: "UIInterfaceOrientationPortrait"
-### [Show More](/docs/UIInterfaceOrientation.md)
-# [CFBundleIconFiles](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleIconFiles)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/LSRequiresIPhoneOS.md)
+# [NSSupportsSuddenTermination](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSSupportsSuddenTermination)
+## Application can be killed immediately after launch
+### A Boolean value indicating whether the system may terminate the app to log out or shut down more quickly.
+### [Default]: false
+### [Show More](/docs/NSSupportsSuddenTermination.md)
+# [UIAppFonts](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIAppFonts)
+## Fonts provided by application
+### App-specific font files located in the bundle and that the system loads at runtime.
 ### [Default]: [""]
-### [Show More](/docs/CFBundleIconFiles.md)
-# [CFBundleIconFile](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleIconFile)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/UIAppFonts.md)
+# [UIApplicationShortcutWidget](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIApplicationShortcutWidget)
+## Home Screen Widget
+### The bundle ID of the widget that&#x27;s available as a Home screen quick action in apps that have more than one widget.
 ### [Default]: ""
-### [Show More](/docs/CFBundleIconFile.md)
-# [NSServices](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSServices)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [{"NSMessage":"","NSMenuItem":{"default":""}}]
-### [Show More](/docs/NSServices.md)
-# [NSPrefPaneIconLabel](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSPrefPaneIconLabel)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSPrefPaneIconLabel.md)
-# [CFBundlePackageType](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundlePackageType)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFBundlePackageType.md)
-# [NSDownloadsFolderUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSDownloadsFolderUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSDownloadsFolderUsageDescription.md)
-# [CFPlugInDynamicRegistration](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFPlugInDynamicRegistration)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/CFPlugInDynamicRegistration.md)
-# [NSSiriUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSSiriUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/UIApplicationShortcutWidget.md)
+# [NSSiriUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSSiriUsageDescription)
+## Privacy - Siri Usage Description
+### A message that tells the user why the app is requesting to send user data to Siri.
 ### [Default]: ""
 ### [Show More](/docs/NSSiriUsageDescription.md)
-# [UISupportedInterfaceOrientations~ipad](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UISupportedInterfaceOrientations~ipad)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ["UIInterfaceOrientationPortrait"]
-### [Show More](/docs/UISupportedInterfaceOrientations~ipad.md)
-# [UIViewEdgeAntialiasing](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIViewEdgeAntialiasing)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [UIViewControllerBasedStatusBarAppearance](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIViewControllerBasedStatusBarAppearance)
+## View controller-based status bar appearance
+### A Boolean value indicating whether the status bar appearance is based on the style preferred for the current view controller.
 ### [Default]: false
-### [Show More](/docs/UIViewEdgeAntialiasing.md)
-# [NSJavaNeeded](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSJavaNeeded)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/NSJavaNeeded.md)
-# [NSRemindersUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSRemindersUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSRemindersUsageDescription.md)
-# [UISupportedExternalAccessoryProtocols](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UISupportedExternalAccessoryProtocols)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [""]
-### [Show More](/docs/UISupportedExternalAccessoryProtocols.md)
-# [NSSystemExtensionUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSSystemExtensionUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSSystemExtensionUsageDescription.md)
-# [UIBackgroundModes](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIBackgroundModes)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [""]
-### [Show More](/docs/UIBackgroundModes.md)
-# [NSHealthUpdateUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHealthUpdateUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSHealthUpdateUsageDescription.md)
-# [NSPersistentStoreTypeKey](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSPersistentStoreTypeKey)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSPersistentStoreTypeKey.md)
-# [LSFileQuarantineEnabled](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSFileQuarantineEnabled)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSFileQuarantineEnabled.md)
-# [NSHealthClinicalHealthRecordsShareUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHealthClinicalHealthRecordsShareUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSHealthClinicalHealthRecordsShareUsageDescription.md)
-# [UIApplicationSupportsIndirectInputEvents](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIApplicationSupportsIndirectInputEvents)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/UIApplicationSupportsIndirectInputEvents.md)
-# [CFPlugInFactories](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFPlugInFactories)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: {}
-### [Show More](/docs/CFPlugInFactories.md)
-# [LSBackgroundOnly](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSBackgroundOnly)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/UIViewControllerBasedStatusBarAppearance.md)
+# [LSBackgroundOnly](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSBackgroundOnly)
+## Application is background only
+### A Boolean value indicating whether the app runs only in the background.
 ### [Default]: false
 ### [Show More](/docs/LSBackgroundOnly.md)
-# [NSAppleMusicUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSAppleMusicUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [NSFaceIDUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSFaceIDUsageDescription)
+## Privacy - Face ID Usage Description
+### A message that tells the user why the app is requesting the ability to authenticate with Face ID.
 ### [Default]: ""
-### [Show More](/docs/NSAppleMusicUsageDescription.md)
-# [LSRequiresCarbon](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSRequiresCarbon)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSRequiresCarbon.md)
-# [UILaunchStoryboardName](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UILaunchStoryboardName)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/NSFaceIDUsageDescription.md)
+# [NSFileProviderPresenceUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSFileProviderPresenceUsageDescription)
+## Privacy - File Provider Presence Usage Description
+### A message that tells the user why the app needs to be informed when other apps access files that it manages.
 ### [Default]: ""
-### [Show More](/docs/UILaunchStoryboardName.md)
-# [NSMotionUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSMotionUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/NSFileProviderPresenceUsageDescription.md)
+# [NSRemovableVolumesUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSRemovableVolumesUsageDescription)
+## Privacy - Removable Volumes Usage Description
+### A message that tells the user why the app needs access to files on a removable volume.
 ### [Default]: ""
-### [Show More](/docs/NSMotionUsageDescription.md)
-# [PUICAutoLaunchAudioOptOut](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/PUICAutoLaunchAudioOptOut)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/PUICAutoLaunchAudioOptOut.md)
-# [NSAppTransportSecurity](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSAppTransportSecurity)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: {}
-### [Show More](/docs/NSAppTransportSecurity.md)
-# [LSGetAppDiedEvents](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSGetAppDiedEvents)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/LSGetAppDiedEvents.md)
-# [UIViewGroupOpacity](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIViewGroupOpacity)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/UIViewGroupOpacity.md)
-# [UISupportsDocumentBrowser](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UISupportsDocumentBrowser)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/UISupportsDocumentBrowser.md)
-# [NSPhotoLibraryAddUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSPhotoLibraryAddUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/NSRemovableVolumesUsageDescription.md)
+# [CFBundleURLTypes](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleURLTypes)
+## URL types
+### A list of URL schemes (http, ftp, and so on) supported by the app.
+### [Default]: [{"CFBundleURLName":""}]
+### [Show More](/docs/CFBundleURLTypes.md)
+# [UIApplicationSceneManifest](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIApplicationSceneManifest)
+## Application Scene Manifest
+### The information about the app&#x27;s scene-based life-cycle support. 
+### [Default]: {"UIApplicationSupportsMultipleScenes":false,"UISceneConfigurations":{}}
+### [Show More](/docs/UIApplicationSceneManifest.md)
+# [NSHomeKitUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHomeKitUsageDescription)
+## Privacy - HomeKit Usage Description
+### A message that tells the user why the app is requesting access to the user&#8217;s HomeKit configuration data.
 ### [Default]: ""
-### [Show More](/docs/NSPhotoLibraryAddUsageDescription.md)
-# [CFBundleDocumentTypes](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleDocumentTypes)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: [{"CFBundleTypeName":"","LSHandlerRank":"Default"}]
-### [Show More](/docs/CFBundleDocumentTypes.md)
-# [LSArchitecturePriority](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSArchitecturePriority)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ["i386"]
-### [Show More](/docs/LSArchitecturePriority.md)
-# [CFPlugInTypes](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFPlugInTypes)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: {}
-### [Show More](/docs/CFPlugInTypes.md)
-# [CFBundleExecutable](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleExecutable)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFBundleExecutable.md)
-# [CFBundleIconName](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleIconName)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFBundleIconName.md)
-# [UIRequiresPersistentWiFi](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIRequiresPersistentWiFi)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/UIRequiresPersistentWiFi.md)
-# [NSSystemAdministrationUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSSystemAdministrationUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSSystemAdministrationUsageDescription.md)
-# [NSMainNibFile](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSMainNibFile)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/NSMainNibFile.md)
-# [CFPlugInUnloadFunction](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFPlugInUnloadFunction)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFPlugInUnloadFunction.md)
-# [UIStatusBarHidden](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIStatusBarHidden)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/UIStatusBarHidden.md)
-# [CFBundleInfoDictionaryVersion](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleInfoDictionaryVersion)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: "6.0"
-### [Show More](/docs/CFBundleInfoDictionaryVersion.md)
-# [UIPrerenderedIcon](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIPrerenderedIcon)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: false
-### [Show More](/docs/UIPrerenderedIcon.md)
-# [CFBundleSignature](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleSignature)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/CFBundleSignature.md)
-# [LSApplicationCategoryType](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSApplicationCategoryType)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ""
-### [Show More](/docs/LSApplicationCategoryType.md)
-# [CFBundleDisplayName](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleDisplayName)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/NSHomeKitUsageDescription.md)
+# [CFBundleDisplayName](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleDisplayName)
+## Bundle display name
+### The user-visible name for the bundle, used by Siri and visible on the iOS Home screen.
 ### [Default]: ""
 ### [Show More](/docs/CFBundleDisplayName.md)
-# [NSMicrophoneUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSMicrophoneUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [BGTaskSchedulerPermittedIdentifiers](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/BGTaskSchedulerPermittedIdentifiers)
+## Permitted background task scheduler identifiers
+### An array of strings containing developer-specified task identifiers in reverse URL notation.
+### [Default]: []
+### [Show More](/docs/BGTaskSchedulerPermittedIdentifiers.md)
+# [NSFileProviderDomainUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSFileProviderDomainUsageDescription)
+## Privacy - Access to a File Provider Domain Usage Description
+### A message that tells the user why the app needs access to files managed by a file provider.
 ### [Default]: ""
-### [Show More](/docs/NSMicrophoneUsageDescription.md)
-# [UISupportedInterfaceOrientations~iphone](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UISupportedInterfaceOrientations~iphone)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
-### [Default]: ["UIInterfaceOrientationPortrait"]
-### [Show More](/docs/UISupportedInterfaceOrientations~iphone.md)
-# [UIFileSharingEnabled](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIFileSharingEnabled)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/NSFileProviderDomainUsageDescription.md)
+# [UIRequiresPersistentWiFi](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIRequiresPersistentWiFi)
+## Application uses Wi-Fi
+### A Boolean value indicating whether the app requires a Wi-Fi connection.
+### [Default]: false
+### [Show More](/docs/UIRequiresPersistentWiFi.md)
+# [CFBundleIconFile](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleIconFile)
+## Icon file
+### The file containing the bundle&#x27;s icon.
+### [Default]: ""
+### [Show More](/docs/CFBundleIconFile.md)
+# [NSMainNibFile](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSMainNibFile)
+## Main nib file base name
+### The name of an app&#8217;s main user interface file.
+### [Default]: ""
+### [Show More](/docs/NSMainNibFile.md)
+# [CFPlugInFactories](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFPlugInFactories)
+## Plug-in factory interfaces
+### The interfaces supported by the plug-in for static registration.
+### [Default]: {}
+### [Show More](/docs/CFPlugInFactories.md)
+# [NFCReaderUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NFCReaderUsageDescription)
+## Privacy - NFC Scan Usage Description
+### A message that tells the user why the app is requesting access to the device&#8217;s NFC hardware.
+### [Default]: ""
+### [Show More](/docs/NFCReaderUsageDescription.md)
+# [MKDirectionsApplicationSupportedModes](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/MKDirectionsApplicationSupportedModes)
+## Maps routing app supported modes
+### The modes of transportation for which the app is capable of giving directions.
+### [Default]: ["MKDirectionsModePlane"]
+### [Show More](/docs/MKDirectionsApplicationSupportedModes.md)
+# [UIViewEdgeAntialiasing](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIViewEdgeAntialiasing)
+## Renders with edge antialiasing
+### A Boolean value indicating whether Core Animation layers use antialiasing when drawing a layer that&#x27;s not aligned to pixel boundaries.
+### [Default]: false
+### [Show More](/docs/UIViewEdgeAntialiasing.md)
+# [ATSApplicationFontsPath](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/ATSApplicationFontsPath)
+## Application fonts resource path
+### The location of a font file or directory of fonts in the bundle&#8217;s Resources folder.
+### [Default]: ""
+### [Show More](/docs/ATSApplicationFontsPath.md)
+# [NSVideoSubscriberAccountUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSVideoSubscriberAccountUsageDescription)
+## Privacy - Video Subscriber Account Usage Description
+### A message that tells the user why the app is requesting access to the user&#8217;s TV provider account.
+### [Default]: ""
+### [Show More](/docs/NSVideoSubscriberAccountUsageDescription.md)
+# [UILaunchStoryboardName](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UILaunchStoryboardName)
+## Launch screen interface file base name
+### The filename of the storyboard from which to generate the app&#8217;s launch image.
+### [Default]: ""
+### [Show More](/docs/UILaunchStoryboardName.md)
+# [NSServices](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSServices)
+## Services
+### The services provided by an app.
+### [Default]: [{"NSMessage":"","NSMenuItem":{"default":""}}]
+### [Show More](/docs/NSServices.md)
+# [PUICAutoLaunchAudioOptOut](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/PUICAutoLaunchAudioOptOut)
+## Opt out of Auto-launch Audio App (Watch)
+### A Boolean value indicating whether a watchOS app should opt out of automatically launching when its companion iOS app starts playing audio content.
+### [Default]: false
+### [Show More](/docs/PUICAutoLaunchAudioOptOut.md)
+# [WKBackgroundModes](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/WKBackgroundModes)
+## Required background modes (Watch)
+### The services a watchOS app provides that require it to continue running in the background.
+### [Default]: [""]
+### [Show More](/docs/WKBackgroundModes.md)
+# [UTExportedTypeDeclarations](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UTExportedTypeDeclarations)
+## Exported Type UTIs
+### The uniform type identifiers owned and exported by the app.
+### [Default]: [{"UTTypeConformsTo":[""],"UTTypeIdentifier":"","UTTypeTagSpecification":{}}]
+### [Show More](/docs/UTExportedTypeDeclarations.md)
+# [CFBundleLocalizations](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleLocalizations)
+## Localizations
+### The localizations handled manually by your app.
+### [Default]: ["en"]
+### [Show More](/docs/CFBundleLocalizations.md)
+# [NSDocumentsFolderUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSDocumentsFolderUsageDescription)
+## Privacy - Documents Folder Usage Description
+### A message that tells the user why the app needs access to the user&#8217;s Documents folder.
+### [Default]: ""
+### [Show More](/docs/NSDocumentsFolderUsageDescription.md)
+# [NSAppleEventsUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSAppleEventsUsageDescription)
+## Privacy - AppleEvents Sending Usage Description
+### A message that tells the user why the app is requesting the ability to send Apple events.
+### [Default]: ""
+### [Show More](/docs/NSAppleEventsUsageDescription.md)
+# [CFBundleVersion](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleVersion)
+## Bundle version
+### The version of the build that identifies an iteration of the bundle.
+### [Default]: ""
+### [Show More](/docs/CFBundleVersion.md)
+# [LSEnvironment](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSEnvironment)
+## Environment variables
+### Environment variables to set before launching the app.
+### [Default]: {}
+### [Show More](/docs/LSEnvironment.md)
+# [NSSpeechRecognitionUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSSpeechRecognitionUsageDescription)
+## Privacy - Speech Recognition Usage Description
+### A message that tells the user why the app is requesting to send user data to Apple&#8217;s speech recognition servers.
+### [Default]: ""
+### [Show More](/docs/NSSpeechRecognitionUsageDescription.md)
+# [LSSupportsOpeningDocumentsInPlace](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSSupportsOpeningDocumentsInPlace)
+## Supports opening documents in place
+### A Boolean value indicating whether the app may open the original document from a file provider, rather than a copy of the document.
+### [Default]: false
+### [Show More](/docs/LSSupportsOpeningDocumentsInPlace.md)
+# [CFBundleSpokenName](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleSpokenName)
+## Accessibility Bundle Name
+### A replacement for the app name in text-to-speech operations.
+### [Default]: ""
+### [Show More](/docs/CFBundleSpokenName.md)
+# [NSPrincipalClass](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSPrincipalClass)
+## Principal class
+### The name of the bundle&#8217;s main executable class.
+### [Default]: ""
+### [Show More](/docs/NSPrincipalClass.md)
+# [UISupportsDocumentBrowser](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UISupportsDocumentBrowser)
+## Supports Document Browser
+### A Boolean value indicating whether the app is a document-based app.
+### [Default]: false
+### [Show More](/docs/UISupportsDocumentBrowser.md)
+# [NSContactsUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSContactsUsageDescription)
+## Privacy - Contacts Usage Description
+### A message that tells the user why the app is requesting access to the user&#8217;s contacts.
+### [Default]: ""
+### [Show More](/docs/NSContactsUsageDescription.md)
+# [NSBluetoothPeripheralUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSBluetoothPeripheralUsageDescription)
+## Privacy - Bluetooth Peripheral Usage Description
+### A message that tells the user why the app is requesting the ability to connect to Bluetooth peripherals.
+### [Default]: ""
+### [Show More](/docs/NSBluetoothPeripheralUsageDescription.md)
+# [UIFileSharingEnabled](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIFileSharingEnabled)
+## Application supports iTunes file sharing
+### A Boolean value indicating whether the app shares files through iTunes.
 ### [Default]: false
 ### [Show More](/docs/UIFileSharingEnabled.md)
-# [UISupportedInterfaceOrientations](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UISupportedInterfaceOrientations)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [GCSupportsControllerUserInteraction](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/GCSupportsControllerUserInteraction)
+## Supports Controller User Interaction
+### A Boolean value indicating whether the app supports a game controller.
+### [Default]: ""
+### [Show More](/docs/GCSupportsControllerUserInteraction.md)
+# [NSLocationUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSLocationUsageDescription)
+## Privacy - Location Usage Description
+### A message that tells the user why the app is requesting access to the user&#8217;s location information.
+### [Default]: ""
+### [Show More](/docs/NSLocationUsageDescription.md)
+# [CFBundleDocumentTypes](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleDocumentTypes)
+## Document types
+### The document types supported by the bundle.
+### [Default]: [{"CFBundleTypeName":"","LSHandlerRank":"Default"}]
+### [Show More](/docs/CFBundleDocumentTypes.md)
+# [CFBundleIconFiles](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleIconFiles)
+## Icon files
+### The names of the bundle&#8217;s icon image files.
+### [Default]: [""]
+### [Show More](/docs/CFBundleIconFiles.md)
+# [UTImportedTypeDeclarations](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UTImportedTypeDeclarations)
+## Imported Type UTIs
+### The uniform type identifiers inherently supported, but not owned, by the app.
+### [Default]: [{"UTTypeConformsTo":[""],"UTTypeIdentifier":"","UTTypeTagSpecification":{}}]
+### [Show More](/docs/UTImportedTypeDeclarations.md)
+# [CFBundleExecutable](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleExecutable)
+## Executable file
+### The name of the bundle&#8217;s executable file.
+### [Default]: ""
+### [Show More](/docs/CFBundleExecutable.md)
+# [NSAppleMusicUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSAppleMusicUsageDescription)
+## Privacy - Media Library Usage Description
+### A message that tells the user why the app is requesting access to the user&#8217;s media library.
+### [Default]: ""
+### [Show More](/docs/NSAppleMusicUsageDescription.md)
+# [CFBundleName](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleName)
+## Bundle name
+### A user-visible short name for the bundle.
+### [Default]: ""
+### [Show More](/docs/CFBundleName.md)
+# [CFBundleShortVersionString](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleShortVersionString)
+## Bundle versions string, short
+### The release or version number of the bundle.
+### [Default]: ""
+### [Show More](/docs/CFBundleShortVersionString.md)
+# [WKRunsIndependentlyOfCompanionApp](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/WKRunsIndependentlyOfCompanionApp)
+## App can run independently of companion iPhone app
+### A Boolean value indicating whether the user can install and run the watchOS app independently of its iOS companion app.
+### [Default]: false
+### [Show More](/docs/WKRunsIndependentlyOfCompanionApp.md)
+# [NSPhotoLibraryAddUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSPhotoLibraryAddUsageDescription)
+## Privacy - Photo Library Additions Usage Description
+### A message that tells the user why the app is requesting write-only access to the user&#8217;s photo library.
+### [Default]: ""
+### [Show More](/docs/NSPhotoLibraryAddUsageDescription.md)
+# [NSMainStoryboardFile](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSMainStoryboardFile)
+## Main storyboard file base name
+### The name of an app&#x27;s storyboard resource file.
+### [Default]: ""
+### [Show More](/docs/NSMainStoryboardFile.md)
+# [ITSAppUsesNonExemptEncryption](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/ITSAppUsesNonExemptEncryption)
+## App Uses Non-Exempt Encryption
+### A Boolean value indicating whether the app uses encryption.
+### [Default]: false
+### [Show More](/docs/ITSAppUsesNonExemptEncryption.md)
+# [UIPrerenderedIcon](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIPrerenderedIcon)
+## Icon already includes gloss effects
+### A Boolean value indicating whether the app&#8217;s icon already contains a shine effect.
+### [Default]: false
+### [Show More](/docs/UIPrerenderedIcon.md)
+# [UISupportedInterfaceOrientations](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UISupportedInterfaceOrientations)
+## Supported interface orientations
+### The interface orientations the app supports.
 ### [Default]: ["UIInterfaceOrientationPortrait"]
 ### [Show More](/docs/UISupportedInterfaceOrientations.md)
-# [QLSupportsConcurrentRequests](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/QLSupportsConcurrentRequests)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [LSUIElement](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSUIElement)
+## Application is agent (UIElement)
+### A Boolean value indicating whether the app is an agent app that runs in the background and doesn&#x27;t appear in the Dock.
 ### [Default]: false
-### [Show More](/docs/QLSupportsConcurrentRequests.md)
-# [NSDesktopFolderUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSDesktopFolderUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/LSUIElement.md)
+# [UIUserInterfaceStyle](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIUserInterfaceStyle)
+## User Interface Style
+### The user interface style for the app.
 ### [Default]: ""
-### [Show More](/docs/NSDesktopFolderUsageDescription.md)
-# [NSBluetoothAlwaysUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSBluetoothAlwaysUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+### [Show More](/docs/UIUserInterfaceStyle.md)
+# [NSPersistentStoreTypeKey](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSPersistentStoreTypeKey)
+## Core Data persistent store type
+### The Core Data persistent store type associated with a document type.
+### [Default]: ""
+### [Show More](/docs/NSPersistentStoreTypeKey.md)
+# [CFBundleIcons](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleIcons)
+## Icon files (iOS 5)
+### Information about all of the icons used by the app.
+### [Default]: {"CFBundlePrimaryIcon":{"CFBundleIconFiles":[""],"UIPrerenderedIcon":false},"UINewsstandIcon":{"CFBundleIconFiles":[""],"UINewsstandBindingType":"UINewsstandBindingTypeMagazine","UINewsstandBindingEdge":"UINewsstandBindingEdgeLeft"}}
+### [Show More](/docs/CFBundleIcons.md)
+# [NSDownloadsFolderUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSDownloadsFolderUsageDescription)
+## Privacy - Downloads Folder Usage Description
+### A message that tells the user why the app needs access to the user&#8217;s Downloads folder.
+### [Default]: ""
+### [Show More](/docs/NSDownloadsFolderUsageDescription.md)
+# [APFiles](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/APFiles)
+## Installation files
+### Describes the files or directories the app installs on the system.
+### [Default]: {"APFileDescriptionKey":"","APFileDestinationPath":"","APFileName":"","APFileSourcePath":""}
+### [Show More](/docs/APFiles.md)
+# [NSBluetoothAlwaysUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSBluetoothAlwaysUsageDescription)
+## Privacy - Bluetooth Always Usage Description
+### A message that tells the user why the app needs access to Bluetooth.
 ### [Default]: ""
 ### [Show More](/docs/NSBluetoothAlwaysUsageDescription.md)
+# [NSSupportsAutomaticGraphicsSwitching](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSSupportsAutomaticGraphicsSwitching)
+## Supports Automatic Graphics Switching
+### A Boolean value indicating whether an OpenGL app may utilize the integrated GPU.
+### [Default]: false
+### [Show More](/docs/NSSupportsAutomaticGraphicsSwitching.md)
+# [NSPhotoLibraryUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSPhotoLibraryUsageDescription)
+## Privacy - Photo Library Usage Description
+### A message that tells the user why the app is requesting access to the user&#8217;s photo library.
+### [Default]: ""
+### [Show More](/docs/NSPhotoLibraryUsageDescription.md)
+# [NSNetworkVolumesUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSNetworkVolumesUsageDescription)
+## Privacy - Network Volumes Usage Description
+### A message that tells the user why the app needs access to files on a network volume.
+### [Default]: ""
+### [Show More](/docs/NSNetworkVolumesUsageDescription.md)
+# [LSFileQuarantineEnabled](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSFileQuarantineEnabled)
+## File quarantine enabled
+### A Boolean value indicating whether the files this app creates are quarantined by default.
+### [Default]: false
+### [Show More](/docs/LSFileQuarantineEnabled.md)
+# [NSLocationAlwaysAndWhenInUseUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSLocationAlwaysAndWhenInUseUsageDescription)
+## Privacy - Location Always and When In Use Usage Description
+### A message that tells the user why the app is requesting access to the user&#8217;s location information at all times.
+### [Default]: ""
+### [Show More](/docs/NSLocationAlwaysAndWhenInUseUsageDescription.md)
+# [CFBundlePackageType](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundlePackageType)
+## Bundle OS Type code
+### The type of bundle.
+### [Default]: ""
+### [Show More](/docs/CFBundlePackageType.md)
+# [UIWhitePointAdaptivityStyle](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIWhitePointAdaptivityStyle)
+## White Point Adaptivity Style
+### The app&#8217;s white point adaptivity style, enabled on devices with True Tone displays.
+### [Default]: "UIWhitePointAdaptivityStyleStandard"
+### [Show More](/docs/UIWhitePointAdaptivityStyle.md)
+# [UIRequiredDeviceCapabilities](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIRequiredDeviceCapabilities)
+## Required device capabilities
+### The device-related features that the app requires to run.
+### [Default]: [""]
+### [Show More](/docs/UIRequiredDeviceCapabilities.md)
+# [SMPrivilegedExecutables](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/SMPrivilegedExecutables)
+## Tools owned after installation
+### The Service Management tools owned by the app.
+### [Default]: {}
+### [Show More](/docs/SMPrivilegedExecutables.md)
+# [NSHealthShareUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHealthShareUsageDescription)
+## Privacy - Health Share Usage Description
+### A message to the user that explains why the app requested permission to read samples from the HealthKit store.
+### [Default]: ""
+### [Show More](/docs/NSHealthShareUsageDescription.md)
+# [NSSystemAdministrationUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSSystemAdministrationUsageDescription)
+## Privacy - System Administration Usage Description
+### A message in macOS that tells the user why the app is requesting to manipulate the system configuration.
+### [Default]: ""
+### [Show More](/docs/NSSystemAdministrationUsageDescription.md)
+# [LSUIPresentationMode](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSUIPresentationMode)
+## Application UI Presentation Mode
+### The initial user-interface mode for the app.
+### [Default]: 0
+### [Show More](/docs/LSUIPresentationMode.md)
+# [UIBackgroundModes](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIBackgroundModes)
+## Required background modes
+### Services provided by an app that require it to run in the background.
+### [Default]: [""]
+### [Show More](/docs/UIBackgroundModes.md)
+# [NSMotionUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSMotionUsageDescription)
+## Privacy - Motion Usage Description
+### A message that tells the user why the app is requesting access to the device&#8217;s accelerometer.
+### [Default]: ""
+### [Show More](/docs/NSMotionUsageDescription.md)
+# [NSLocationAlwaysUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSLocationAlwaysUsageDescription)
+## Privacy - Location Always Usage Description
+### A message that tells the user why the app is requesting access to the user&#x27;s location at all times.
+### [Default]: ""
+### [Show More](/docs/NSLocationAlwaysUsageDescription.md)
+# [NSHighResolutionCapable](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHighResolutionCapable)
+## High Resolution Capable
+### A Boolean value indicating whether the Cocoa app supports high-resolution displays.
+### [Default]: false
+### [Show More](/docs/NSHighResolutionCapable.md)
+# [SMAuthorizedClients](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/SMAuthorizedClients)
+## Clients allowed to add and remove tool
+### The Service Management clients authorized to add and remove tools.
+### [Default]: [""]
+### [Show More](/docs/SMAuthorizedClients.md)
+# [CFBundleAllowMixedLocalizations](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleAllowMixedLocalizations)
+## Localized resources can be mixed
+### A Boolean value that indicates whether the bundle supports the retrieval of localized strings from frameworks.
+### [Default]: false
+### [Show More](/docs/CFBundleAllowMixedLocalizations.md)
+# [NSHealthClinicalHealthRecordsShareUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHealthClinicalHealthRecordsShareUsageDescription)
+## Privacy - Health Records Usage Description
+### A message to the user that explains why the app requested permission to read clinical records.
+### [Default]: ""
+### [Show More](/docs/NSHealthClinicalHealthRecordsShareUsageDescription.md)
+# [CFBundleHelpBookName](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleHelpBookName)
+## Help Book identifier
+### The name of the help file that will be opened in Help Viewer.
+### [Default]: ""
+### [Show More](/docs/CFBundleHelpBookName.md)
+# [CFBundleInfoDictionaryVersion](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleInfoDictionaryVersion)
+## InfoDictionary version
+### The current version of the Information Property List structure.
+### [Default]: "6.0"
+### [Show More](/docs/CFBundleInfoDictionaryVersion.md)
+# [NSRemindersUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSRemindersUsageDescription)
+## Privacy - Reminders Usage Description
+### A message that tells the user why the app is requesting access to the user&#8217;s reminders.
+### [Default]: ""
+### [Show More](/docs/NSRemindersUsageDescription.md)
+# [NSAppTransportSecurity](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSAppTransportSecurity)
+## App Transport Security Settings
+### A description of changes made to the default security for HTTP connections.
+### [Default]: {}
+### [Show More](/docs/NSAppTransportSecurity.md)
+# [NSDesktopFolderUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSDesktopFolderUsageDescription)
+## Privacy - Desktop Folder Usage Description
+### A message that tells the user why the app needs access to the user&#8217;s Desktop folder.
+### [Default]: ""
+### [Show More](/docs/NSDesktopFolderUsageDescription.md)
+# [UISupportedExternalAccessoryProtocols](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UISupportedExternalAccessoryProtocols)
+## Supported external accessory protocols
+### The protocols that the app supports and can use to communicate with external accessory hardware.
+### [Default]: [""]
+### [Show More](/docs/UISupportedExternalAccessoryProtocols.md)
+# [CFBundleDevelopmentRegion](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleDevelopmentRegion)
+## Localization native development region
+### The default language and region for the bundle, as a language ID.
+### [Default]: "en-US"
+### [Show More](/docs/CFBundleDevelopmentRegion.md)
+# [LSMultipleInstancesProhibited](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSMultipleInstancesProhibited)
+## Application prohibits multiple instances
+### A Boolean value indicating whether more than one user can launch the app simultaneously.
+### [Default]: false
+### [Show More](/docs/LSMultipleInstancesProhibited.md)
+# [WKWatchOnly](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/WKWatchOnly)
+## App is only available as a standalone watchOS app
+### A Boolean value indicating whether the app is a watch-only app.
+### [Default]: false
+### [Show More](/docs/WKWatchOnly.md)
+# [NSHealthUpdateUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHealthUpdateUsageDescription)
+## Privacy - Health Update Usage Description
+### A message to the user that explains why the app requested permission to save samples to the HealthKit store.
+### [Default]: ""
+### [Show More](/docs/NSHealthUpdateUsageDescription.md)
+# [UIStatusBarStyle](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIStatusBarStyle)
+## Status bar style
+### The style of the status bar as the app launches.
+### [Default]: "UIStatusBarStyleDefault"
+### [Show More](/docs/UIStatusBarStyle.md)
+# [LSApplicationCategoryType](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSApplicationCategoryType)
+## Application Category
+### The category that best describes your app for the App Store.
+### [Default]: ""
+### [Show More](/docs/LSApplicationCategoryType.md)
+# [CFBundleIconName](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleIconName)
+## Icon Name
+### The name of the asset that represents the app icon.
+### [Default]: ""
+### [Show More](/docs/CFBundleIconName.md)
+# [NSHumanReadableCopyright](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHumanReadableCopyright)
+## Copyright (human-readable)
+### A human-readable copyright notice for the bundle.
+### [Default]: ""
+### [Show More](/docs/NSHumanReadableCopyright.md)
+# [UIApplicationSupportsIndirectInputEvents](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIApplicationSupportsIndirectInputEvents)
+## undefined
+### A Boolean value indicating that the app generally supports indirect input mechanisms.
+### [Default]: false
+### [Show More](/docs/UIApplicationSupportsIndirectInputEvents.md)
+# [LSMinimumSystemVersion](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSMinimumSystemVersion)
+## Minimum system version
+### The minimum operating system version required for the app to run.
+### [Default]: "10.0.0"
+### [Show More](/docs/LSMinimumSystemVersion.md)
+# [UIStatusBarHidden](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIStatusBarHidden)
+## Status bar is initially hidden
+### A Boolean value indicating whether the status bar is initially hidden when the app launches.
+### [Default]: false
+### [Show More](/docs/UIStatusBarHidden.md)
+# [UIStatusBarTintParameters](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIStatusBarTintParameters)
+## Status bar tinting parameters
+### The status bar tint.
+### [Default]: {}
+### [Show More](/docs/UIStatusBarTintParameters.md)
+# [NSLocationWhenInUseUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSLocationWhenInUseUsageDescription)
+## Privacy - Location When In Use Usage Description
+### A message that tells the user why the app is requesting access to the user&#8217;s location information while the app is running in the foreground.
+### [Default]: ""
+### [Show More](/docs/NSLocationWhenInUseUsageDescription.md)
+# [NSMicrophoneUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSMicrophoneUsageDescription)
+## Privacy - Microphone Usage Description
+### A message that tells the user why the app is requesting access to the device&#8217;s microphone.
+### [Default]: ""
+### [Show More](/docs/NSMicrophoneUsageDescription.md)
+# [CFBundleIdentifier](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleIdentifier)
+## Bundle identifier
+### A unique identifier for a bundle.
+### [Default]: ""
+### [Show More](/docs/CFBundleIdentifier.md)

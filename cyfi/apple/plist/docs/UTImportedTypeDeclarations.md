@@ -1,124 +1,99 @@
-# [UTImportedTypeDeclarations](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UTImportedTypeDeclarations)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [UTImportedTypeDeclarations](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UTImportedTypeDeclarations)
+## Imported Type UTIs
+### The uniform type identifiers inherently supported, but not owned, by the app.
 ### [Default]: [{"UTTypeConformsTo":[""],"UTTypeIdentifier":"","UTTypeTagSpecification":{}}]
-### [Show More](/docs/UTImportedTypeDeclarations.md)
+### [JSON](/json/UTImportedTypeDeclarations.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3041033,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "UTImportedTypeDeclarations"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>The uniform type identifiers inherently supported, but not owned, by the app.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3374914,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
-                    "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
+                    "id": 3041025,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.UTExportedTypeDeclarations",
+                    "name": "UTExportedTypeDeclarations",
+                    "domain": "plist",
+                    "kind": "dict",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "13.0"
+                            "introduced": "5.0"
                         },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
                         {
                             "platform": "macOS",
                             "introduced": "10.7"
                         }
                     ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "xcodeTitle": "Exported Type UTIs",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UTExported<wbr/>Type<wbr/>Declarations</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/bundleresources/information_property_list/utexportedtypedeclarations"
                     ],
                     "title": {
-                        "content": "Photos Library Entitlement"
+                        "content": "UTExportedTypeDeclarations"
                     },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                    "abstract": "<div><p>The uniform type identifiers owned and exported by the app.</p></div>",
+                    "hasChildren": true
                 },
                 {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "id": 3041033,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.UTImportedTypeDeclarations",
+                    "name": "UTImportedTypeDeclarations",
                     "domain": "plist",
-                    "kind": "tdef",
+                    "kind": "dict",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "3.2"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "10.5"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Imported Type UTIs",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UTImported<wbr/>Type<wbr/>Declarations</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/utimportedtypedeclarations"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "UTImportedTypeDeclarations"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>The uniform type identifiers inherently supported, but not owned, by the app.</p></div>",
+                    "hasChildren": true
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Universal Type Identifiers"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.UTImportedTypeDeclarations",
+    "name": "UTImportedTypeDeclarations",
     "domain": "plist",
-    "kind": "tdef",
+    "kind": "dict",
     "availability": [
         {
             "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
+            "current": "13.5",
+            "introduced": "3.2"
         },
         {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.5"
         }
     ],
     "parent": {
@@ -128,9 +103,6 @@
         "domain": "plist",
         "kind": "schema",
         "role": "dictionarySymbol",
-        "paths": [
-            "documentation/bundleresources/information_property_list"
-        ],
         "title": {
             "content": "Information Property List"
         },
@@ -141,10 +113,10 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Core Services"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/coreservices"
             ],
             "platforms": [
                 "iOS",
@@ -157,8 +129,9 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "dictionary",
+                        "arrayMode": "required",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">[dictionary]</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
@@ -168,24 +141,25 @@
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Imported Type UTIs",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UTImported<wbr/>Type<wbr/>Declarations</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>[dictionary] UTImportedTypeDeclarations\n</span>",
             "platforms": [
                 "iOS",
                 "macOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "dictionary",
+                    "arrayMode": "required",
+                    "declaration": "<span>[dictionary]\n</span>"
                 }
             ]
         }
     ],
-    "role": "symbol",
+    "role": "dictionarySymbol",
     "language": "swift",
     "roleHeading": "Property List Key",
     "titleStyle": "symbol",
@@ -196,34 +170,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/utimportedtypedeclarations"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.UTImportedTypeDeclarations"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/utimportedtypedeclarations"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.UTImportedTypeDeclarations"
         }
     },
-    "pid": 505027,
+    "pid": 492525,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/utimportedtypedeclarations"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +210,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3376041,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "Data and Storage"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/data_and_storage"
                 ]
             }
         ]
@@ -263,6 +225,216 @@
         "copyright": "Copyright &copy; 2020 Apple Inc. All rights reserved.",
         "termsOfUse": "https://www.apple.com/legal/internet-services/terms/site.html",
         "privacyPolicy": "https://www.apple.com/privacy/privacy-policy"
-    }
+    },
+    "tasks": [
+        {
+            "id": 3044554,
+            "role": "task",
+            "symbols": [
+                {
+                    "id": 3041034,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.UTImportedTypeDeclarations.UTTypeConformsTo",
+                    "name": "UTTypeConformsTo",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "3.2"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.5"
+                        }
+                    ],
+                    "required": true,
+                    "xcodeTitle": "Conforms to UTIs",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UTType<wbr/>Conforms<wbr/>To</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/utimportedtypedeclarations/uttypeconformsto"
+                    ],
+                    "title": {
+                        "content": "UTTypeConformsTo"
+                    },
+                    "abstract": "<div><p>The Uniform Type Identifier types that this type conforms to.</p></div>"
+                },
+                {
+                    "id": 3041035,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.UTImportedTypeDeclarations.UTTypeDescription",
+                    "name": "UTTypeDescription",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "3.2"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.5"
+                        }
+                    ],
+                    "xcodeTitle": "Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UTType<wbr/>Description</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/utimportedtypedeclarations/uttypedescription"
+                    ],
+                    "title": {
+                        "content": "UTTypeDescription"
+                    },
+                    "abstract": "<div><p>A description for this type.</p></div>"
+                },
+                {
+                    "id": 3041036,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.UTImportedTypeDeclarations.UTTypeIconFile",
+                    "name": "UTTypeIconFile",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "3.2"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.5"
+                        }
+                    ],
+                    "xcodeTitle": "Icon file name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UTType<wbr/>Icon<wbr/>File</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/utimportedtypedeclarations/uttypeiconfile"
+                    ],
+                    "title": {
+                        "content": "UTTypeIconFile"
+                    },
+                    "abstract": "<div><p>The bundle icon resource to associate with this type.</p></div>"
+                },
+                {
+                    "id": 3041037,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.UTImportedTypeDeclarations.UTTypeIconFiles",
+                    "name": "UTTypeIconFiles",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "3.2"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.5"
+                        }
+                    ],
+                    "xcodeTitle": "Icon file names",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UTType<wbr/>Icon<wbr/>Files</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/utimportedtypedeclarations/uttypeiconfiles"
+                    ],
+                    "title": {
+                        "content": "UTTypeIconFiles"
+                    },
+                    "abstract": "<div><p>One or more bundle icon resources to associate with this type.</p></div>"
+                },
+                {
+                    "id": 3041038,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.UTImportedTypeDeclarations.UTTypeIdentifier",
+                    "name": "UTTypeIdentifier",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "3.2"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.5"
+                        }
+                    ],
+                    "required": true,
+                    "xcodeTitle": "Identifier",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UTType<wbr/>Identifier</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/utimportedtypedeclarations/uttypeidentifier"
+                    ],
+                    "title": {
+                        "content": "UTTypeIdentifier"
+                    },
+                    "abstract": "<div><p>The Uniform Type Identifier to assign to this type.</p></div>"
+                },
+                {
+                    "id": 3041039,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.UTImportedTypeDeclarations.UTTypeReferenceURL",
+                    "name": "UTTypeReferenceURL",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "3.2"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.5"
+                        }
+                    ],
+                    "xcodeTitle": "Reference URL",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UTType<wbr/>Reference<wbr/>URL</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/utimportedtypedeclarations/uttypereferenceurl"
+                    ],
+                    "title": {
+                        "content": "UTTypeReferenceURL"
+                    },
+                    "abstract": "<div><p>The webpage for a reference document that describes this type.</p></div>"
+                },
+                {
+                    "id": 3041040,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.UTImportedTypeDeclarations.UTTypeTagSpecification",
+                    "name": "UTTypeTagSpecification",
+                    "domain": "plist",
+                    "kind": "dict",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "3.2"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.5"
+                        }
+                    ],
+                    "required": true,
+                    "xcodeTitle": "Equivalent Types",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UTType<wbr/>Tag<wbr/>Specification</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/utimportedtypedeclarations/uttypetagspecification"
+                    ],
+                    "title": {
+                        "content": "UTTypeTagSpecification"
+                    },
+                    "abstract": "<div><p>A dictionary defining one or more equivalent type identifiers.</p></div>"
+                }
+            ],
+            "title": {
+                "content": "Property List Keys"
+            }
+        }
+    ]
 }
 ```

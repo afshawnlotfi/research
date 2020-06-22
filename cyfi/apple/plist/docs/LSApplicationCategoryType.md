@@ -1,124 +1,260 @@
-# [LSApplicationCategoryType](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSApplicationCategoryType)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [LSApplicationCategoryType](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSApplicationCategoryType)
+## Application Category
+### The category that best describes your app for the App Store.
 ### [Default]: ""
-### [Show More](/docs/LSApplicationCategoryType.md)
+### [JSON](/json/LSApplicationCategoryType.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3041357,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "LSApplicationCategoryType"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "allowedLiterals": [
+        {
+            "name": "public.app-category.business"
+        },
+        {
+            "name": "public.app-category.developer-tools"
+        },
+        {
+            "name": "public.app-category.education"
+        },
+        {
+            "name": "public.app-category.entertainment"
+        },
+        {
+            "name": "public.app-category.finance"
+        },
+        {
+            "name": "public.app-category.games"
+        },
+        {
+            "name": "public.app-category.action-games"
+        },
+        {
+            "name": "public.app-category.adventure-games"
+        },
+        {
+            "name": "public.app-category.arcade-games"
+        },
+        {
+            "name": "public.app-category.board-games"
+        },
+        {
+            "name": "public.app-category.card-games"
+        },
+        {
+            "name": "public.app-category.casino-games"
+        },
+        {
+            "name": "public.app-category.dice-games"
+        },
+        {
+            "name": "public.app-category.educational-games"
+        },
+        {
+            "name": "public.app-category.family-games"
+        },
+        {
+            "name": "public.app-category.kids-games"
+        },
+        {
+            "name": "public.app-category.music-games"
+        },
+        {
+            "name": "public.app-category.puzzle-games"
+        },
+        {
+            "name": "public.app-category.racing-games"
+        },
+        {
+            "name": "public.app-category.role-playing-games"
+        },
+        {
+            "name": "public.app-category.simulation-games"
+        },
+        {
+            "name": "public.app-category.sports-games"
+        },
+        {
+            "name": "public.app-category.strategy-games"
+        },
+        {
+            "name": "public.app-category.trivia-games"
+        },
+        {
+            "name": "public.app-category.word-games"
+        },
+        {
+            "name": "public.app-category.graphics-design"
+        },
+        {
+            "name": "public.app-category.healthcare-fitness"
+        },
+        {
+            "name": "public.app-category.lifestyle"
+        },
+        {
+            "name": "public.app-category.medical"
+        },
+        {
+            "name": "public.app-category.music"
+        },
+        {
+            "name": "public.app-category.news"
+        },
+        {
+            "name": "public.app-category.photography"
+        },
+        {
+            "name": "public.app-category.productivity"
+        },
+        {
+            "name": "public.app-category.reference"
+        },
+        {
+            "name": "public.app-category.social-networking"
+        },
+        {
+            "name": "public.app-category.sports"
+        },
+        {
+            "name": "public.app-category.travel"
+        },
+        {
+            "name": "public.app-category.utilities"
+        },
+        {
+            "name": "public.app-category.video"
+        },
+        {
+            "name": "public.app-category.weather"
+        }
+    ],
+    "abstract": "<div><p>The category that best describes your app for the App Store.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3375236,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3040946,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.CFBundlePackageType",
+                    "name": "CFBundlePackageType",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "2.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Bundle OS Type code",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Package<wbr/>Type</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/cfbundlepackagetype"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "CFBundlePackageType"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>The type of bundle.</p></div>"
+                },
+                {
+                    "id": 3041357,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.LSApplicationCategoryType",
+                    "name": "LSApplicationCategoryType",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "allowedValues": [
+                        "public.app-category.business",
+                        "public.app-category.developer-tools",
+                        "public.app-category.education",
+                        "public.app-category.entertainment",
+                        "public.app-category.finance",
+                        "public.app-category.games",
+                        "public.app-category.action-games",
+                        "public.app-category.adventure-games",
+                        "public.app-category.arcade-games",
+                        "public.app-category.board-games",
+                        "public.app-category.card-games",
+                        "public.app-category.casino-games",
+                        "public.app-category.dice-games",
+                        "public.app-category.educational-games",
+                        "public.app-category.family-games",
+                        "public.app-category.kids-games",
+                        "public.app-category.music-games",
+                        "public.app-category.puzzle-games",
+                        "public.app-category.racing-games",
+                        "public.app-category.role-playing-games",
+                        "public.app-category.simulation-games",
+                        "public.app-category.sports-games",
+                        "public.app-category.strategy-games",
+                        "public.app-category.trivia-games",
+                        "public.app-category.word-games",
+                        "public.app-category.graphics-design",
+                        "public.app-category.healthcare-fitness",
+                        "public.app-category.lifestyle",
+                        "public.app-category.medical",
+                        "public.app-category.music",
+                        "public.app-category.news",
+                        "public.app-category.photography",
+                        "public.app-category.productivity",
+                        "public.app-category.reference",
+                        "public.app-category.social-networking",
+                        "public.app-category.sports",
+                        "public.app-category.travel",
+                        "public.app-category.utilities",
+                        "public.app-category.video",
+                        "public.app-category.weather"
+                    ],
+                    "xcodeTitle": "Application Category",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSApplication<wbr/>Category<wbr/>Type</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/lsapplicationcategorytype"
+                    ],
+                    "title": {
+                        "content": "LSApplicationCategoryType"
+                    },
+                    "abstract": "<div><p>The category that best describes your app for the App Store.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Categorization"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.LSApplicationCategoryType",
+    "name": "LSApplicationCategoryType",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
-            "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.0"
         }
     ],
     "parent": {
@@ -141,13 +277,12 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Core Services"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/coreservices"
             ],
             "platforms": [
-                "iOS",
                 "macOS"
             ]
         }
@@ -162,19 +297,59 @@
                     }
                 ],
                 "platforms": [
-                    "iOS",
                     "macOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "allowedValues": [
+        "public.app-category.business",
+        "public.app-category.developer-tools",
+        "public.app-category.education",
+        "public.app-category.entertainment",
+        "public.app-category.finance",
+        "public.app-category.games",
+        "public.app-category.action-games",
+        "public.app-category.adventure-games",
+        "public.app-category.arcade-games",
+        "public.app-category.board-games",
+        "public.app-category.card-games",
+        "public.app-category.casino-games",
+        "public.app-category.dice-games",
+        "public.app-category.educational-games",
+        "public.app-category.family-games",
+        "public.app-category.kids-games",
+        "public.app-category.music-games",
+        "public.app-category.puzzle-games",
+        "public.app-category.racing-games",
+        "public.app-category.role-playing-games",
+        "public.app-category.simulation-games",
+        "public.app-category.sports-games",
+        "public.app-category.strategy-games",
+        "public.app-category.trivia-games",
+        "public.app-category.word-games",
+        "public.app-category.graphics-design",
+        "public.app-category.healthcare-fitness",
+        "public.app-category.lifestyle",
+        "public.app-category.medical",
+        "public.app-category.music",
+        "public.app-category.news",
+        "public.app-category.photography",
+        "public.app-category.productivity",
+        "public.app-category.reference",
+        "public.app-category.social-networking",
+        "public.app-category.sports",
+        "public.app-category.travel",
+        "public.app-category.utilities",
+        "public.app-category.video",
+        "public.app-category.weather"
+    ],
+    "xcodeTitle": "Application Category",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSApplication<wbr/>Category<wbr/>Type</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string LSApplicationCategoryType\n</span>",
             "platforms": [
-                "iOS",
                 "macOS"
             ],
             "allowedTypesDetails": [
@@ -196,34 +371,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/lsapplicationcategorytype"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.LSApplicationCategoryType"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/lsapplicationcategorytype"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.LSApplicationCategoryType"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/lsapplicationcategorytype"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +411,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3374879,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "Bundle Configuration"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/bundle_configuration"
                 ]
             }
         ]

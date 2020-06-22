@@ -1,118 +1,152 @@
 {
-    "id": 3041012,
+    "id": 3041113,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "UIStatusBarStyle"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "allowedLiterals": [
+        {
+            "name": "UIStatusBarStyleDefault"
+        },
+        {
+            "name": "UIStatusBarStyleBlackTranslucent"
+        },
+        {
+            "name": "UIStatusBarStyleBlackOpaque"
+        }
+    ],
+    "abstract": "<div><p>The style of the status bar as the app launches.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3375062,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3041112,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
+                    "usr": "plist:Information_Property_List.UIStatusBarHidden",
+                    "name": "UIStatusBarHidden",
+                    "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
-                            "platform": "macOS",
-                            "introduced": "10.7"
+                            "platform": "iOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "xcodeTitle": "Status bar is initially hidden",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIStatus<wbr/>Bar<wbr/>Hidden</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/bundleresources/information_property_list/uistatusbarhidden"
                     ],
                     "title": {
-                        "content": "Photos Library Entitlement"
+                        "content": "UIStatusBarHidden"
                     },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether the status bar is initially hidden when the app launches.</p></div>"
                 },
                 {
-                    "id": 3041012,
+                    "id": 3041113,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.UIStatusBarStyle",
+                    "name": "UIStatusBarStyle",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "allowedValues": [
+                        "UIStatusBarStyleDefault",
+                        "UIStatusBarStyleBlackTranslucent",
+                        "UIStatusBarStyleBlackOpaque"
+                    ],
+                    "defaultValue": "UIStatusBarStyleDefault",
+                    "xcodeTitle": "Status bar style",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIStatus<wbr/>Bar<wbr/>Style</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/uistatusbarstyle"
+                    ],
+                    "title": {
+                        "content": "UIStatusBarStyle"
+                    },
+                    "abstract": "<div><p>The style of the status bar as the app launches.</p></div>"
+                },
+                {
+                    "id": 3040981,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.UIStatusBarTintParameters",
+                    "name": "UIStatusBarTintParameters",
+                    "domain": "plist",
+                    "kind": "dict",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "Status bar tinting parameters",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIStatus<wbr/>Bar<wbr/>Tint<wbr/>Parameters</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/uistatusbartintparameters"
+                    ],
+                    "title": {
+                        "content": "UIStatusBarTintParameters"
+                    },
+                    "abstract": "<div><p>The status bar tint.</p></div>",
+                    "hasChildren": true
+                },
+                {
+                    "id": 3041119,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.UIViewControllerBasedStatusBarAppearance",
+                    "name": "UIViewControllerBasedStatusBarAppearance",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
                             "introduced": "7.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.14"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "View controller-based status bar appearance",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIView<wbr/>Controller<wbr/>Based<wbr/>Status<wbr/>Bar<wbr/>Appearance</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/uiviewcontrollerbasedstatusbarappearance"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "UIViewControllerBasedStatusBarAppearance"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether the status bar appearance is based on the style preferred for the current view controller.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Status Bar"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.UIStatusBarStyle",
+    "name": "UIStatusBarStyle",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "2.0"
         }
     ],
     "parent": {
@@ -135,14 +169,13 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "UIKit"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/uikit"
             ],
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ]
         }
     ],
@@ -156,20 +189,24 @@
                     }
                 ],
                 "platforms": [
-                    "iOS",
-                    "macOS"
+                    "iOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "allowedValues": [
+        "UIStatusBarStyleDefault",
+        "UIStatusBarStyleBlackTranslucent",
+        "UIStatusBarStyleBlackOpaque"
+    ],
+    "defaultValue": "UIStatusBarStyleDefault",
+    "xcodeTitle": "Status bar style",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIStatus<wbr/>Bar<wbr/>Style</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string UIStatusBarStyle\n</span>",
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ],
             "allowedTypesDetails": [
                 {
@@ -190,34 +227,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/uistatusbarstyle"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.UIStatusBarStyle"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/uistatusbarstyle"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.UIStatusBarStyle"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/uistatusbarstyle"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -242,13 +267,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3375099,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "User Interface"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/user_interface"
                 ]
             }
         ]

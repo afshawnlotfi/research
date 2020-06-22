@@ -1,124 +1,178 @@
-# [UIMainStoryboardFile](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/UIMainStoryboardFile)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [UIMainStoryboardFile](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/UIMainStoryboardFile)
+## Main storyboard file base name
+### The name of the app&#8217;s main storyboard file.
 ### [Default]: ""
-### [Show More](/docs/UIMainStoryboardFile.md)
+### [JSON](/json/UIMainStoryboardFile.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3040977,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "UIMainStoryboardFile"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>The name of the app&#8217;s main storyboard file.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3374968,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
-                    "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
+                    "id": 3256423,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.UIApplicationSceneManifest",
+                    "name": "UIApplicationSceneManifest",
+                    "domain": "plist",
+                    "kind": "dict",
                     "availability": [
                         {
                             "platform": "iOS",
                             "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
                         }
                     ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "xcodeTitle": "Application Scene Manifest",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIApplication<wbr/>Scene<wbr/>Manifest</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/bundleresources/information_property_list/uiapplicationscenemanifest"
                     ],
                     "title": {
-                        "content": "ICDeviceBrowser"
+                        "content": "UIApplicationSceneManifest"
                     },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
+                    "abstract": "<div><p>The information about the app&#x27;s scene-based life-cycle support. </p></div>",
                     "hasChildren": true
                 },
                 {
-                    "id": 3026875,
+                    "id": 3041392,
                     "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
+                    "usr": "plist:Information_Property_List.NSMainStoryboardFile",
+                    "name": "NSMainStoryboardFile",
+                    "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "macOS",
-                            "introduced": "10.7"
+                            "introduced": "10.10"
                         }
                     ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "xcodeTitle": "Main storyboard file base name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSMain<wbr/>Storyboard<wbr/>File</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/bundleresources/information_property_list/nsmainstoryboardfile"
                     ],
                     "title": {
-                        "content": "Photos Library Entitlement"
+                        "content": "NSMainStoryboardFile"
                     },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                    "abstract": "<div><p>The name of an app&#x27;s storyboard resource file.</p></div>"
                 },
                 {
-                    "id": 3041012,
+                    "id": 3040977,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.UIMainStoryboardFile",
+                    "name": "UIMainStoryboardFile",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "5.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        }
+                    ],
+                    "xcodeTitle": "Main storyboard file base name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIMain<wbr/>Storyboard<wbr/>File</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/uimainstoryboardfile"
+                    ],
+                    "title": {
+                        "content": "UIMainStoryboardFile"
+                    },
+                    "abstract": "<div><p>The name of the app&#8217;s main storyboard file.</p></div>"
+                },
+                {
+                    "id": 3040965,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSMainNibFile",
+                    "name": "NSMainNibFile",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Main nib file base name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSMain<wbr/>Nib<wbr/>File</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/nsmainnibfile"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "NSMainNibFile"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>The name of an app&#8217;s main user interface file.</p></div>"
+                },
+                {
+                    "id": 3041370,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.LSUIElement",
+                    "name": "LSUIElement",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "Application is agent (UIElement)",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSUIElement</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/lsuielement"
+                    ],
+                    "title": {
+                        "content": "LSUIElement"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app is an agent app that runs in the background and doesn&#x27;t appear in the Dock.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Main User Interface"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.UIMainStoryboardFile",
+    "name": "UIMainStoryboardFile",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
+            "current": "13.5",
+            "introduced": "5.0"
         },
         {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "platform": "tvOS",
+            "current": "13.4",
+            "introduced": "9.0"
         }
     ],
     "parent": {
@@ -128,9 +182,6 @@
         "domain": "plist",
         "kind": "schema",
         "role": "dictionarySymbol",
-        "paths": [
-            "documentation/bundleresources/information_property_list"
-        ],
         "title": {
             "content": "Information Property List"
         },
@@ -141,14 +192,14 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "UIKit"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/uikit"
             ],
             "platforms": [
                 "iOS",
-                "macOS"
+                "tvOS"
             ]
         }
     ],
@@ -163,19 +214,19 @@
                 ],
                 "platforms": [
                     "iOS",
-                    "macOS"
+                    "tvOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Main storyboard file base name",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIMain<wbr/>Storyboard<wbr/>File</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string UIMainStoryboardFile\n</span>",
             "platforms": [
                 "iOS",
-                "macOS"
+                "tvOS"
             ],
             "allowedTypesDetails": [
                 {
@@ -196,34 +247,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/uimainstoryboardfile"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.UIMainStoryboardFile"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/uimainstoryboardfile"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.UIMainStoryboardFile"
         }
     },
-    "pid": 505027,
+    "pid": 492525,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/uimainstoryboardfile"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +287,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3375099,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "User Interface"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/user_interface"
                 ]
             }
         ]

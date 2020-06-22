@@ -1,124 +1,61 @@
-# [NSVideoSubscriberAccountUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSVideoSubscriberAccountUsageDescription)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [NSVideoSubscriberAccountUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSVideoSubscriberAccountUsageDescription)
+## Privacy - Video Subscriber Account Usage Description
+### A message that tells the user why the app is requesting access to the user&#8217;s TV provider account.
 ### [Default]: ""
-### [Show More](/docs/NSVideoSubscriberAccountUsageDescription.md)
+### [JSON](/json/NSVideoSubscriberAccountUsageDescription.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3041009,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "NSVideoSubscriberAccountUsageDescription"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A message that tells the user why the app is requesting access to the user&#8217;s TV provider account.</p></div>",
+    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the user&#8217;s TV provider account.</p></aside><p></p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3375035,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3041009,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.NSVideoSubscriberAccountUsageDescription",
+                    "name": "NSVideoSubscriberAccountUsageDescription",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
-                            "platform": "iOS",
-                            "introduced": "7.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "platform": "tvOS",
+                            "introduced": "12.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Privacy - Video Subscriber Account Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSVideo<wbr/>Subscriber<wbr/>Account<wbr/>Usage<wbr/>Description</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/nsvideosubscriberaccountusagedescription"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "NSVideoSubscriberAccountUsageDescription"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the user&#8217;s TV provider account.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "TV"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.NSVideoSubscriberAccountUsageDescription",
+    "name": "NSVideoSubscriberAccountUsageDescription",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
-            "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "platform": "tvOS",
+            "current": "13.4",
+            "introduced": "12.0"
         }
     ],
     "parent": {
@@ -128,9 +65,6 @@
         "domain": "plist",
         "kind": "schema",
         "role": "dictionarySymbol",
-        "paths": [
-            "documentation/bundleresources/information_property_list"
-        ],
         "title": {
             "content": "Information Property List"
         },
@@ -141,14 +75,13 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "TVUIKit"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/tvuikit"
             ],
             "platforms": [
-                "iOS",
-                "macOS"
+                "tvOS"
             ]
         }
     ],
@@ -162,20 +95,18 @@
                     }
                 ],
                 "platforms": [
-                    "iOS",
-                    "macOS"
+                    "tvOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Privacy - Video Subscriber Account Usage Description",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSVideo<wbr/>Subscriber<wbr/>Account<wbr/>Usage<wbr/>Description</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string NSVideoSubscriberAccountUsageDescription\n</span>",
             "platforms": [
-                "iOS",
-                "macOS"
+                "tvOS"
             ],
             "allowedTypesDetails": [
                 {
@@ -196,34 +127,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nsvideosubscriberaccountusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSVideoSubscriberAccountUsageDescription"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nsvideosubscriberaccountusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSVideoSubscriberAccountUsageDescription"
         }
     },
-    "pid": 505027,
+    "pid": 492525,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/nsvideosubscriberaccountusagedescription"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,

@@ -1,124 +1,160 @@
-# [CFBundleName](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleName)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [CFBundleName](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleName)
+## Bundle name
+### A user-visible short name for the bundle.
 ### [Default]: ""
-### [Show More](/docs/CFBundleName.md)
+### [JSON](/json/CFBundleName.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3040945,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "CFBundleName"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A user-visible short name for the bundle.</p></div>",
+    "discussion": "<div><p>This name can contain up to 15 characters. The system may display it to users if <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/cfbundledisplayname\"><code><span>CFBundle<wbr/>Display<wbr/>Name</span></code></a> isn&#x27;t set.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3374910,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3040945,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.CFBundleName",
+                    "name": "CFBundleName",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "2.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Bundle name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Name</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/cfbundlename"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "CFBundleName"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A user-visible short name for the bundle.</p></div>"
+                },
+                {
+                    "id": 3040926,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleDisplayName",
+                    "name": "CFBundleDisplayName",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "Bundle display name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Display<wbr/>Name</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/cfbundledisplayname"
+                    ],
+                    "title": {
+                        "content": "CFBundleDisplayName"
+                    },
+                    "abstract": "<div><p>The user-visible name for the bundle, used by Siri and visible on the iOS Home screen.</p></div>"
+                },
+                {
+                    "id": 3040950,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CFBundleSpokenName",
+                    "name": "CFBundleSpokenName",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "2.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "Accessibility Bundle Name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Spoken<wbr/>Name</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/cfbundlespokenname"
+                    ],
+                    "title": {
+                        "content": "CFBundleSpokenName"
+                    },
+                    "abstract": "<div><p>A replacement for the app name in text-to-speech operations.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Naming"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.CFBundleName",
+    "name": "CFBundleName",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
+            "introduced": "2.0"
         },
         {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.0"
+        },
+        {
+            "platform": "tvOS",
+            "current": "13.4",
+            "introduced": "9.0"
+        },
+        {
+            "platform": "watchOS",
+            "current": "6.2",
+            "introduced": "2.0"
         }
     ],
     "parent": {
@@ -141,14 +177,16 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Core Foundation"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/corefoundation"
             ],
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "tvOS",
+                "watchOS"
             ]
         }
     ],
@@ -163,19 +201,23 @@
                 ],
                 "platforms": [
                     "iOS",
-                    "macOS"
+                    "macOS",
+                    "tvOS",
+                    "watchOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Bundle name",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Name</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string CFBundleName\n</span>",
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "tvOS",
+                "watchOS"
             ],
             "allowedTypesDetails": [
                 {
@@ -196,34 +238,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/cfbundlename"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.CFBundleName"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/cfbundlename"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.CFBundleName"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/cfbundlename"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +278,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3374879,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "Bundle Configuration"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/bundle_configuration"
                 ]
             }
         ]

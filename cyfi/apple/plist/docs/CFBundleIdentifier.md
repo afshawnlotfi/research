@@ -1,124 +1,135 @@
-# [CFBundleIdentifier](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleIdentifier)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [CFBundleIdentifier](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleIdentifier)
+## Bundle identifier
+### A unique identifier for a bundle.
 ### [Default]: ""
-### [Show More](/docs/CFBundleIdentifier.md)
+### [JSON](/json/CFBundleIdentifier.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3040942,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "CFBundleIdentifier"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A unique identifier for a bundle.</p></div>",
+    "discussion": "<div><p>A <em>bundle ID</em> uniquely identifies a single app throughout the system. The bundle ID string must contain only alphanumeric characters (A-Z, a-z, and 0-9), hyphens (-), and periods (.). The string should be in reverse-DNS format. Bundle IDs are case sensitive.</p><p>The operating system uses the bundle ID to identify the app for which a given preference applies. Similarly, <a href=\"/documentation/coreservices/launch_services\">Launch Services</a> uses the bundle ID to locate an app capable of opening a particular file. The bundle ID also validates an app&#8217;s signature.</p><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>The bundle ID in the Information Property List must match the bundle ID you enter in App Store Connect. After you upload a build to App Store Connect, you can&#8217;t change the bundle ID or delete the associated explicit App ID in your developer account.</p></aside><p></p></div><h3 id=\"3130292\">watchOS Apps with Companion iOS App Considerations</h3><div><p>For watchOS apps that have a companion iOS app in the same project, the embedded WatchKit app and WatchKit extension targets must have the same bundle ID prefix as the iOS app. The WatchKit app must have the format <code class=\"code-voice\"><span>[Bundle ID].watchkitapp</span></code>, and the WatchKit extension must have the format <code class=\"code-voice\"><span>[Bundle ID].watchkitextension</span></code>. </p><p>If you change the iOS app&#x27;s bundle ID, also change the WatchKit app&#x27;s  <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/wkcompanionappbundleidentifier\"><code><span>WKCompanion<wbr/>App<wbr/>Bundle<wbr/>Identifier</span></code></a> key and the WatchKit extension&#x27;s <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/wkappbundleidentifier\"><code><span>WKApp<wbr/>Bundle<wbr/>Identifier</span></code></a> key to match.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3112333,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3040942,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.CFBundleIdentifier",
+                    "name": "CFBundleIdentifier",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "2.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "required": true,
+                    "xcodeTitle": "Bundle identifier",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Identifier</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/cfbundleidentifier"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "CFBundleIdentifier"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A unique identifier for a bundle.</p></div>"
+                },
+                {
+                    "id": 3040988,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.WKAppBundleIdentifier",
+                    "name": "WKAppBundleIdentifier",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKApp<wbr/>Bundle<wbr/>Identifier</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/wkappbundleidentifier"
+                    ],
+                    "title": {
+                        "content": "WKAppBundleIdentifier"
+                    },
+                    "abstract": "<div><p>The bundle ID of the watchOS app.</p></div>"
+                },
+                {
+                    "id": 3040990,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.WKCompanionAppBundleIdentifier",
+                    "name": "WKCompanionAppBundleIdentifier",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKCompanion<wbr/>App<wbr/>Bundle<wbr/>Identifier</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/wkcompanionappbundleidentifier"
+                    ],
+                    "title": {
+                        "content": "WKCompanionAppBundleIdentifier"
+                    },
+                    "abstract": "<div><p>The bundle ID of the watchOS app&#8217;s companion iOS app.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Identification"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.CFBundleIdentifier",
+    "name": "CFBundleIdentifier",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
+            "introduced": "2.0"
         },
         {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.0"
+        },
+        {
+            "platform": "tvOS",
+            "current": "13.4",
+            "introduced": "9.0"
+        },
+        {
+            "platform": "watchOS",
+            "current": "6.2",
+            "introduced": "2.0"
         }
     ],
     "parent": {
@@ -141,14 +152,16 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Core Foundation"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/corefoundation"
             ],
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "tvOS",
+                "watchOS"
             ]
         }
     ],
@@ -163,19 +176,24 @@
                 ],
                 "platforms": [
                     "iOS",
-                    "macOS"
+                    "macOS",
+                    "tvOS",
+                    "watchOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "required": true,
+    "xcodeTitle": "Bundle identifier",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Identifier</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string CFBundleIdentifier\n</span>",
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "tvOS",
+                "watchOS"
             ],
             "allowedTypesDetails": [
                 {
@@ -196,34 +214,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/cfbundleidentifier"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.CFBundleIdentifier"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/cfbundleidentifier"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.CFBundleIdentifier"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/cfbundleidentifier"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +254,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3374879,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "Bundle Configuration"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/bundle_configuration"
                 ]
             }
         ]

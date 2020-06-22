@@ -1,124 +1,188 @@
-# [LSFileQuarantineEnabled](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSFileQuarantineEnabled)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [LSFileQuarantineEnabled](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSFileQuarantineEnabled)
+## File quarantine enabled
+### A Boolean value indicating whether the files this app creates are quarantined by default.
 ### [Default]: false
-### [Show More](/docs/LSFileQuarantineEnabled.md)
+### [JSON](/json/LSFileQuarantineEnabled.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3041361,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "LSFileQuarantineEnabled"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A Boolean value indicating whether the files this app creates are quarantined by default.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3375061,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
-                    "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
+                    "id": 3041326,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.APFiles",
+                    "name": "APFiles",
+                    "domain": "plist",
+                    "kind": "dict",
                     "availability": [
                         {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
                             "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
+                            "introduced": "10.0"
                         }
                     ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "xcodeTitle": "Installation files",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">APFiles</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/bundleresources/information_property_list/apfiles"
                     ],
                     "title": {
-                        "content": "ICDeviceBrowser"
+                        "content": "APFiles"
                     },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
+                    "abstract": "<div><p>Describes the files or directories the app installs on the system.</p></div>",
                     "hasChildren": true
                 },
                 {
-                    "id": 3026875,
+                    "id": 3041333,
                     "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
+                    "usr": "plist:Information_Property_List.APInstallerURL",
+                    "name": "APInstallerURL",
+                    "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "macOS",
-                            "introduced": "10.7"
+                            "introduced": "10.0"
                         }
                     ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "xcodeTitle": "Installation directory base file URL",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">APInstaller<wbr/>URL</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/bundleresources/information_property_list/apinstallerurl"
                     ],
                     "title": {
-                        "content": "Photos Library Entitlement"
+                        "content": "APInstallerURL"
                     },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                    "abstract": "<div><p>The base path to the files or directories the app installs.</p></div>"
                 },
                 {
-                    "id": 3041012,
+                    "id": 3041089,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.NSSupportsPurgeableLocalStorage",
+                    "name": "NSSupportsPurgeableLocalStorage",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "9.3"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSSupports<wbr/>Purgeable<wbr/>Local<wbr/>Storage</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/nssupportspurgeablelocalstorage"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "NSSupportsPurgeableLocalStorage"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether the app continues working if the system purges the local storage.</p></div>"
+                },
+                {
+                    "id": 3041361,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.LSFileQuarantineEnabled",
+                    "name": "LSFileQuarantineEnabled",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "File quarantine enabled",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSFile<wbr/>Quarantine<wbr/>Enabled</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/lsfilequarantineenabled"
+                    ],
+                    "title": {
+                        "content": "LSFileQuarantineEnabled"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the files this app creates are quarantined by default.</p></div>"
+                },
+                {
+                    "id": 3040974,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.UIFileSharingEnabled",
+                    "name": "UIFileSharingEnabled",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "3.2"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "xcodeTitle": "Application supports iTunes file sharing",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIFile<wbr/>Sharing<wbr/>Enabled</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/uifilesharingenabled"
+                    ],
+                    "title": {
+                        "content": "UIFileSharingEnabled"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app shares files through iTunes.</p></div>"
+                },
+                {
+                    "id": 3041356,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.CSResourcesFileMapped",
+                    "name": "CSResourcesFileMapped",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "Resources should be file-mapped",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CSResources<wbr/>File<wbr/>Mapped</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/csresourcesfilemapped"
+                    ],
+                    "title": {
+                        "content": "CSResourcesFileMapped"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app&#x27;s resources files should be mapped into memory.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Storage"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.LSFileQuarantineEnabled",
+    "name": "LSFileQuarantineEnabled",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
-            "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.0"
         }
     ],
     "parent": {
@@ -141,13 +205,12 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Core Services"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/coreservices"
             ],
             "platforms": [
-                "iOS",
                 "macOS"
             ]
         }
@@ -157,30 +220,28 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "boolean",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">boolean</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
-                    "iOS",
                     "macOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "File quarantine enabled",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSFile<wbr/>Quarantine<wbr/>Enabled</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>boolean LSFileQuarantineEnabled\n</span>",
             "platforms": [
-                "iOS",
                 "macOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "boolean",
+                    "declaration": "<span>boolean\n</span>"
                 }
             ]
         }
@@ -196,34 +257,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/lsfilequarantineenabled"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.LSFileQuarantineEnabled"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/lsfilequarantineenabled"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.LSFileQuarantineEnabled"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/lsfilequarantineenabled"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +297,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3376041,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "Data and Storage"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/data_and_storage"
                 ]
             }
         ]

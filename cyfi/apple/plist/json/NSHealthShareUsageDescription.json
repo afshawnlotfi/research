@@ -1,118 +1,126 @@
 {
-    "id": 3041012,
+    "id": 3041095,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "NSHealthShareUsageDescription"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the user&#8217;s heath data.</p></aside><p></p></div>",
+    "abstract": "<div><p>A message to the user that explains why the app requested permission to read samples from the HealthKit store.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3169719,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3041096,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.NSHealthUpdateUsageDescription",
+                    "name": "NSHealthUpdateUsageDescription",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "8.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Privacy - Health Update Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSHealth<wbr/>Update<wbr/>Usage<wbr/>Description</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/nshealthupdateusagedescription"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "NSHealthUpdateUsageDescription"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A message to the user that explains why the app requested permission to save samples to the HealthKit store.</p></div>"
+                },
+                {
+                    "id": 3041095,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSHealthShareUsageDescription",
+                    "name": "NSHealthShareUsageDescription",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "8.0"
+                        }
+                    ],
+                    "xcodeTitle": "Privacy - Health Share Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSHealth<wbr/>Share<wbr/>Usage<wbr/>Description</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nshealthshareusagedescription"
+                    ],
+                    "title": {
+                        "content": "NSHealthShareUsageDescription"
+                    },
+                    "abstract": "<div><p>A message to the user that explains why the app requested permission to read samples from the HealthKit store.</p></div>"
+                },
+                {
+                    "id": 3172206,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSHealthRequiredReadAuthorizationTypeIdentifiers",
+                    "name": "NSHealthRequiredReadAuthorizationTypeIdentifiers",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "12.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSHealth<wbr/>Required<wbr/>Read<wbr/>Authorization<wbr/>Type<wbr/>Identifiers</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nshealthrequiredreadauthorizationtypeidentifiers"
+                    ],
+                    "title": {
+                        "content": "NSHealthRequiredReadAuthorizationTypeIdentifiers"
+                    },
+                    "abstract": "<div><p>The clinical record data types that your app must get permission to read.</p></div>"
+                },
+                {
+                    "id": 3041092,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSHealthClinicalHealthRecordsShareUsageDescription",
+                    "name": "NSHealthClinicalHealthRecordsShareUsageDescription",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "12.0"
+                        }
+                    ],
+                    "xcodeTitle": "Privacy - Health Records Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSHealth<wbr/>Clinical<wbr/>Health<wbr/>Records<wbr/>Share<wbr/>Usage<wbr/>Description</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nshealthclinicalhealthrecordsshareusagedescription"
+                    ],
+                    "title": {
+                        "content": "NSHealthClinicalHealthRecordsShareUsageDescription"
+                    },
+                    "abstract": "<div><p>A message to the user that explains why the app requested permission to read clinical records.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Information Property List Keys"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.NSHealthShareUsageDescription",
+    "name": "NSHealthShareUsageDescription",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "8.0"
         }
     ],
     "parent": {
@@ -135,14 +143,13 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "HealthKit"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/healthkit"
             ],
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ]
         }
     ],
@@ -156,20 +163,18 @@
                     }
                 ],
                 "platforms": [
-                    "iOS",
-                    "macOS"
+                    "iOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Privacy - Health Share Usage Description",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSHealth<wbr/>Share<wbr/>Usage<wbr/>Description</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string NSHealthShareUsageDescription\n</span>",
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ],
             "allowedTypesDetails": [
                 {
@@ -190,31 +195,42 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nshealthshareusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSHealthShareUsageDescription"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nshealthshareusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSHealthShareUsageDescription"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/nshealthshareusagedescription"
     ],
     "hierarchy": [
         [
             {
-                "id": 1613258,
+                "id": 2947540,
                 "role": "collection",
                 "title": {
-                    "content": "ImageCaptureCore"
+                    "content": "HealthKit"
                 },
                 "paths": [
-                    "documentation/imagecapturecore"
+                    "documentation/healthkit"
+                ]
+            },
+            {
+                "id": 2943086,
+                "role": "article",
+                "title": {
+                    "content": "Setting Up HealthKit"
+                },
+                "paths": [
+                    "documentation/healthkit/setting_up_healthkit",
+                    "documentation/bundleresources/information_property_list/protected_resources/setting_up_healthkit"
                 ]
             }
         ],
@@ -249,6 +265,51 @@
                 },
                 "paths": [
                     "documentation/bundleresources/information_property_list/protected_resources"
+                ]
+            }
+        ],
+        [
+            {
+                "id": 3112365,
+                "role": "collection",
+                "title": {
+                    "content": "Bundle Resources"
+                },
+                "paths": [
+                    "documentation/bundleresources"
+                ]
+            },
+            {
+                "id": 3112092,
+                "role": "dictionarySymbol",
+                "title": {
+                    "content": "Information Property List"
+                },
+                "usr": "plist:Information_Property_List",
+                "kind": "schema",
+                "paths": [
+                    "documentation/bundleresources/information_property_list"
+                ]
+            },
+            {
+                "id": 3375067,
+                "role": "collectionGroup",
+                "title": {
+                    "content": "Protected Resources"
+                },
+                "paths": [
+                    "documentation/bundleresources/information_property_list/protected_resources"
+                ]
+            },
+            {
+                "id": 2943086,
+                "role": "article",
+                "title": {
+                    "content": "Setting Up HealthKit"
+                },
+                "paths": [
+                    "documentation/healthkit/setting_up_healthkit",
+                    "documentation/bundleresources/information_property_list/protected_resources/setting_up_healthkit"
                 ]
             }
         ]

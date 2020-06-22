@@ -1,118 +1,138 @@
 {
-    "id": 3041012,
+    "id": 3041336,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "NSServices"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>The services provided by an app.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3374889,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
-                    "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
+                    "id": 3041047,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.NSExtension",
+                    "name": "NSExtension",
+                    "domain": "plist",
+                    "kind": "dict",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "13.0"
+                            "introduced": "8.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
+                            "introduced": "10.10"
                         }
                     ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSExtension</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/bundleresources/information_property_list/nsextension"
                     ],
                     "title": {
-                        "content": "ICDeviceBrowser"
+                        "content": "NSExtension"
                     },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
+                    "abstract": "<div><p>The properties of an app extension.</p></div>",
                     "hasChildren": true
                 },
                 {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
+                    "id": 3041336,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.NSServices",
+                    "name": "NSServices",
+                    "domain": "plist",
+                    "kind": "dict",
                     "availability": [
                         {
                             "platform": "macOS",
-                            "introduced": "10.7"
+                            "introduced": "10.0"
                         }
                     ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "xcodeTitle": "Services",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSServices</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/bundleresources/information_property_list/nsservices"
                     ],
                     "title": {
-                        "content": "Photos Library Entitlement"
+                        "content": "NSServices"
                     },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                    "abstract": "<div><p>The services provided by an app.</p></div>",
+                    "hasChildren": true
                 },
                 {
-                    "id": 3041012,
+                    "id": 3040991,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.WKExtensionDelegateClassName",
+                    "name": "WKExtensionDelegateClassName",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKExtension<wbr/>Delegate<wbr/>Class<wbr/>Name</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/wkextensiondelegateclassname"
+                    ],
+                    "title": {
+                        "content": "WKExtensionDelegateClassName"
+                    },
+                    "abstract": "<div><p>The name of your watchOS app&#8217;s extension delegate.</p></div>"
+                },
+                {
+                    "id": 3040972,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.UIApplicationShortcutWidget",
+                    "name": "UIApplicationShortcutWidget",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "10.0"
                         },
                         {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Home Screen Widget",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIApplication<wbr/>Shortcut<wbr/>Widget</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/uiapplicationshortcutwidget"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "UIApplicationShortcutWidget"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>The bundle ID of the widget that&#x27;s available as a Home screen quick action in apps that have more than one widget.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Extensions and Services"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.NSServices",
+    "name": "NSServices",
     "domain": "plist",
-    "kind": "tdef",
+    "kind": "dict",
     "availability": [
-        {
-            "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
-        },
         {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.0"
         }
     ],
     "parent": {
@@ -135,13 +155,12 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "AppKit"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/appkit"
             ],
             "platforms": [
-                "iOS",
                 "macOS"
             ]
         }
@@ -151,35 +170,35 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "dictionary",
+                        "arrayMode": "required",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">[dictionary]</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
-                    "iOS",
                     "macOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Services",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSServices</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>[dictionary] NSServices\n</span>",
             "platforms": [
-                "iOS",
                 "macOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "dictionary",
+                    "arrayMode": "required",
+                    "declaration": "<span>[dictionary]\n</span>"
                 }
             ]
         }
     ],
-    "role": "symbol",
+    "role": "dictionarySymbol",
     "language": "swift",
     "roleHeading": "Property List Key",
     "titleStyle": "symbol",
@@ -190,34 +209,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nsservices"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSServices"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nsservices"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSServices"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/nsservices"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -242,13 +249,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3375101,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "App Execution"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/app_execution"
                 ]
             }
         ]
@@ -257,5 +264,210 @@
         "copyright": "Copyright &copy; 2020 Apple Inc. All rights reserved.",
         "termsOfUse": "https://www.apple.com/legal/internet-services/terms/site.html",
         "privacyPolicy": "https://www.apple.com/privacy/privacy-policy"
-    }
+    },
+    "tasks": [
+        {
+            "id": 3044552,
+            "role": "task",
+            "symbols": [
+                {
+                    "id": 3041337,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.NSServices.NSKeyEquivalent",
+                    "name": "NSKeyEquivalent",
+                    "domain": "plist",
+                    "kind": "dict",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "Menu key equivalent",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSKey<wbr/>Equivalent</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsservices/nskeyequivalent"
+                    ],
+                    "title": {
+                        "content": "NSKeyEquivalent"
+                    },
+                    "abstract": "<div><p>A keyboard shortcut that invokes the service menu command.</p></div>"
+                },
+                {
+                    "id": 3041338,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.NSServices.NSMenuItem",
+                    "name": "NSMenuItem",
+                    "domain": "plist",
+                    "kind": "dict",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "required": true,
+                    "xcodeTitle": "Menu",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSMenu<wbr/>Item</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsservices/nsmenuitem"
+                    ],
+                    "title": {
+                        "content": "NSMenuItem"
+                    },
+                    "abstract": "<div><p>Text for a Services menu item.</p></div>"
+                },
+                {
+                    "id": 3041339,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSServices.NSMessage",
+                    "name": "NSMessage",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "required": true,
+                    "xcodeTitle": "Instance method name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSMessage</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsservices/nsmessage"
+                    ],
+                    "title": {
+                        "content": "NSMessage"
+                    },
+                    "abstract": "<div><p>An instance method that invokes the service.</p></div>"
+                },
+                {
+                    "id": 3041340,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSServices.NSPortName",
+                    "name": "NSPortName",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "Incoming service port name",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSPort<wbr/>Name</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsservices/nsportname"
+                    ],
+                    "title": {
+                        "content": "NSPortName"
+                    },
+                    "abstract": "<div><p>The port that the service monitors for incoming requests.</p></div>"
+                },
+                {
+                    "id": 3041341,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSServices.NSReturnTypes",
+                    "name": "NSReturnTypes",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "Return Types",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSReturn<wbr/>Types</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsservices/nsreturntypes"
+                    ],
+                    "title": {
+                        "content": "NSReturnTypes"
+                    },
+                    "abstract": "<div><p>The data types that the service returns.</p></div>"
+                },
+                {
+                    "id": 3041342,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSServices.NSSendTypes",
+                    "name": "NSSendTypes",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "Send Types",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSSend<wbr/>Types</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsservices/nssendtypes"
+                    ],
+                    "title": {
+                        "content": "NSSendTypes"
+                    },
+                    "abstract": "<div><p>The data types that the service can read.</p></div>"
+                },
+                {
+                    "id": 3041343,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSServices.NSTimeout",
+                    "name": "NSTimeout",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "Timeout value (in milliseconds)",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSTimeout</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsservices/nstimeout"
+                    ],
+                    "title": {
+                        "content": "NSTimeout"
+                    },
+                    "abstract": "<div><p>The amount of time, in milliseconds, that the system waits for a response from the service.</p></div>"
+                },
+                {
+                    "id": 3041344,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.NSServices.NSUserData",
+                    "name": "NSUserData",
+                    "domain": "plist",
+                    "kind": "dict",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "User Data",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSUser<wbr/>Data</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsservices/nsuserdata"
+                    ],
+                    "title": {
+                        "content": "NSUserData"
+                    },
+                    "abstract": "<div><p>A service-specific string value.</p></div>"
+                }
+            ],
+            "title": {
+                "content": "Property List Keys"
+            }
+        }
+    ]
 }

@@ -1,8 +1,8 @@
-# [NSCameraUsageDescription](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSCameraUsageDescription)
+# [NSCameraUsageDescription](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSCameraUsageDescription)
 ## Privacy - Camera Usage Description
 ### A message that tells the user why the app is requesting access to the device&#8217;s camera.
 ### [Default]: ""
-### [Show More](/docs/NSCameraUsageDescription.md)
+### [JSON](/json/NSCameraUsageDescription.json)
 ```json 
 {
     "id": 3041012,

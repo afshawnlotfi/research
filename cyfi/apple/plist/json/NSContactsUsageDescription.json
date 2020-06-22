@@ -1,97 +1,112 @@
 {
-    "id": 3041012,
+    "id": 3041014,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "NSContactsUsageDescription"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A message that tells the user why the app is requesting access to the user&#8217;s contacts.</p></div>",
+    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the user&#8217;s contacts.</p></aside><p></p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3174069,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3531071,
+                    "role": "article",
+                    "paths": [
+                        "documentation/contacts/requesting_authorization_to_access_contacts",
+                        "documentation/bundleresources/information_property_list/protected_resources/requesting_authorization_to_access_contacts"
+                    ],
+                    "abstract": "<div><p>Request permission from the user to read, create, and modify their Contacts entries.</p></div>",
+                    "title": {
+                        "content": "Requesting Authorization to Access Contacts"
+                    }
+                },
+                {
+                    "id": 1402934,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
+                    "usr": "c:objc(cs)CNContactStore",
+                    "name": "CNContactStore",
                     "domain": "swift",
                     "kind": "cl",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "13.0"
+                            "introduced": "9.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.4"
+                            "introduced": "10.11"
                         },
                         {
                             "platform": "Mac Catalyst",
                             "introduced": "13.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">CNContact<wbr/>Store</span></code>",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/contacts/cncontactstore"
                     ],
                     "title": {
-                        "content": "ICDeviceBrowser"
+                        "content": "CNContactStore"
                     },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
+                    "abstract": "<div><p>The object that fetches and saves contacts, groups, and containers from the user&#x27;s contacts database.</p></div>",
                     "hasChildren": true
                 },
                 {
-                    "id": 3026875,
+                    "id": 3041014,
                     "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.NSContactsUsageDescription",
+                    "name": "NSContactsUsageDescription",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "6.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "10.8"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Privacy - Contacts Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSContacts<wbr/>Usage<wbr/>Description</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/nscontactsusagedescription"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "NSContactsUsageDescription"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the user&#8217;s contacts.</p></div>"
+                },
+                {
+                    "id": 3368182,
+                    "role": "symbol",
+                    "usr": "entitlements:Entitlements.com.apple.developer.contacts.notes",
+                    "name": "com.apple.developer.contacts.notes",
+                    "domain": "entitlements",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "13.0"
+                        }
+                    ],
+                    "titleStyle": "title",
+                    "paths": [
+                        "documentation/bundleresources/entitlements/com_apple_developer_contacts_notes"
+                    ],
+                    "title": {
+                        "content": "com.apple.developer.contacts.notes"
+                    },
+                    "abstract": "<div><p>A Boolean value that indicates whether the app may access the notes stored in contacts.</p></div>"
                 }
             ],
             "title": {
@@ -99,20 +114,20 @@
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.NSContactsUsageDescription",
+    "name": "NSContactsUsageDescription",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
+            "introduced": "6.0"
         },
         {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.8"
         }
     ],
     "parent": {
@@ -135,10 +150,10 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Contacts"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/contacts"
             ],
             "platforms": [
                 "iOS",
@@ -162,11 +177,11 @@
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Privacy - Contacts Usage Description",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSContacts<wbr/>Usage<wbr/>Description</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string NSContactsUsageDescription\n</span>",
             "platforms": [
                 "iOS",
                 "macOS"
@@ -190,31 +205,31 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nscontactsusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSContactsUsageDescription"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nscontactsusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSContactsUsageDescription"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/nscontactsusagedescription"
     ],
     "hierarchy": [
         [
             {
-                "id": 1613258,
+                "id": 1613497,
                 "role": "collection",
                 "title": {
-                    "content": "ImageCaptureCore"
+                    "content": "Contacts"
                 },
                 "paths": [
-                    "documentation/imagecapturecore"
+                    "documentation/contacts"
                 ]
             }
         ],

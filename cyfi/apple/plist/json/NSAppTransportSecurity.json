@@ -1,118 +1,82 @@
 {
-    "id": 3041012,
+    "id": 3041043,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "NSAppTransportSecurity"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A description of changes made to the default security for HTTP connections.</p></div>",
+    "discussion": "<div><p>On Apple platforms, a networking feature called App Transport Security (ATS) improves privacy and data integrity for all apps and app extensions. ATS requires that all HTTP connections made with the <a href=\"/documentation/foundation/url_loading_system\">URL Loading System</a>&#8212;typically using the <a class=\"symbol-name\" href=\"/documentation/foundation/urlsession\"><code><span>URLSession</span></code></a> class&#8212;use HTTPS. It further imposes extended security checks that supplement the default server trust evaluation prescribed by the Transport Layer Security (TLS) protocol. ATS blocks connections that fail to meet minimum security specifications. For additional details, see <a href=\"/documentation/security/preventing_insecure_network_connections\">Preventing Insecure Network Connections</a>.</p><p>You can circumvent or augment these protections by adding the <span class=\"reference\">NSAppTransportSecurity</span> key to your app&#8217;s <a href=\"/documentation/bundleresources/information_property_list\">Information Property List</a> file and providing an ATS configuration dictionary as the value. For example, you can:</p><ul><li><p>Allow insecure loads for web views while maintaining ATS protections elsewhere in your app using the <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/nsapptransportsecurity/nsallowsarbitraryloadsinwebcontent\"><code><span>NSAllows<wbr/>Arbitrary<wbr/>Loads<wbr/>In<wbr/>Web<wbr/>Content</span></code></a> key.</p></li><li><p>Enable additional security features like Certificate Transparency using the <a href=\"/documentation/security/preventing_insecure_network_connections/nsapptransportsecurity/nsexceptiondomains#3141616\">NSRequiresCertificateTransparency</a> key.</p></li><li><p>Reduce or remove security requirements for communication with particular servers using the <a href=\"/documentation/bundleresources/information_property_list/nsapptransportsecurity/nsexceptiondomains\">NSExceptionDomains</a> key.</p></li></ul><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>Always look for ways to improve server security before adding ATS exceptions. Loosening ATS restrictions reduces the security of your app.</p></aside><p>All keys in the ATS configuration dictionary are optional, with default values that are suitable for most apps. Keys that define global exceptions apply to all network connections made by your app, except connections to domains specified in the <a href=\"/documentation/bundleresources/information_property_list/nsapptransportsecurity/nsexceptiondomains\">NSExceptionDomains</a> sub-dictionary. That sub-dictionary allows you to separately manage settings for individual domains.</p></div><h3 id=\"3144576\">Versioning</h3><div><p>ATS operates by default for apps linked against the iOS 9.0 or macOS 10.11 SDKs or later. When you link your app against an older SDK, ATS is disabled no matter which version of operating system your app runs on.</p><p>If you specify a value for any of the global exceptions besides <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/nsapptransportsecurity/nsallowsarbitraryloads\"><code><span>NSAllows<wbr/>Arbitrary<wbr/>Loads</span></code></a>, then the ATS behavior depends on the version of the OS on which your app runs:</p><dl class=\"terms\"><dt>iOS 9.0 or macOS 10.11</dt><dd><p>ATS uses the <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/nsapptransportsecurity/nsallowsarbitraryloads\"><code><span>NSAllows<wbr/>Arbitrary<wbr/>Loads</span></code></a> value that you set, or NO by default, and ignores the other global exceptions.</p></dd><dt>iOS 10.0 or later or macOS 10.12 or later</dt><dd><p>ATS ignores the <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/nsapptransportsecurity/nsallowsarbitraryloads\"><code><span>NSAllows<wbr/>Arbitrary<wbr/>Loads</span></code></a> value that you set and instead obeys the other key or keys.</p></dd></dl><p>This behavior enables you to manage differences between OS versions. You provide a coarse exception (<a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/nsapptransportsecurity/nsallowsarbitraryloads\"><code><span>NSAllows<wbr/>Arbitrary<wbr/>Loads</span></code></a>) for older versions, and a more targeted exception, like <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/nsapptransportsecurity/nsallowsarbitraryloadsinwebcontent\"><code><span>NSAllows<wbr/>Arbitrary<wbr/>Loads<wbr/>In<wbr/>Web<wbr/>Content</span></code></a>, for when it&#8217;s available.</p></div>",
+    "seeAlso": [
+        {
+            "id": 3138033,
+            "role": "article",
+            "paths": [
+                "documentation/security/preventing_insecure_network_connections"
+            ],
+            "languages": [
+                "occ",
+                "swift"
+            ],
+            "abstract": "<div><p>Enforce secure network links in your app by relying on App Transport Security.</p></div>",
+            "title": {
+                "content": "Preventing Insecure Network Connections"
+            }
+        }
+    ],
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3138032,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
-                    "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "id": 3041043,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.NSAppTransportSecurity",
+                    "name": "NSAppTransportSecurity",
                     "domain": "plist",
-                    "kind": "tdef",
+                    "kind": "dict",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "9.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.14"
+                            "introduced": "10.11"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "App Transport Security Settings",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSApp<wbr/>Transport<wbr/>Security</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/nsapptransportsecurity"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "NSAppTransportSecurity"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A description of changes made to the default security for HTTP connections.</p></div>",
+                    "hasChildren": true
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Exceptions"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.NSAppTransportSecurity",
+    "name": "NSAppTransportSecurity",
     "domain": "plist",
-    "kind": "tdef",
+    "kind": "dict",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
+            "introduced": "9.0"
         },
         {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.11"
         }
     ],
     "parent": {
@@ -135,10 +99,10 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Foundation"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/foundation"
             ],
             "platforms": [
                 "iOS",
@@ -151,8 +115,8 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "dictionary",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">dictionary</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
@@ -162,24 +126,24 @@
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "App Transport Security Settings",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSApp<wbr/>Transport<wbr/>Security</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>dictionary NSAppTransportSecurity\n</span>",
             "platforms": [
                 "iOS",
                 "macOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "dictionary",
+                    "declaration": "<span>dictionary\n</span>"
                 }
             ]
         }
     ],
-    "role": "symbol",
+    "role": "dictionarySymbol",
     "language": "swift",
     "roleHeading": "Property List Key",
     "titleStyle": "symbol",
@@ -190,31 +154,41 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nsapptransportsecurity"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSAppTransportSecurity"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nsapptransportsecurity"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSAppTransportSecurity"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/nsapptransportsecurity"
     ],
     "hierarchy": [
         [
             {
-                "id": 1613258,
+                "id": 1613484,
                 "role": "collection",
                 "title": {
-                    "content": "ImageCaptureCore"
+                    "content": "Security"
                 },
                 "paths": [
-                    "documentation/imagecapturecore"
+                    "documentation/security"
+                ]
+            },
+            {
+                "id": 3138033,
+                "role": "article",
+                "title": {
+                    "content": "Preventing Insecure Network Connections"
+                },
+                "paths": [
+                    "documentation/security/preventing_insecure_network_connections"
                 ]
             }
         ],
@@ -242,13 +216,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3376041,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "Data and Storage"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/data_and_storage"
                 ]
             }
         ]
@@ -257,5 +231,167 @@
         "copyright": "Copyright &copy; 2020 Apple Inc. All rights reserved.",
         "termsOfUse": "https://www.apple.com/legal/internet-services/terms/site.html",
         "privacyPolicy": "https://www.apple.com/privacy/privacy-policy"
-    }
+    },
+    "tasks": [
+        {
+            "id": 3141439,
+            "role": "task",
+            "symbols": [
+                {
+                    "id": 3041044,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSAppTransportSecurity.NSAllowsArbitraryLoads",
+                    "name": "NSAllowsArbitraryLoads",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.11"
+                        }
+                    ],
+                    "defaultValue": "NO",
+                    "xcodeTitle": "Allow Arbitrary Loads",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSAllows<wbr/>Arbitrary<wbr/>Loads</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsapptransportsecurity/nsallowsarbitraryloads"
+                    ],
+                    "title": {
+                        "content": "NSAllowsArbitraryLoads"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether App Transport Security restrictions are disabled for all network connections.</p></div>"
+                },
+                {
+                    "id": 3140791,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSAppTransportSecurity.NSAllowsArbitraryLoadsForMedia",
+                    "name": "NSAllowsArbitraryLoadsForMedia",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.12"
+                        }
+                    ],
+                    "defaultValue": "NO",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSAllows<wbr/>Arbitrary<wbr/>Loads<wbr/>For<wbr/>Media</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsapptransportsecurity/nsallowsarbitraryloadsformedia"
+                    ],
+                    "title": {
+                        "content": "NSAllowsArbitraryLoadsForMedia"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether all App Transport Security restrictions are disabled for requests made using the AV Foundation framework.</p></div>"
+                },
+                {
+                    "id": 3041045,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSAppTransportSecurity.NSAllowsArbitraryLoadsInWebContent",
+                    "name": "NSAllowsArbitraryLoadsInWebContent",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.12"
+                        }
+                    ],
+                    "defaultValue": "NO",
+                    "xcodeTitle": "Allow Arbitrary Loads in Web Content",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSAllows<wbr/>Arbitrary<wbr/>Loads<wbr/>In<wbr/>Web<wbr/>Content</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsapptransportsecurity/nsallowsarbitraryloadsinwebcontent"
+                    ],
+                    "title": {
+                        "content": "NSAllowsArbitraryLoadsInWebContent"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether all App Transport Security restrictions are disabled for requests made from web views.</p></div>"
+                },
+                {
+                    "id": 3140792,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSAppTransportSecurity.NSAllowsLocalNetworking",
+                    "name": "NSAllowsLocalNetworking",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "10.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.12"
+                        }
+                    ],
+                    "defaultValue": "NO",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSAllows<wbr/>Local<wbr/>Networking</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsapptransportsecurity/nsallowslocalnetworking"
+                    ],
+                    "title": {
+                        "content": "NSAllowsLocalNetworking"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether to allow loading of local resources.</p></div>"
+                }
+            ],
+            "title": {
+                "content": "Global Exceptions"
+            }
+        },
+        {
+            "id": 3141438,
+            "role": "task",
+            "symbols": [
+                {
+                    "id": 3041046,
+                    "role": "dictionarySymbol",
+                    "usr": "plist:Information_Property_List.NSAppTransportSecurity.NSExceptionDomains",
+                    "name": "NSExceptionDomains",
+                    "domain": "plist",
+                    "kind": "dict",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.11"
+                        }
+                    ],
+                    "xcodeTitle": "Exception Domains",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSException<wbr/>Domains</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsapptransportsecurity/nsexceptiondomains"
+                    ],
+                    "title": {
+                        "content": "NSExceptionDomains"
+                    },
+                    "abstract": "<div><p>Custom configurations for App Transport Security named domains.</p></div>"
+                }
+            ],
+            "title": {
+                "content": "Domain-Specific Exceptions"
+            }
+        }
+    ]
 }

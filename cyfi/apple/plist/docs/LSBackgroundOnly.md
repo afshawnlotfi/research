@@ -1,124 +1,158 @@
-# [LSBackgroundOnly](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/LSBackgroundOnly)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [LSBackgroundOnly](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/LSBackgroundOnly)
+## Application is background only
+### A Boolean value indicating whether the app runs only in the background.
 ### [Default]: false
-### [Show More](/docs/LSBackgroundOnly.md)
+### [JSON](/json/LSBackgroundOnly.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3041359,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "LSBackgroundOnly"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A Boolean value indicating whether the app runs only in the background.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3374987,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3040973,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.UIBackgroundModes",
+                    "name": "UIBackgroundModes",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "4.0"
                         },
                         {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "platform": "watchOS",
+                            "introduced": "4.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "allowedValues": [
+                        "audio",
+                        "location",
+                        "voip",
+                        "external-accessory",
+                        "bluetooth-central",
+                        "bluetooth-peripheral",
+                        "fetch",
+                        "processing",
+                        "remote-notification"
+                    ],
+                    "xcodeTitle": "Required background modes",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIBackground<wbr/>Modes</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/uibackgroundmodes"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "UIBackgroundModes"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>Services provided by an app that require it to run in the background.</p></div>"
+                },
+                {
+                    "id": 3040989,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.WKBackgroundModes",
+                    "name": "WKBackgroundModes",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "introduced": "3.0"
+                        }
+                    ],
+                    "allowedValues": [
+                        "workout-processing",
+                        "self-care",
+                        "mindfulness",
+                        "physical-therapy",
+                        "alarm"
+                    ],
+                    "xcodeTitle": "Required background modes (Watch)",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKBackground<wbr/>Modes</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/wkbackgroundmodes"
+                    ],
+                    "title": {
+                        "content": "WKBackgroundModes"
+                    },
+                    "abstract": "<div><p>The services a watchOS app provides that require it to continue running in the background.</p></div>"
+                },
+                {
+                    "id": 3194553,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.BGTaskSchedulerPermittedIdentifiers",
+                    "name": "BGTaskSchedulerPermittedIdentifiers",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "13.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "13.0"
+                        }
+                    ],
+                    "xcodeTitle": "Permitted background task scheduler identifiers",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">BGTask<wbr/>Scheduler<wbr/>Permitted<wbr/>Identifiers</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/bgtaskschedulerpermittedidentifiers"
+                    ],
+                    "title": {
+                        "content": "BGTaskSchedulerPermittedIdentifiers"
+                    },
+                    "abstract": "<div><p>An array of strings containing developer-specified task identifiers in reverse URL notation.</p></div>"
+                },
+                {
+                    "id": 3041359,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.LSBackgroundOnly",
+                    "name": "LSBackgroundOnly",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.0"
+                        }
+                    ],
+                    "xcodeTitle": "Application is background only",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSBackground<wbr/>Only</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/lsbackgroundonly"
+                    ],
+                    "title": {
+                        "content": "LSBackgroundOnly"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app runs only in the background.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Background Execution"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.LSBackgroundOnly",
+    "name": "LSBackgroundOnly",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
-            "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.0"
         }
     ],
     "parent": {
@@ -141,13 +175,12 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Core Services"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/coreservices"
             ],
             "platforms": [
-                "iOS",
                 "macOS"
             ]
         }
@@ -157,30 +190,28 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "boolean",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">boolean</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
-                    "iOS",
                     "macOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Application is background only",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSBackground<wbr/>Only</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>boolean LSBackgroundOnly\n</span>",
             "platforms": [
-                "iOS",
                 "macOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "boolean",
+                    "declaration": "<span>boolean\n</span>"
                 }
             ]
         }
@@ -196,34 +227,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/lsbackgroundonly"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.LSBackgroundOnly"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/lsbackgroundonly"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.LSBackgroundOnly"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/lsbackgroundonly"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +267,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3375101,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "App Execution"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/app_execution"
                 ]
             }
         ]

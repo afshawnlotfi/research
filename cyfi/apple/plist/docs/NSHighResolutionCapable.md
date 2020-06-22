@@ -1,59 +1,88 @@
-# [NSHighResolutionCapable](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHighResolutionCapable)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [NSHighResolutionCapable](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/NSHighResolutionCapable)
+## High Resolution Capable
+### A Boolean value indicating whether the Cocoa app supports high-resolution displays.
 ### [Default]: false
-### [Show More](/docs/NSHighResolutionCapable.md)
+### [JSON](/json/NSHighResolutionCapable.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3040964,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "NSHighResolutionCapable"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A Boolean value indicating whether the Cocoa app supports high-resolution displays.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3374972,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3041010,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
+                    "usr": "plist:Information_Property_List.UIAppSupportsHDR",
+                    "name": "UIAppSupportsHDR",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "tvOS",
+                            "introduced": "11.2"
+                        }
+                    ],
+                    "defaultValue": "YES",
+                    "xcodeTitle": "Supports HDR color mode",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIApp<wbr/>Supports<wbr/>HDR</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/uiappsupportshdr"
+                    ],
+                    "title": {
+                        "content": "UIAppSupportsHDR"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app supports HDR mode on Apple TV 4K.</p></div>"
+                },
+                {
+                    "id": 3040964,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSHighResolutionCapable",
+                    "name": "NSHighResolutionCapable",
+                    "domain": "plist",
+                    "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "13.0"
+                            "introduced": "2.0"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.4"
+                            "introduced": "10.0"
                         },
                         {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "xcodeTitle": "High Resolution Capable",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSHigh<wbr/>Resolution<wbr/>Capable</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/bundleresources/information_property_list/nshighresolutioncapable"
                     ],
                     "title": {
-                        "content": "ICDeviceBrowser"
+                        "content": "NSHighResolutionCapable"
                     },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
+                    "abstract": "<div><p>A Boolean value indicating whether the Cocoa app supports high-resolution displays.</p></div>"
                 },
                 {
-                    "id": 3026875,
+                    "id": 3041394,
                     "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
+                    "usr": "plist:Information_Property_List.NSSupportsAutomaticGraphicsSwitching",
+                    "name": "NSSupportsAutomaticGraphicsSwitching",
+                    "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
@@ -61,64 +90,103 @@
                             "introduced": "10.7"
                         }
                     ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "xcodeTitle": "Supports Automatic Graphics Switching",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSSupports<wbr/>Automatic<wbr/>Graphics<wbr/>Switching</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/bundleresources/information_property_list/nssupportsautomaticgraphicsswitching"
                     ],
                     "title": {
-                        "content": "Photos Library Entitlement"
+                        "content": "NSSupportsAutomaticGraphicsSwitching"
                     },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether an OpenGL app may utilize the integrated GPU.</p></div>"
                 },
                 {
-                    "id": 3041012,
+                    "id": 3166775,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.GPUEjectPolicy",
+                    "name": "GPUEjectPolicy",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "7.0"
-                        },
                         {
                             "platform": "macOS",
                             "introduced": "10.14"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "allowedValues": [
+                        "relaunch",
+                        "wait",
+                        "kill",
+                        "ignore"
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">GPUEject<wbr/>Policy</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/gpuejectpolicy"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "GPUEjectPolicy"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>The preferred system action when an external GPU is connected from the system.</p></div>"
+                },
+                {
+                    "id": 3166776,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.GPUSelectionPolicy",
+                    "name": "GPUSelectionPolicy",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.14"
+                        }
+                    ],
+                    "allowedValues": [
+                        "avoidRemovable",
+                        "preferRemovable"
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">GPUSelection<wbr/>Policy</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/gpuselectionpolicy"
+                    ],
+                    "title": {
+                        "content": "GPUSelectionPolicy"
+                    },
+                    "abstract": "<div><p>The app&#x27;s preference for whether it wants to use external graphics processors.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Graphics"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.NSHighResolutionCapable",
+    "name": "NSHighResolutionCapable",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
+            "current": "13.5",
+            "introduced": "2.0"
         },
         {
             "platform": "macOS",
             "current": "10.15.4",
-            "introduced": "10.14"
+            "introduced": "10.0"
+        },
+        {
+            "platform": "tvOS",
+            "current": "13.4",
+            "introduced": "9.0"
+        },
+        {
+            "platform": "watchOS",
+            "current": "6.2",
+            "introduced": "2.0"
         }
     ],
     "parent": {
@@ -128,9 +196,6 @@
         "domain": "plist",
         "kind": "schema",
         "role": "dictionarySymbol",
-        "paths": [
-            "documentation/bundleresources/information_property_list"
-        ],
         "title": {
             "content": "Information Property List"
         },
@@ -141,14 +206,16 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Foundation"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/foundation"
             ],
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "tvOS",
+                "watchOS"
             ]
         }
     ],
@@ -157,30 +224,34 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "boolean",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">boolean</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
                     "iOS",
-                    "macOS"
+                    "macOS",
+                    "tvOS",
+                    "watchOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "High Resolution Capable",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSHigh<wbr/>Resolution<wbr/>Capable</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>boolean NSHighResolutionCapable\n</span>",
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "tvOS",
+                "watchOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "boolean",
+                    "declaration": "<span>boolean\n</span>"
                 }
             ]
         }
@@ -196,34 +267,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nshighresolutioncapable"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSHighResolutionCapable"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nshighresolutioncapable"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSHighResolutionCapable"
         }
     },
-    "pid": 505027,
+    "pid": 492525,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/nshighresolutioncapable"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,
@@ -248,13 +307,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3375099,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "User Interface"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/user_interface"
                 ]
             }
         ]

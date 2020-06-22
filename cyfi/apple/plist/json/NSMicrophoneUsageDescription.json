@@ -1,69 +1,39 @@
 {
-    "id": 3041012,
+    "id": 3041013,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "NSMicrophoneUsageDescription"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s microphone.</p></div>",
+    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s microphone.</p></aside><p></p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3112331,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
-                    "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "id": 2958845,
+                    "role": "article",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/avfoundation/cameras_and_media_capture/requesting_authorization_for_media_capture_on_ios",
+                        "documentation/bundleresources/information_property_list/protected_resources/requesting_authorization_for_media_capture_on_ios"
                     ],
+                    "abstract": "<div><p>Respect user privacy by seeking permission to capture and store photos, audio, and video.</p></div>",
                     "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
+                        "content": "Requesting Authorization for Media Capture on iOS"
+                    }
                 },
                 {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "id": 3036311,
+                    "role": "article",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/avfoundation/cameras_and_media_capture/requesting_authorization_for_media_capture_on_macos",
+                        "documentation/bundleresources/information_property_list/protected_resources/requesting_authorization_for_media_capture_on_macos"
                     ],
+                    "abstract": "<div><p>Prompt the user to authorize access to the camera and microphone.</p></div>",
                     "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                        "content": "Requesting Authorization for Media Capture on macOS"
+                    }
                 },
                 {
                     "id": 3041012,
@@ -92,15 +62,47 @@
                         "content": "NSCameraUsageDescription"
                     },
                     "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                },
+                {
+                    "id": 3041013,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSMicrophoneUsageDescription",
+                    "name": "NSMicrophoneUsageDescription",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "7.0"
+                        },
+                        {
+                            "platform": "macOS",
+                            "introduced": "10.14"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "4.0"
+                        }
+                    ],
+                    "xcodeTitle": "Privacy - Microphone Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSMicrophone<wbr/>Usage<wbr/>Description</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nsmicrophoneusagedescription"
+                    ],
+                    "title": {
+                        "content": "NSMicrophoneUsageDescription"
+                    },
+                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s microphone.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Camera and Microphone"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.NSMicrophoneUsageDescription",
+    "name": "NSMicrophoneUsageDescription",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
@@ -113,6 +115,11 @@
             "platform": "macOS",
             "current": "10.15.4",
             "introduced": "10.14"
+        },
+        {
+            "platform": "watchOS",
+            "current": "6.2",
+            "introduced": "4.0"
         }
     ],
     "parent": {
@@ -142,7 +149,8 @@
             ],
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "watchOS"
             ]
         }
     ],
@@ -157,19 +165,21 @@
                 ],
                 "platforms": [
                     "iOS",
-                    "macOS"
+                    "macOS",
+                    "watchOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Privacy - Microphone Usage Description",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSMicrophone<wbr/>Usage<wbr/>Description</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string NSMicrophoneUsageDescription\n</span>",
             "platforms": [
                 "iOS",
-                "macOS"
+                "macOS",
+                "watchOS"
             ],
             "allowedTypesDetails": [
                 {
@@ -190,34 +200,22 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nsmicrophoneusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSMicrophoneUsageDescription"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nsmicrophoneusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSMicrophoneUsageDescription"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/nsmicrophoneusagedescription"
     ],
     "hierarchy": [
-        [
-            {
-                "id": 1613258,
-                "role": "collection",
-                "title": {
-                    "content": "ImageCaptureCore"
-                },
-                "paths": [
-                    "documentation/imagecapturecore"
-                ]
-            }
-        ],
         [
             {
                 "id": 3112365,

@@ -1,118 +1,207 @@
 {
-    "id": 3041012,
+    "id": 3041017,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "NSLocationAlwaysUsageDescription"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A message that tells the user why the app is requesting access to the user&#x27;s location at all times.</p></div>",
+    "discussion": "<div><p>Use this key if your iOS app accesses location information in the background, and you deploy to a target earlier than iOS 11. In that case, add both this key and <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/nslocationalwaysandwheninuseusagedescription\"><code><span>NSLocation<wbr/>Always<wbr/>And<wbr/>When<wbr/>In<wbr/>Use<wbr/>Usage<wbr/>Description</span></code></a> to your app&#8217;s <code class=\"code-voice\"><span>Info<wbr/>.plist</span></code> file with the same message. Apps running on older versions of the OS use the message associated with <code class=\"code-voice\"><span>NSLocation<wbr/>Always<wbr/>Usage<wbr/>Description</span></code>, while apps running on later versions use the one associated with <code class=\"code-voice\"><span>NSLocation<wbr/>Always<wbr/>And<wbr/>When<wbr/>In<wbr/>Use<wbr/>Usage<wbr/>Description</span></code>.</p><p>If your app only needs location information when in the foreground, use <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/nslocationwheninuseusagedescription\"><code><span>NSLocation<wbr/>When<wbr/>In<wbr/>Use<wbr/>Usage<wbr/>Description</span></code></a> instead. For more information, see <a href=\"/documentation/corelocation/choosing_the_location_services_authorization_to_request\">Choosing the  Location Services Authorization to Request</a>.</p><p>If you need location information in a macOS app, use <a class=\"symbol-name\" href=\"/documentation/bundleresources/information_property_list/nslocationusagedescription\"><code><span>NSLocation<wbr/>Usage<wbr/>Description</span></code></a> instead.</p><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your iOS app uses APIs that access the user&#8217;s location at all times and deploys to targets earlier than iOS 11.</p></aside><p></p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3376462,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 2916338,
+                    "role": "article",
+                    "paths": [
+                        "documentation/corelocation/choosing_the_location_services_authorization_to_request",
+                        "documentation/bundleresources/information_property_list/protected_resources/choosing_the_location_services_authorization_to_request"
+                    ],
+                    "abstract": "<div><p>Determine the authorization your app needs to access location data.</p></div>",
+                    "title": {
+                        "content": "Choosing the  Location Services Authorization to Request"
+                    }
+                },
+                {
+                    "id": 3382331,
+                    "role": "article",
+                    "paths": [
+                        "documentation/corelocation/requesting_authorization_for_location_services"
+                    ],
+                    "abstract": "<div><p>Ask the user for permission to access their location.</p></div>",
+                    "title": {
+                        "content": "Requesting Authorization for Location Services"
+                    }
+                },
+                {
+                    "id": 3376463,
+                    "role": "article",
+                    "paths": [
+                        "documentation/corelocation/responding_to_changes_in_authorization_status"
+                    ],
+                    "abstract": "<div><p>Receive and respond to changes in your app&#x27;s authorization status in your delegate&#x27;s method.</p></div>",
+                    "title": {
+                        "content": "Responding to Changes in Authorization Status"
+                    }
+                },
+                {
+                    "id": 1423636,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
+                    "usr": "c:@E@CLAuthorizationStatus",
+                    "name": "CLAuthorizationStatus",
                     "domain": "swift",
-                    "kind": "cl",
+                    "kind": "enum",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "13.0"
+                            "introduced": "4.2"
                         },
                         {
                             "platform": "macOS",
-                            "introduced": "10.4"
+                            "introduced": "10.7"
                         },
                         {
                             "platform": "Mac Catalyst",
                             "introduced": "13.0"
+                        },
+                        {
+                            "platform": "tvOS",
+                            "introduced": "9.0"
+                        },
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
+                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">enum </span><span class=\"identifier\">CLAuthorization<wbr/>Status</span></code>",
                     "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
+                        "documentation/corelocation/clauthorizationstatus"
                     ],
                     "title": {
-                        "content": "ICDeviceBrowser"
+                        "content": "CLAuthorizationStatus"
                     },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
+                    "abstract": "<div><p>Constants indicating the app&#x27;s authorization to use location services.</p></div>",
                     "hasChildren": true
                 },
                 {
-                    "id": 3026875,
+                    "id": 3041016,
                     "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.NSLocationAlwaysAndWhenInUseUsageDescription",
+                    "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "11.0"
+                        }
+                    ],
+                    "xcodeTitle": "Privacy - Location Always and When In Use Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSLocation<wbr/>Always<wbr/>And<wbr/>When<wbr/>In<wbr/>Use<wbr/>Usage<wbr/>Description</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nslocationalwaysandwheninuseusagedescription"
+                    ],
+                    "title": {
+                        "content": "NSLocationAlwaysAndWhenInUseUsageDescription"
+                    },
+                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the user&#8217;s location information at all times.</p></div>"
+                },
+                {
+                    "id": 3041019,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSLocationWhenInUseUsageDescription",
+                    "name": "NSLocationWhenInUseUsageDescription",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "introduced": "11.0"
+                        }
+                    ],
+                    "xcodeTitle": "Privacy - Location When In Use Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSLocation<wbr/>When<wbr/>In<wbr/>Use<wbr/>Usage<wbr/>Description</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nslocationwheninuseusagedescription"
+                    ],
+                    "title": {
+                        "content": "NSLocationWhenInUseUsageDescription"
+                    },
+                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the user&#8217;s location information while the app is running in the foreground.</p></div>"
+                },
+                {
+                    "id": 3041018,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSLocationUsageDescription",
+                    "name": "NSLocationUsageDescription",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "deprecated": "8.0",
+                            "introduced": "6.0"
                         },
                         {
                             "platform": "macOS",
                             "introduced": "10.14"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "xcodeTitle": "Privacy - Location Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSLocation<wbr/>Usage<wbr/>Description</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/nslocationusagedescription"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "NSLocationUsageDescription"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the user&#8217;s location information.</p></div>"
+                },
+                {
+                    "id": 3041017,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.NSLocationAlwaysUsageDescription",
+                    "name": "NSLocationAlwaysUsageDescription",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "iOS",
+                            "deprecated": "10.0",
+                            "introduced": "8.0"
+                        }
+                    ],
+                    "xcodeTitle": "Privacy - Location Always Usage Description",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSLocation<wbr/>Always<wbr/>Usage<wbr/>Description</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/nslocationalwaysusagedescription"
+                    ],
+                    "title": {
+                        "content": "NSLocationAlwaysUsageDescription"
+                    },
+                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the user&#x27;s location at all times.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Authorization"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.NSLocationAlwaysUsageDescription",
+    "name": "NSLocationAlwaysUsageDescription",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "deprecated": "10.0",
+            "introduced": "8.0"
         }
     ],
     "parent": {
@@ -135,14 +224,13 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "Core Location"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/corelocation"
             ],
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ]
         }
     ],
@@ -156,20 +244,18 @@
                     }
                 ],
                 "platforms": [
-                    "iOS",
-                    "macOS"
+                    "iOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "Privacy - Location Always Usage Description",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSLocation<wbr/>Always<wbr/>Usage<wbr/>Description</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>string NSLocationAlwaysUsageDescription\n</span>",
             "platforms": [
-                "iOS",
-                "macOS"
+                "iOS"
             ],
             "allowedTypesDetails": [
                 {
@@ -190,31 +276,31 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nslocationalwaysusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSLocationAlwaysUsageDescription"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/nslocationalwaysusagedescription"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.NSLocationAlwaysUsageDescription"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/nslocationalwaysusagedescription"
     ],
     "hierarchy": [
         [
             {
-                "id": 1613258,
+                "id": 1612498,
                 "role": "collection",
                 "title": {
-                    "content": "ImageCaptureCore"
+                    "content": "Core Location"
                 },
                 "paths": [
-                    "documentation/imagecapturecore"
+                    "documentation/corelocation"
                 ]
             }
         ],

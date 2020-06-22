@@ -1,124 +1,178 @@
-# [WKWatchOnly](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/WKWatchOnly)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [WKWatchOnly](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/WKWatchOnly)
+## App is only available as a standalone watchOS app
+### A Boolean value indicating whether the app is a watch-only app.
 ### [Default]: false
-### [Show More](/docs/WKWatchOnly.md)
+### [JSON](/json/WKWatchOnly.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3242664,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "WKWatchOnly"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "abstract": "<div><p>A Boolean value indicating whether the app is a watch-only app.</p></div>",
+    "discussion": "<div><p>Xcode automatically includes this key in the WatchKit extension&#8217;s information property list and sets its value to <code class=\"code-voice\"><span>YES</span></code> when you create a project using the Watch App template. When you set the value of this key to <code class=\"code-voice\"><span>YES</span></code>, the app is only available on Apple Watch, with no related iOS app.</p></div>",
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3167157,
             "role": "task",
             "paths": [],
+            "abstract": "<div><p>The keys that Xcode automatically sets in the information property list file when you create a watchOS target.</p></div>",
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3040992,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
-                    "kind": "tdef",
-                    "availability": [
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.7"
-                        }
-                    ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
-                    "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
-                    ],
-                    "title": {
-                        "content": "Photos Library Entitlement"
-                    },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
-                },
-                {
-                    "id": 3041012,
-                    "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.WKWatchKitApp",
+                    "name": "WKWatchKitApp",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
-                            "platform": "iOS",
-                            "introduced": "7.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "platform": "watchOS",
+                            "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKWatch<wbr/>Kit<wbr/>App</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/wkwatchkitapp"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "WKWatchKitApp"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>A Boolean value that indicates whether the bundle is a watchOS app.</p></div>"
+                },
+                {
+                    "id": 3040988,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.WKAppBundleIdentifier",
+                    "name": "WKAppBundleIdentifier",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKApp<wbr/>Bundle<wbr/>Identifier</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/wkappbundleidentifier"
+                    ],
+                    "title": {
+                        "content": "WKAppBundleIdentifier"
+                    },
+                    "abstract": "<div><p>The bundle ID of the watchOS app.</p></div>"
+                },
+                {
+                    "id": 3040990,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.WKCompanionAppBundleIdentifier",
+                    "name": "WKCompanionAppBundleIdentifier",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKCompanion<wbr/>App<wbr/>Bundle<wbr/>Identifier</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/wkcompanionappbundleidentifier"
+                    ],
+                    "title": {
+                        "content": "WKCompanionAppBundleIdentifier"
+                    },
+                    "abstract": "<div><p>The bundle ID of the watchOS app&#8217;s companion iOS app.</p></div>"
+                },
+                {
+                    "id": 3040991,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.WKExtensionDelegateClassName",
+                    "name": "WKExtensionDelegateClassName",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "introduced": "2.0"
+                        }
+                    ],
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKExtension<wbr/>Delegate<wbr/>Class<wbr/>Name</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/wkextensiondelegateclassname"
+                    ],
+                    "title": {
+                        "content": "WKExtensionDelegateClassName"
+                    },
+                    "abstract": "<div><p>The name of your watchOS app&#8217;s extension delegate.</p></div>"
+                },
+                {
+                    "id": 3242663,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.WKRunsIndependentlyOfCompanionApp",
+                    "name": "WKRunsIndependentlyOfCompanionApp",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "introduced": "6.0"
+                        }
+                    ],
+                    "xcodeTitle": "App can run independently of companion iPhone app",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKRuns<wbr/>Independently<wbr/>Of<wbr/>Companion<wbr/>App</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/wkrunsindependentlyofcompanionapp"
+                    ],
+                    "title": {
+                        "content": "WKRunsIndependentlyOfCompanionApp"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the user can install and run the watchOS app independently of its iOS companion app.</p></div>"
+                },
+                {
+                    "id": 3242664,
+                    "role": "symbol",
+                    "usr": "plist:Information_Property_List.WKWatchOnly",
+                    "name": "WKWatchOnly",
+                    "domain": "plist",
+                    "kind": "tdef",
+                    "availability": [
+                        {
+                            "platform": "watchOS",
+                            "introduced": "6.0"
+                        }
+                    ],
+                    "xcodeTitle": "App is only available as a standalone watchOS app",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKWatch<wbr/>Only</span></code>",
+                    "titleStyle": "symbol",
+                    "paths": [
+                        "documentation/bundleresources/information_property_list/wkwatchonly"
+                    ],
+                    "title": {
+                        "content": "WKWatchOnly"
+                    },
+                    "abstract": "<div><p>A Boolean value indicating whether the app is a watch-only app.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Information Property List Keys"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.WKWatchOnly",
+    "name": "WKWatchOnly",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
-            "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "platform": "watchOS",
+            "current": "6.2",
+            "introduced": "6.0"
         }
     ],
     "parent": {
@@ -141,14 +195,13 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "WatchKit"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/watchkit"
             ],
             "platforms": [
-                "iOS",
-                "macOS"
+                "watchOS"
             ]
         }
     ],
@@ -157,30 +210,28 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "boolean",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">boolean</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
-                    "iOS",
-                    "macOS"
+                    "watchOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "xcodeTitle": "App is only available as a standalone watchOS app",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKWatch<wbr/>Only</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>boolean WKWatchOnly\n</span>",
             "platforms": [
-                "iOS",
-                "macOS"
+                "watchOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "boolean",
+                    "declaration": "<span>boolean\n</span>"
                 }
             ]
         }
@@ -196,31 +247,51 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/wkwatchonly"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.WKWatchOnly"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/wkwatchonly"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.WKWatchOnly"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/wkwatchonly"
     ],
     "hierarchy": [
         [
             {
-                "id": 1613258,
+                "id": 1627081,
                 "role": "collection",
                 "title": {
-                    "content": "ImageCaptureCore"
+                    "content": "WatchKit"
                 },
                 "paths": [
-                    "documentation/imagecapturecore"
+                    "documentation/watchkit"
+                ]
+            },
+            {
+                "id": 3226916,
+                "role": "article",
+                "title": {
+                    "content": "Creating Independent watchOS Apps"
+                },
+                "paths": [
+                    "documentation/watchkit/creating_independent_watchos_apps"
+                ]
+            },
+            {
+                "id": 3111307,
+                "role": "article",
+                "title": {
+                    "content": "Setting Up a watchOS Project"
+                },
+                "paths": [
+                    "documentation/watchkit/creating_independent_watchos_apps/setting_up_a_watchos_project"
                 ]
             }
         ],
@@ -248,13 +319,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3375101,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "App Execution"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/app_execution"
                 ]
             }
         ]

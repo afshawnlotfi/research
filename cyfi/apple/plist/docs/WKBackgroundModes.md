@@ -1,124 +1,183 @@
-# [WKBackgroundModes](https://webcache.googleusercontent.com/search?q=cache:B0lrczd-p78J:https://developer.apple.com/documentation/bundleresources/information_property_list/WKBackgroundModes)
-## Privacy - Camera Usage Description
-### A message that tells the user why the app is requesting access to the device&#8217;s camera.
+# [WKBackgroundModes](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/WKBackgroundModes)
+## Required background modes (Watch)
+### The services a watchOS app provides that require it to continue running in the background.
 ### [Default]: [""]
-### [Show More](/docs/WKBackgroundModes.md)
+### [JSON](/json/WKBackgroundModes.json)
 ```json 
 {
-    "id": 3041012,
+    "id": 3040989,
     "title": {
-        "content": "NSCameraUsageDescription"
+        "content": "WKBackgroundModes"
     },
-    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>",
-    "discussion": "<div><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>This key is required if your app uses APIs that access the device&#8217;s camera.</p></aside><p></p></div>",
+    "allowedLiterals": [
+        {
+            "name": "workout-processing",
+            "discussion": "<div><p>Allows an active workout session to run in the background.</p></div>"
+        },
+        {
+            "name": "self-care",
+            "discussion": "<div><p>Enables extended runtime sessions for brief activities focusing on health or emotional well-being. </p></div>"
+        },
+        {
+            "name": "mindfulness",
+            "discussion": "<div><p>Enables extended runtime sessions for silent meditation.</p></div>"
+        },
+        {
+            "name": "physical-therapy",
+            "discussion": "<div><p>Enables extended runtime sessions for stretching, strengthening, or range-of-motion exercises.</p></div>"
+        },
+        {
+            "name": "alarm",
+            "discussion": "<div><p>Enables extended runtime sessions for smart alarms.</p></div>"
+        }
+    ],
+    "discussion": "<div><p>To add this key to the Information Property List, enable your WatchKit extension&#8217;s Background Modes capability in Xcode.</p><aside class=\"aside aside-important\" aria-label=\"important\"><p class=\"aside-name\">Important</p><p>You can only enable one of the extended runtime session modes (<code class=\"code-voice\"><span>self-care</span></code>, <code class=\"code-voice\"><span>mindfulness</span></code>, <code class=\"code-voice\"><span>physical-therapy</span></code>, or <code class=\"code-voice\"><span>alarm</span></code>). However, you can enable both an extended runtime session mode and the <code class=\"code-voice\"><span>workout-processing</span></code> mode. If you set the background modes using Xcode&#8217;s Signing &amp; Capabilities tab, Xcode insures that these values are set properly.</p></aside></div>",
+    "abstract": "<div><p>The services a watchOS app provides that require it to continue running in the background.</p></div>",
+    "seeAlso": [
+        {
+            "id": 3377593,
+            "role": "article",
+            "paths": [
+                "documentation/watchkit/using_extended_runtime_sessions"
+            ],
+            "languages": [
+                "occ",
+                "swift"
+            ],
+            "title": {
+                "content": "Using Extended Runtime Sessions"
+            },
+            "abstract": "<div><p>Create an extended runtime session that continues running your app after the user stops interacting with it.</p></div>"
+        },
+        {
+            "id": 3384920,
+            "role": "article",
+            "paths": [
+                "documentation/healthkit/workouts_and_activity_rings/running_workout_sessions"
+            ],
+            "languages": [
+                "occ",
+                "swift"
+            ],
+            "title": {
+                "content": "Running Workout Sessions"
+            },
+            "abstract": "<div><p>Track a workout on Apple Watch.</p></div>"
+        },
+        {
+            "id": 3040973,
+            "role": "symbol",
+            "paths": [
+                "documentation/bundleresources/information_property_list/uibackgroundmodes"
+            ],
+            "usr": "plist:Information_Property_List.UIBackgroundModes",
+            "kind": "tdef",
+            "language": "plist",
+            "domain": "plist",
+            "name": "UIBackgroundModes",
+            "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIBackground<wbr/>Modes</span></code>",
+            "languages": [
+                "occ",
+                "swift"
+            ],
+            "duplicate": true,
+            "title": {
+                "content": "UIBackgroundModes"
+            },
+            "abstract": "<div><p>Services provided by an app that require it to run in the background.</p></div>"
+        }
+    ],
     "containingGroup": [
         {
-            "id": 3381324,
+            "id": 3167160,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 1507571,
+                    "id": 3040989,
                     "role": "symbol",
-                    "usr": "c:objc(cs)ICDeviceBrowser",
-                    "name": "ICDeviceBrowser",
-                    "domain": "swift",
-                    "kind": "cl",
-                    "availability": [
-                        {
-                            "platform": "iOS",
-                            "introduced": "13.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.4"
-                        },
-                        {
-                            "platform": "Mac Catalyst",
-                            "introduced": "13.0"
-                        }
-                    ],
-                    "displayName": "<code class=\"display-name\"><span class=\"decorator\">class </span><span class=\"identifier\">ICDevice<wbr/>Browser</span></code>",
-                    "paths": [
-                        "documentation/imagecapturecore/icdevicebrowser"
-                    ],
-                    "title": {
-                        "content": "ICDeviceBrowser"
-                    },
-                    "abstract": "<div><p>An object for finding digital cameras and scanners.</p></div>",
-                    "hasChildren": true
-                },
-                {
-                    "id": 3026875,
-                    "role": "symbol",
-                    "usr": "entitlements:Entitlements.com.apple.security.personal-information.photos-library",
-                    "name": "com.apple.security.personal-information.photos-library",
-                    "domain": "entitlements",
+                    "usr": "plist:Information_Property_List.WKBackgroundModes",
+                    "name": "WKBackgroundModes",
+                    "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
-                            "platform": "macOS",
-                            "introduced": "10.7"
+                            "platform": "watchOS",
+                            "introduced": "3.0"
                         }
                     ],
-                    "xcodeTitle": "Photos Library Entitlement",
-                    "titleStyle": "title",
+                    "allowedValues": [
+                        "workout-processing",
+                        "self-care",
+                        "mindfulness",
+                        "physical-therapy",
+                        "alarm"
+                    ],
+                    "xcodeTitle": "Required background modes (Watch)",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKBackground<wbr/>Modes</span></code>",
+                    "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/entitlements/com_apple_security_personal-information_photos-library"
+                        "documentation/bundleresources/information_property_list/wkbackgroundmodes"
                     ],
                     "title": {
-                        "content": "Photos Library Entitlement"
+                        "content": "WKBackgroundModes"
                     },
-                    "abstract": "<div><p>A Boolean value that indicates whether the app has read-write access to the user&#x27;s Photos library.</p></div>"
+                    "abstract": "<div><p>The services a watchOS app provides that require it to continue running in the background.</p></div>"
                 },
                 {
-                    "id": 3041012,
+                    "id": 3040973,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-                    "name": "NSCameraUsageDescription",
+                    "usr": "plist:Information_Property_List.UIBackgroundModes",
+                    "name": "UIBackgroundModes",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "7.0"
+                            "introduced": "4.0"
                         },
                         {
-                            "platform": "macOS",
-                            "introduced": "10.14"
+                            "platform": "watchOS",
+                            "introduced": "4.0"
                         }
                     ],
-                    "xcodeTitle": "Privacy - Camera Usage Description",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+                    "allowedValues": [
+                        "audio",
+                        "location",
+                        "voip",
+                        "external-accessory",
+                        "bluetooth-central",
+                        "bluetooth-peripheral",
+                        "fetch",
+                        "processing",
+                        "remote-notification"
+                    ],
+                    "xcodeTitle": "Required background modes",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIBackground<wbr/>Modes</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                        "documentation/bundleresources/information_property_list/uibackgroundmodes"
                     ],
                     "title": {
-                        "content": "NSCameraUsageDescription"
+                        "content": "UIBackgroundModes"
                     },
-                    "abstract": "<div><p>A message that tells the user why the app is requesting access to the device&#8217;s camera.</p></div>"
+                    "abstract": "<div><p>Services provided by an app that require it to run in the background.</p></div>"
                 }
             ],
             "title": {
-                "content": "Essentials"
+                "content": "Information Property List Keys"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.NSCameraUsageDescription",
-    "name": "NSCameraUsageDescription",
+    "usr": "plist:Information_Property_List.WKBackgroundModes",
+    "name": "WKBackgroundModes",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
-            "platform": "iOS",
-            "current": "13.6",
-            "introduced": "7.0"
-        },
-        {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.14"
+            "platform": "watchOS",
+            "current": "6.2",
+            "introduced": "3.0"
         }
     ],
     "parent": {
@@ -128,9 +187,6 @@
         "domain": "plist",
         "kind": "schema",
         "role": "dictionarySymbol",
-        "paths": [
-            "documentation/bundleresources/information_property_list"
-        ],
         "title": {
             "content": "Information Property List"
         },
@@ -141,14 +197,13 @@
     "module": [
         {
             "title": {
-                "content": "AVFoundation"
+                "content": "WatchKit"
             },
             "paths": [
-                "documentation/avfoundation"
+                "documentation/watchkit"
             ],
             "platforms": [
-                "iOS",
-                "macOS"
+                "watchOS"
             ]
         }
     ],
@@ -158,29 +213,36 @@
                 "value": [
                     {
                         "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "arrayMode": "required",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">[string]</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
-                    "iOS",
-                    "macOS"
+                    "watchOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Privacy - Camera Usage Description",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSCamera<wbr/>Usage<wbr/>Description</span></code>",
+    "allowedValues": [
+        "workout-processing",
+        "self-care",
+        "mindfulness",
+        "physical-therapy",
+        "alarm"
+    ],
+    "xcodeTitle": "Required background modes (Watch)",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">WKBackground<wbr/>Modes</span></code>",
     "declaration": [
         {
-            "content": "<span>string NSCameraUsageDescription\n</span>",
+            "content": "<span>[string] WKBackgroundModes\n</span>",
             "platforms": [
-                "iOS",
-                "macOS"
+                "watchOS"
             ],
             "allowedTypesDetails": [
                 {
                     "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "arrayMode": "required",
+                    "declaration": "<span>[string]\n</span>"
                 }
             ]
         }
@@ -196,31 +258,51 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/wkbackgroundmodes"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.WKBackgroundModes"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/nscamerausagedescription"
+                "documentation/bundleresources/information_property_list/wkbackgroundmodes"
             ],
-            "usr": "plist:Information_Property_List.NSCameraUsageDescription"
+            "usr": "plist:Information_Property_List.WKBackgroundModes"
         }
     },
-    "pid": 505027,
+    "diffAvailability": {
+        "major": {
+            "change": "modified",
+            "platform": "Xcode",
+            "versions": [
+                "11.0",
+                "11.5"
+            ]
+        }
+    },
+    "pid": 492525,
     "paths": [
-        "documentation/bundleresources/information_property_list/nscamerausagedescription"
+        "documentation/bundleresources/information_property_list/wkbackgroundmodes"
     ],
     "hierarchy": [
         [
             {
-                "id": 1613258,
+                "id": 1627081,
                 "role": "collection",
                 "title": {
-                    "content": "ImageCaptureCore"
+                    "content": "WatchKit"
                 },
                 "paths": [
-                    "documentation/imagecapturecore"
+                    "documentation/watchkit"
+                ]
+            },
+            {
+                "id": 3167158,
+                "role": "collectionGroup",
+                "title": {
+                    "content": "Background Session Keys"
+                },
+                "paths": [
+                    "documentation/watchkit/background_session_keys"
                 ]
             }
         ],
@@ -248,13 +330,13 @@
                 ]
             },
             {
-                "id": 3375067,
+                "id": 3375101,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Protected Resources"
+                    "content": "App Execution"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/protected_resources"
+                    "documentation/bundleresources/information_property_list/app_execution"
                 ]
             }
         ]
