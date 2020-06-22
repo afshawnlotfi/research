@@ -2,7 +2,7 @@
 ## Localizations
 ### The localizations handled manually by your app.
 ### [Default]: ["en"]
-### [JSON](/json/CFBundleLocalizations.json)
+### [JSON](../json/CFBundleLocalizations.json)
 ```json 
 {
     "id": 3040944,

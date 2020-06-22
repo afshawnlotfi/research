@@ -2,7 +2,7 @@
 ## Application Category
 ### The category that best describes your app for the App Store.
 ### [Default]: ""
-### [JSON](/json/LSApplicationCategoryType.json)
+### [JSON](../json/LSApplicationCategoryType.json)
 ```json 
 {
     "id": 3041357,

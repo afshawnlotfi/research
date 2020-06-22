@@ -2,7 +2,7 @@
 ## Launch screen interface file base name
 ### The filename of the storyboard from which to generate the app&#8217;s launch image.
 ### [Default]: ""
-### [JSON](/json/UILaunchStoryboardName.json)
+### [JSON](../json/UILaunchStoryboardName.json)
 ```json 
 {
     "id": 3040976,

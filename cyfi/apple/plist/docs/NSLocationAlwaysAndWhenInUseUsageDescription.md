@@ -2,7 +2,7 @@
 ## Privacy - Location Always and When In Use Usage Description
 ### A message that tells the user why the app is requesting access to the user&#8217;s location information at all times.
 ### [Default]: ""
-### [JSON](/json/NSLocationAlwaysAndWhenInUseUsageDescription.json)
+### [JSON](../json/NSLocationAlwaysAndWhenInUseUsageDescription.json)
 ```json 
 {
     "id": 3041016,

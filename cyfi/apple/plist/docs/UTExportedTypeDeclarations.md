@@ -2,7 +2,7 @@
 ## Exported Type UTIs
 ### The uniform type identifiers owned and exported by the app.
 ### [Default]: [{"UTTypeConformsTo":[""],"UTTypeIdentifier":"","UTTypeTagSpecification":{}}]
-### [JSON](/json/UTExportedTypeDeclarations.json)
+### [JSON](../json/UTExportedTypeDeclarations.json)
 ```json 
 {
     "id": 3041025,

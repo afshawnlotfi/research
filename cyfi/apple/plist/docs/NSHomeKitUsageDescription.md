@@ -2,7 +2,7 @@
 ## Privacy - HomeKit Usage Description
 ### A message that tells the user why the app is requesting access to the user&#8217;s HomeKit configuration data.
 ### [Default]: ""
-### [JSON](/json/NSHomeKitUsageDescription.json)
+### [JSON](../json/NSHomeKitUsageDescription.json)
 ```json 
 {
     "id": 3040966,

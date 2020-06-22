@@ -2,7 +2,7 @@
 ## undefined
 ### A Boolean value indicating that the app generally supports indirect input mechanisms.
 ### [Default]: false
-### [JSON](/json/UIApplicationSupportsIndirectInputEvents.json)
+### [JSON](../json/UIApplicationSupportsIndirectInputEvents.json)
 ```json 
 {
     "id": 3561701,

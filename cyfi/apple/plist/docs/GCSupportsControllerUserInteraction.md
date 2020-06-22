@@ -2,7 +2,7 @@
 ## Supports Controller User Interaction
 ### A Boolean value indicating whether the app supports a game controller.
 ### [Default]: ""
-### [JSON](/json/GCSupportsControllerUserInteraction.json)
+### [JSON](../json/GCSupportsControllerUserInteraction.json)
 ```json 
 {
     "id": 3041004,

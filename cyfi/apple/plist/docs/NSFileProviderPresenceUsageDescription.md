@@ -2,7 +2,7 @@
 ## Privacy - File Provider Presence Usage Description
 ### A message that tells the user why the app needs to be informed when other apps access files that it manages.
 ### [Default]: ""
-### [JSON](/json/NSFileProviderPresenceUsageDescription.json)
+### [JSON](../json/NSFileProviderPresenceUsageDescription.json)
 ```json 
 {
     "id": 3338902,

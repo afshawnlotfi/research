@@ -2,7 +2,7 @@
 ## Supports Automatic Graphics Switching
 ### A Boolean value indicating whether an OpenGL app may utilize the integrated GPU.
 ### [Default]: false
-### [JSON](/json/NSSupportsAutomaticGraphicsSwitching.json)
+### [JSON](../json/NSSupportsAutomaticGraphicsSwitching.json)
 ```json 
 {
     "id": 3041394,

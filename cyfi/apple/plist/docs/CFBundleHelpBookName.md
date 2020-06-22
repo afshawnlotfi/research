@@ -2,7 +2,7 @@
 ## Help Book identifier
 ### The name of the help file that will be opened in Help Viewer.
 ### [Default]: ""
-### [JSON](/json/CFBundleHelpBookName.json)
+### [JSON](../json/CFBundleHelpBookName.json)
 ```json 
 {
     "id": 3041349,

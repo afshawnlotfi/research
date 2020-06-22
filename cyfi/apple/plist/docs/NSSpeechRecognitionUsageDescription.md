@@ -2,7 +2,7 @@
 ## Privacy - Speech Recognition Usage Description
 ### A message that tells the user why the app is requesting to send user data to Apple&#8217;s speech recognition servers.
 ### [Default]: ""
-### [JSON](/json/NSSpeechRecognitionUsageDescription.json)
+### [JSON](../json/NSSpeechRecognitionUsageDescription.json)
 ```json 
 {
     "id": 3041101,

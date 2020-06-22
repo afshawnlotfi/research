@@ -2,7 +2,7 @@
 ## Copyright (human-readable)
 ### A human-readable copyright notice for the bundle.
 ### [Default]: ""
-### [JSON](/json/NSHumanReadableCopyright.json)
+### [JSON](../json/NSHumanReadableCopyright.json)
 ```json 
 {
     "id": 3041390,
@@ -173,9 +173,6 @@
         "domain": "plist",
         "kind": "schema",
         "role": "dictionarySymbol",
-        "paths": [
-            "documentation/bundleresources/information_property_list"
-        ],
         "title": {
             "content": "Information Property List"
         },
@@ -249,7 +246,7 @@
             "usr": "plist:Information_Property_List.NSHumanReadableCopyright"
         }
     },
-    "pid": 505027,
+    "pid": 492525,
     "paths": [
         "documentation/bundleresources/information_property_list/nshumanreadablecopyright"
     ],

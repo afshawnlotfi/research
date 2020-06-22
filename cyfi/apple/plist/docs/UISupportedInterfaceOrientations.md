@@ -2,7 +2,7 @@
 ## Supported interface orientations
 ### The interface orientations the app supports.
 ### [Default]: ["UIInterfaceOrientationPortrait"]
-### [JSON](/json/UISupportedInterfaceOrientations.json)
+### [JSON](../json/UISupportedInterfaceOrientations.json)
 ```json 
 {
     "id": 3041115,
@@ -105,7 +105,7 @@
     "availability": [
         {
             "platform": "iOS",
-            "current": "13.5",
+            "current": "13.6",
             "introduced": "3.2"
         }
     ],
@@ -116,6 +116,9 @@
         "domain": "plist",
         "kind": "schema",
         "role": "dictionarySymbol",
+        "paths": [
+            "documentation/bundleresources/information_property_list"
+        ],
         "title": {
             "content": "Information Property List"
         },
@@ -198,7 +201,7 @@
             "usr": "plist:Information_Property_List.UISupportedInterfaceOrientations"
         }
     },
-    "pid": 492525,
+    "pid": 505027,
     "paths": [
         "documentation/bundleresources/information_property_list/uisupportedinterfaceorientations"
     ],

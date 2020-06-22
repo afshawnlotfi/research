@@ -2,7 +2,7 @@
 ## Application fonts resource path
 ### The location of a font file or directory of fonts in the bundle&#8217;s Resources folder.
 ### [Default]: ""
-### [JSON](/json/ATSApplicationFontsPath.json)
+### [JSON](../json/ATSApplicationFontsPath.json)
 ```json 
 {
     "id": 3041334,

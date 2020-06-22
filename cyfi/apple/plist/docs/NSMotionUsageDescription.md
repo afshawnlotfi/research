@@ -2,7 +2,7 @@
 ## Privacy - Motion Usage Description
 ### A message that tells the user why the app is requesting access to the device&#8217;s accelerometer.
 ### [Default]: ""
-### [JSON](/json/NSMotionUsageDescription.json)
+### [JSON](../json/NSMotionUsageDescription.json)
 ```json 
 {
     "id": 3041020,

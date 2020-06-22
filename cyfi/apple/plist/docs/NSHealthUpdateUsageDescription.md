@@ -2,7 +2,7 @@
 ## Privacy - Health Update Usage Description
 ### A message to the user that explains why the app requested permission to save samples to the HealthKit store.
 ### [Default]: ""
-### [JSON](/json/NSHealthUpdateUsageDescription.json)
+### [JSON](../json/NSHealthUpdateUsageDescription.json)
 ```json 
 {
     "id": 3041096,

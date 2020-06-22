@@ -2,7 +2,7 @@
 ## Localization native development region
 ### The default language and region for the bundle, as a language ID.
 ### [Default]: "en-US"
-### [JSON](/json/CFBundleDevelopmentRegion.json)
+### [JSON](../json/CFBundleDevelopmentRegion.json)
 ```json 
 {
     "id": 3040925,

@@ -2,7 +2,7 @@
 ## Privacy - Bluetooth Always Usage Description
 ### A message that tells the user why the app needs access to Bluetooth.
 ### [Default]: ""
-### [JSON](/json/NSBluetoothAlwaysUsageDescription.json)
+### [JSON](../json/NSBluetoothAlwaysUsageDescription.json)
 ```json 
 {
     "id": 3335703,

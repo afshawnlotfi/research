@@ -2,7 +2,7 @@
 ## Icon file
 ### The file containing the bundle&#x27;s icon.
 ### [Default]: ""
-### [JSON](/json/CFBundleIconFile.json)
+### [JSON](../json/CFBundleIconFile.json)
 ```json 
 {
     "id": 3040937,

@@ -2,7 +2,7 @@
 ## Privacy - Health Records Usage Description
 ### A message to the user that explains why the app requested permission to read clinical records.
 ### [Default]: ""
-### [JSON](/json/NSHealthClinicalHealthRecordsShareUsageDescription.json)
+### [JSON](../json/NSHealthClinicalHealthRecordsShareUsageDescription.json)
 ```json 
 {
     "id": 3041092,

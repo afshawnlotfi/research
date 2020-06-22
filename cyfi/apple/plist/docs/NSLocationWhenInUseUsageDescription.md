@@ -2,7 +2,7 @@
 ## Privacy - Location When In Use Usage Description
 ### A message that tells the user why the app is requesting access to the user&#8217;s location information while the app is running in the foreground.
 ### [Default]: ""
-### [JSON](/json/NSLocationWhenInUseUsageDescription.json)
+### [JSON](../json/NSLocationWhenInUseUsageDescription.json)
 ```json 
 {
     "id": 3041019,

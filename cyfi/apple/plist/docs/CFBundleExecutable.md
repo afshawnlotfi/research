@@ -2,7 +2,7 @@
 ## Executable file
 ### The name of the bundle&#8217;s executable file.
 ### [Default]: ""
-### [JSON](/json/CFBundleExecutable.json)
+### [JSON](../json/CFBundleExecutable.json)
 ```json 
 {
     "id": 3040936,

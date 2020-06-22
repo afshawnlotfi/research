@@ -2,7 +2,7 @@
 ## Privacy - Documents Folder Usage Description
 ### A message that tells the user why the app needs access to the user&#8217;s Documents folder.
 ### [Default]: ""
-### [JSON](/json/NSDocumentsFolderUsageDescription.json)
+### [JSON](../json/NSDocumentsFolderUsageDescription.json)
 ```json 
 {
     "id": 3338900,

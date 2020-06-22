@@ -2,7 +2,7 @@
 ## Required background modes (Watch)
 ### The services a watchOS app provides that require it to continue running in the background.
 ### [Default]: [""]
-### [JSON](/json/WKBackgroundModes.json)
+### [JSON](../json/WKBackgroundModes.json)
 ```json 
 {
     "id": 3040989,

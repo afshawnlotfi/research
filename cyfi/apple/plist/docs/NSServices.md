@@ -2,7 +2,7 @@
 ## Services
 ### The services provided by an app.
 ### [Default]: [{"NSMessage":"","NSMenuItem":{"default":""}}]
-### [JSON](/json/NSServices.json)
+### [JSON](../json/NSServices.json)
 ```json 
 {
     "id": 3041336,

@@ -2,7 +2,7 @@
 ## Localized resources can be mixed
 ### A Boolean value that indicates whether the bundle supports the retrieval of localized strings from frameworks.
 ### [Default]: false
-### [JSON](/json/CFBundleAllowMixedLocalizations.json)
+### [JSON](../json/CFBundleAllowMixedLocalizations.json)
 ```json 
 {
     "id": 3040924,

@@ -2,7 +2,7 @@
 ## Privacy - Network Volumes Usage Description
 ### A message that tells the user why the app needs access to files on a network volume.
 ### [Default]: ""
-### [JSON](/json/NSNetworkVolumesUsageDescription.json)
+### [JSON](../json/NSNetworkVolumesUsageDescription.json)
 ```json 
 {
     "id": 3338903,

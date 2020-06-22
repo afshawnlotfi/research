@@ -23,7 +23,7 @@ const markdownExternal = ({ name, value, xcodeTitle, abstract }) => {
     `## ${xcodeTitle}\n` +
     `### ${abstract}\n` +
     `### [Default]: ${JSON.stringify(value)}\n` +
-    `### [JSON](/json/${name}.json)\n`
+    `### [JSON](../json/${name}.json)\n`
   )
 }
 

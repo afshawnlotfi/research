@@ -2,7 +2,7 @@
 ## Privacy - Downloads Folder Usage Description
 ### A message that tells the user why the app needs access to the user&#8217;s Downloads folder.
 ### [Default]: ""
-### [JSON](/json/NSDownloadsFolderUsageDescription.json)
+### [JSON](../json/NSDownloadsFolderUsageDescription.json)
 ```json 
 {
     "id": 3366445,

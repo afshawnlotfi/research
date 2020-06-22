@@ -2,7 +2,7 @@
 ## Privacy - AppleEvents Sending Usage Description
 ### A message that tells the user why the app is requesting the ability to send Apple events.
 ### [Default]: ""
-### [JSON](/json/NSAppleEventsUsageDescription.json)
+### [JSON](../json/NSAppleEventsUsageDescription.json)
 ```json 
 {
     "id": 3041411,

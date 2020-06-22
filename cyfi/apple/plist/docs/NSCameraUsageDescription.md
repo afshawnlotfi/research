@@ -2,7 +2,7 @@
 ## Privacy - Camera Usage Description
 ### A message that tells the user why the app is requesting access to the device&#8217;s camera.
 ### [Default]: ""
-### [JSON](/json/NSCameraUsageDescription.json)
+### [JSON](../json/NSCameraUsageDescription.json)
 ```json 
 {
     "id": 3041012,

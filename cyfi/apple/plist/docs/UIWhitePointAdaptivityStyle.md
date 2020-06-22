@@ -2,7 +2,7 @@
 ## White Point Adaptivity Style
 ### The app&#8217;s white point adaptivity style, enabled on devices with True Tone displays.
 ### [Default]: "UIWhitePointAdaptivityStyleStandard"
-### [JSON](/json/UIWhitePointAdaptivityStyle.json)
+### [JSON](../json/UIWhitePointAdaptivityStyle.json)
 ```json 
 {
     "id": 3041120,

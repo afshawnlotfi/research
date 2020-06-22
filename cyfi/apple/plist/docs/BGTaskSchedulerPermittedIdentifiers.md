@@ -2,7 +2,7 @@
 ## Permitted background task scheduler identifiers
 ### An array of strings containing developer-specified task identifiers in reverse URL notation.
 ### [Default]: []
-### [JSON](/json/BGTaskSchedulerPermittedIdentifiers.json)
+### [JSON](../json/BGTaskSchedulerPermittedIdentifiers.json)
 ```json 
 {
     "id": 3194553,

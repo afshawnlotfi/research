@@ -2,7 +2,7 @@
 ## Tools owned after installation
 ### The Service Management tools owned by the app.
 ### [Default]: {}
-### [JSON](/json/SMPrivilegedExecutables.json)
+### [JSON](../json/SMPrivilegedExecutables.json)
 ```json 
 {
     "id": 3041002,

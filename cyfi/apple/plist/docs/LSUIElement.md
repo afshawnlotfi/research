@@ -2,7 +2,7 @@
 ## Application is agent (UIElement)
 ### A Boolean value indicating whether the app is an agent app that runs in the background and doesn&#x27;t appear in the Dock.
 ### [Default]: false
-### [JSON](/json/LSUIElement.json)
+### [JSON](../json/LSUIElement.json)
 ```json 
 {
     "id": 3041370,

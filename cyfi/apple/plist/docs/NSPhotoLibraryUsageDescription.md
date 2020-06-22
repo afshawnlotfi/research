@@ -2,7 +2,7 @@
 ## Privacy - Photo Library Usage Description
 ### A message that tells the user why the app is requesting access to the user&#8217;s photo library.
 ### [Default]: ""
-### [JSON](/json/NSPhotoLibraryUsageDescription.json)
+### [JSON](../json/NSPhotoLibraryUsageDescription.json)
 ```json 
 {
     "id": 3041122,

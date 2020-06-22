@@ -2,7 +2,7 @@
 ## App Encryption Export Compliance Code
 ### The export compliance code provided by App Store Connect for apps that require it.
 ### [Default]: ""
-### [JSON](/json/ITSEncryptionExportComplianceCode.json)
+### [JSON](../json/ITSEncryptionExportComplianceCode.json)
 ```json 
 {
     "id": 3040994,

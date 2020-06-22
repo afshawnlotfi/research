@@ -2,7 +2,7 @@
 ## Icon files (iOS 5)
 ### Information about all of the icons used by the app.
 ### [Default]: {"CFBundlePrimaryIcon":{"CFBundleIconFiles":[""],"UIPrerenderedIcon":false},"UINewsstandIcon":{"CFBundleIconFiles":[""],"UINewsstandBindingType":"UINewsstandBindingTypeMagazine","UINewsstandBindingEdge":"UINewsstandBindingEdgeLeft"}}
-### [JSON](/json/CFBundleIcons.json)
+### [JSON](../json/CFBundleIcons.json)
 ```json 
 {
     "id": 3040939,

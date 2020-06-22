@@ -2,7 +2,7 @@
 ## Application requires iPhone environment
 ### A Boolean value indicating whether the app must run in iOS.
 ### [Default]: false
-### [JSON](/json/LSRequiresIPhoneOS.json)
+### [JSON](../json/LSRequiresIPhoneOS.json)
 ```json 
 {
     "id": 3041023,

@@ -2,7 +2,7 @@
 ## Fonts provided by application
 ### App-specific font files located in the bundle and that the system loads at runtime.
 ### [Default]: [""]
-### [JSON](/json/UIAppFonts.json)
+### [JSON](../json/UIAppFonts.json)
 ```json 
 {
     "id": 3040970,

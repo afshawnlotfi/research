@@ -2,7 +2,7 @@
 ## Opt out of Auto-launch Audio App (Watch)
 ### A Boolean value indicating whether a watchOS app should opt out of automatically launching when its companion iOS app starts playing audio content.
 ### [Default]: false
-### [JSON](/json/PUICAutoLaunchAudioOptOut.json)
+### [JSON](../json/PUICAutoLaunchAudioOptOut.json)
 ```json 
 {
     "id": 3040987,

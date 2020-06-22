@@ -2,7 +2,7 @@
 ## Application Scene Manifest
 ### The information about the app&#x27;s scene-based life-cycle support. 
 ### [Default]: {"UIApplicationSupportsMultipleScenes":false,"UISceneConfigurations":{}}
-### [JSON](/json/UIApplicationSceneManifest.json)
+### [JSON](../json/UIApplicationSceneManifest.json)
 ```json 
 {
     "id": 3256423,

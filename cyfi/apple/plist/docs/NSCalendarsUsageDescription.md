@@ -2,7 +2,7 @@
 ## Privacy - Calendars Usage Description
 ### A message that tells the user why the app is requesting access to the user&#8217;s calendar data.
 ### [Default]: ""
-### [JSON](/json/NSCalendarsUsageDescription.json)
+### [JSON](../json/NSCalendarsUsageDescription.json)
 ```json 
 {
     "id": 3041041,

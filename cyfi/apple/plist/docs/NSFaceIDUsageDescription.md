@@ -2,7 +2,7 @@
 ## Privacy - Face ID Usage Description
 ### A message that tells the user why the app is requesting the ability to authenticate with Face ID.
 ### [Default]: ""
-### [JSON](/json/NSFaceIDUsageDescription.json)
+### [JSON](../json/NSFaceIDUsageDescription.json)
 ```json 
 {
     "id": 3041098,

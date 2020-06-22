@@ -2,7 +2,7 @@
 ## Plug-in factory interfaces
 ### The interfaces supported by the plug-in for static registration.
 ### [Default]: {}
-### [JSON](/json/CFPlugInFactories.json)
+### [JSON](../json/CFPlugInFactories.json)
 ```json 
 {
     "id": 3041353,

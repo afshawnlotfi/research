@@ -2,7 +2,7 @@
 ## Privacy - Removable Volumes Usage Description
 ### A message that tells the user why the app needs access to files on a removable volume.
 ### [Default]: ""
-### [JSON](/json/NSRemovableVolumesUsageDescription.json)
+### [JSON](../json/NSRemovableVolumesUsageDescription.json)
 ```json 
 {
     "id": 3338904,

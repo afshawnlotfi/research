@@ -2,7 +2,7 @@
 ## Installation files
 ### Describes the files or directories the app installs on the system.
 ### [Default]: {"APFileDescriptionKey":"","APFileDestinationPath":"","APFileName":"","APFileSourcePath":""}
-### [JSON](/json/APFiles.json)
+### [JSON](../json/APFiles.json)
 ```json 
 {
     "id": 3041326,

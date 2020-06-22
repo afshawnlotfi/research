@@ -2,7 +2,7 @@
 ## Supported external accessory protocols
 ### The protocols that the app supports and can use to communicate with external accessory hardware.
 ### [Default]: [""]
-### [JSON](/json/UISupportedExternalAccessoryProtocols.json)
+### [JSON](../json/UISupportedExternalAccessoryProtocols.json)
 ```json 
 {
     "id": 3041114,

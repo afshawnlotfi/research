@@ -2,7 +2,7 @@
 ## Privacy - Contacts Usage Description
 ### A message that tells the user why the app is requesting access to the user&#8217;s contacts.
 ### [Default]: ""
-### [JSON](/json/NSContactsUsageDescription.json)
+### [JSON](../json/NSContactsUsageDescription.json)
 ```json 
 {
     "id": 3041014,

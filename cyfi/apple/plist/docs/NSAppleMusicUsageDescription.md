@@ -2,7 +2,7 @@
 ## Privacy - Media Library Usage Description
 ### A message that tells the user why the app is requesting access to the user&#8217;s media library.
 ### [Default]: ""
-### [JSON](/json/NSAppleMusicUsageDescription.json)
+### [JSON](../json/NSAppleMusicUsageDescription.json)
 ```json 
 {
     "id": 3041100,

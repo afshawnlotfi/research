@@ -2,7 +2,7 @@
 ## Application UI Presentation Mode
 ### The initial user-interface mode for the app.
 ### [Default]: 0
-### [JSON](/json/LSUIPresentationMode.json)
+### [JSON](../json/LSUIPresentationMode.json)
 ```json 
 {
     "id": 3041371,

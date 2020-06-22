@@ -2,7 +2,7 @@
 ## Maps routing app supported modes
 ### The modes of transportation for which the app is capable of giving directions.
 ### [Default]: ["MKDirectionsModePlane"]
-### [JSON](/json/MKDirectionsApplicationSupportedModes.json)
+### [JSON](../json/MKDirectionsApplicationSupportedModes.json)
 ```json 
 {
     "id": 3041099,

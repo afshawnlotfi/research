@@ -2,7 +2,7 @@
 ## Clients allowed to add and remove tool
 ### The Service Management clients authorized to add and remove tools.
 ### [Default]: [""]
-### [JSON](/json/SMAuthorizedClients.json)
+### [JSON](../json/SMAuthorizedClients.json)
 ```json 
 {
     "id": 3041001,

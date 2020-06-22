@@ -2,7 +2,7 @@
 ## Privacy - Health Share Usage Description
 ### A message to the user that explains why the app requested permission to read samples from the HealthKit store.
 ### [Default]: ""
-### [JSON](/json/NSHealthShareUsageDescription.json)
+### [JSON](../json/NSHealthShareUsageDescription.json)
 ```json 
 {
     "id": 3041095,

@@ -2,7 +2,7 @@
 ## Scriptable
 ### A Boolean value indicating whether AppleScript is enabled.
 ### [Default]: false
-### [JSON](/json/NSAppleScriptEnabled.json)
+### [JSON](../json/NSAppleScriptEnabled.json)
 ```json 
 {
     "id": 3041373,

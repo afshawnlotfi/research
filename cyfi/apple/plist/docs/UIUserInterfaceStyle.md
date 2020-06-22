@@ -2,7 +2,7 @@
 ## User Interface Style
 ### The user interface style for the app.
 ### [Default]: ""
-### [JSON](/json/UIUserInterfaceStyle.json)
+### [JSON](../json/UIUserInterfaceStyle.json)
 ```json 
 {
     "id": 3041011,

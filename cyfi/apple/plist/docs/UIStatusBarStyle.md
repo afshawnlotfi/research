@@ -2,7 +2,7 @@
 ## Status bar style
 ### The style of the status bar as the app launches.
 ### [Default]: "UIStatusBarStyleDefault"
-### [JSON](/json/UIStatusBarStyle.json)
+### [JSON](../json/UIStatusBarStyle.json)
 ```json 
 {
     "id": 3041113,

@@ -2,7 +2,7 @@
 ## Required background modes
 ### Services provided by an app that require it to run in the background.
 ### [Default]: [""]
-### [JSON](/json/UIBackgroundModes.json)
+### [JSON](../json/UIBackgroundModes.json)
 ```json 
 {
     "id": 3040973,

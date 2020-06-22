@@ -2,7 +2,7 @@
 ## Icon already includes gloss effects
 ### A Boolean value indicating whether the app&#8217;s icon already contains a shine effect.
 ### [Default]: false
-### [JSON](/json/UIPrerenderedIcon.json)
+### [JSON](../json/UIPrerenderedIcon.json)
 ```json 
 {
     "id": 3040979,

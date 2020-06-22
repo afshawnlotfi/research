@@ -2,7 +2,7 @@
 ## High Resolution Capable
 ### A Boolean value indicating whether the Cocoa app supports high-resolution displays.
 ### [Default]: false
-### [JSON](/json/NSHighResolutionCapable.json)
+### [JSON](../json/NSHighResolutionCapable.json)
 ```json 
 {
     "id": 3040964,

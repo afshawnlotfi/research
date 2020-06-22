@@ -2,7 +2,7 @@
 ## Document types
 ### The document types supported by the bundle.
 ### [Default]: [{"CFBundleTypeName":"","LSHandlerRank":"Default"}]
-### [JSON](/json/CFBundleDocumentTypes.json)
+### [JSON](../json/CFBundleDocumentTypes.json)
 ```json 
 {
     "id": 3040927,

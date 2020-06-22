@@ -2,7 +2,7 @@
 ## Bundle display name
 ### The user-visible name for the bundle, used by Siri and visible on the iOS Home screen.
 ### [Default]: ""
-### [JSON](/json/CFBundleDisplayName.json)
+### [JSON](../json/CFBundleDisplayName.json)
 ```json 
 {
     "id": 3040926,

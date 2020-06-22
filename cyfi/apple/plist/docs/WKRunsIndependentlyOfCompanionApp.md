@@ -2,7 +2,7 @@
 ## App can run independently of companion iPhone app
 ### A Boolean value indicating whether the user can install and run the watchOS app independently of its iOS companion app.
 ### [Default]: false
-### [JSON](/json/WKRunsIndependentlyOfCompanionApp.json)
+### [JSON](../json/WKRunsIndependentlyOfCompanionApp.json)
 ```json 
 {
     "id": 3242663,

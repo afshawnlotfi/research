@@ -1,158 +1,126 @@
-# [CFBundleSpokenName](http://webcache.googleusercontent.com/search?q=cache:https://developer.apple.com/documentation/bundleresources/information_property_list/CFBundleSpokenName)
-## Accessibility Bundle Name
-### A replacement for the app name in text-to-speech operations.
-### [Default]: ""
-### [JSON](../json/CFBundleSpokenName.json)
-```json 
 {
-    "id": 3040950,
+    "id": 3040971,
     "title": {
-        "content": "CFBundleSpokenName"
+        "content": "UIApplicationExitsOnSuspend"
     },
-    "abstract": "<div><p>A replacement for the app name in text-to-speech operations.</p></div>",
+    "abstract": "<div><p>A Boolean value indicating whether the app terminates, rather than moves to the background, when the app quits.</p></div>",
+    "deprecationSummary": "<div><p>The system now automatically suspends apps leaving the foreground when they don&#8217;t require background execution. For more information, see <a href=\"/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/about_the_background_execution_sequence\">About the Background Execution Sequence</a>.</p></div>",
     "containingGroup": [
         {
-            "id": 3374910,
+            "id": 3375069,
             "role": "task",
             "paths": [],
             "symbols": [
                 {
-                    "id": 3040945,
+                    "id": 3041362,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.CFBundleName",
-                    "name": "CFBundleName",
+                    "usr": "plist:Information_Property_List.LSGetAppDiedEvents",
+                    "name": "LSGetAppDiedEvents",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
-                            "platform": "iOS",
-                            "introduced": "2.0"
-                        },
-                        {
                             "platform": "macOS",
                             "introduced": "10.0"
-                        },
-                        {
-                            "platform": "tvOS",
-                            "introduced": "9.0"
-                        },
-                        {
-                            "platform": "watchOS",
-                            "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Bundle name",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Name</span></code>",
+                    "xcodeTitle": "Application should get App Died events",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">LSGet<wbr/>App<wbr/>Died<wbr/>Events</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/cfbundlename"
+                        "documentation/bundleresources/information_property_list/lsgetappdiedevents"
                     ],
                     "title": {
-                        "content": "CFBundleName"
+                        "content": "LSGetAppDiedEvents"
                     },
-                    "abstract": "<div><p>A user-visible short name for the bundle.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether the app is notified when a child process dies.</p></div>"
                 },
                 {
-                    "id": 3040926,
+                    "id": 3041345,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.CFBundleDisplayName",
-                    "name": "CFBundleDisplayName",
+                    "usr": "plist:Information_Property_List.NSSupportsSuddenTermination",
+                    "name": "NSSupportsSuddenTermination",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
-                            "platform": "iOS",
-                            "introduced": "2.0"
-                        },
-                        {
                             "platform": "macOS",
                             "introduced": "10.0"
-                        },
-                        {
-                            "platform": "tvOS",
-                            "introduced": "9.0"
-                        },
-                        {
-                            "platform": "watchOS",
-                            "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Bundle display name",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Display<wbr/>Name</span></code>",
+                    "xcodeTitle": "Application can be killed immediately after launch",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">NSSupports<wbr/>Sudden<wbr/>Termination</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/cfbundledisplayname"
+                        "documentation/bundleresources/information_property_list/nssupportssuddentermination"
                     ],
                     "title": {
-                        "content": "CFBundleDisplayName"
+                        "content": "NSSupportsSuddenTermination"
                     },
-                    "abstract": "<div><p>The user-visible name for the bundle, used by Siri and visible on the iOS Home screen.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether the system may terminate the app to log out or shut down more quickly.</p></div>"
                 },
                 {
-                    "id": 3040950,
+                    "id": 3040971,
                     "role": "symbol",
-                    "usr": "plist:Information_Property_List.CFBundleSpokenName",
-                    "name": "CFBundleSpokenName",
+                    "usr": "plist:Information_Property_List.UIApplicationExitsOnSuspend",
+                    "name": "UIApplicationExitsOnSuspend",
                     "domain": "plist",
                     "kind": "tdef",
                     "availability": [
                         {
                             "platform": "iOS",
-                            "introduced": "2.0"
-                        },
-                        {
-                            "platform": "macOS",
-                            "introduced": "10.0"
+                            "deprecated": "13.0",
+                            "introduced": "4.0"
                         },
                         {
                             "platform": "tvOS",
+                            "deprecated": "13.0",
                             "introduced": "9.0"
                         },
                         {
                             "platform": "watchOS",
+                            "deprecated": "6.0",
                             "introduced": "2.0"
                         }
                     ],
-                    "xcodeTitle": "Accessibility Bundle Name",
-                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Spoken<wbr/>Name</span></code>",
+                    "xcodeTitle": "Application does not run in background",
+                    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIApplication<wbr/>Exits<wbr/>On<wbr/>Suspend</span></code>",
                     "titleStyle": "symbol",
                     "paths": [
-                        "documentation/bundleresources/information_property_list/cfbundlespokenname"
+                        "documentation/bundleresources/information_property_list/uiapplicationexitsonsuspend"
                     ],
                     "title": {
-                        "content": "CFBundleSpokenName"
+                        "content": "UIApplicationExitsOnSuspend"
                     },
-                    "abstract": "<div><p>A replacement for the app name in text-to-speech operations.</p></div>"
+                    "abstract": "<div><p>A Boolean value indicating whether the app terminates, rather than moves to the background, when the app quits.</p></div>"
                 }
             ],
             "title": {
-                "content": "Naming"
+                "content": "Termination"
             }
         }
     ],
-    "usr": "plist:Information_Property_List.CFBundleSpokenName",
-    "name": "CFBundleSpokenName",
+    "usr": "plist:Information_Property_List.UIApplicationExitsOnSuspend",
+    "name": "UIApplicationExitsOnSuspend",
     "domain": "plist",
     "kind": "tdef",
     "availability": [
         {
             "platform": "iOS",
             "current": "13.6",
-            "introduced": "2.0"
-        },
-        {
-            "platform": "macOS",
-            "current": "10.15.4",
-            "introduced": "10.0"
+            "deprecated": "13.0",
+            "introduced": "4.0"
         },
         {
             "platform": "tvOS",
             "current": "13.4",
+            "deprecated": "13.0",
             "introduced": "9.0"
         },
         {
             "platform": "watchOS",
             "current": "6.2",
+            "deprecated": "6.0",
             "introduced": "2.0"
         }
     ],
@@ -176,14 +144,13 @@
     "module": [
         {
             "title": {
-                "content": "Core Foundation"
+                "content": "UIKit"
             },
             "paths": [
-                "documentation/corefoundation"
+                "documentation/uikit"
             ],
             "platforms": [
                 "iOS",
-                "macOS",
                 "tvOS",
                 "watchOS"
             ]
@@ -194,34 +161,32 @@
             {
                 "value": [
                     {
-                        "baseType": "string",
-                        "declaration": "<declaration><codeLine xml:space=\"preserve\">string</codeLine></declaration>"
+                        "baseType": "boolean",
+                        "declaration": "<declaration><codeLine xml:space=\"preserve\">boolean</codeLine></declaration>"
                     }
                 ],
                 "platforms": [
                     "iOS",
-                    "macOS",
                     "tvOS",
                     "watchOS"
                 ]
             }
         ]
     },
-    "xcodeTitle": "Accessibility Bundle Name",
-    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">CFBundle<wbr/>Spoken<wbr/>Name</span></code>",
+    "xcodeTitle": "Application does not run in background",
+    "displayName": "<code class=\"display-name\"><span class=\"label\">property list key </span><span class=\"identifier\">UIApplication<wbr/>Exits<wbr/>On<wbr/>Suspend</span></code>",
     "declaration": [
         {
-            "content": "<span>string CFBundleSpokenName\n</span>",
+            "content": "<span>boolean UIApplicationExitsOnSuspend\n</span>",
             "platforms": [
                 "iOS",
-                "macOS",
                 "tvOS",
                 "watchOS"
             ],
             "allowedTypesDetails": [
                 {
-                    "baseType": "string",
-                    "declaration": "<span>string\n</span>"
+                    "baseType": "boolean",
+                    "declaration": "<span>boolean\n</span>"
                 }
             ]
         }
@@ -237,20 +202,20 @@
     "variants": {
         "occ": {
             "paths": [
-                "documentation/bundleresources/information_property_list/cfbundlespokenname"
+                "documentation/bundleresources/information_property_list/uiapplicationexitsonsuspend"
             ],
-            "usr": "plist:Information_Property_List.CFBundleSpokenName"
+            "usr": "plist:Information_Property_List.UIApplicationExitsOnSuspend"
         },
         "swift": {
             "paths": [
-                "documentation/bundleresources/information_property_list/cfbundlespokenname"
+                "documentation/bundleresources/information_property_list/uiapplicationexitsonsuspend"
             ],
-            "usr": "plist:Information_Property_List.CFBundleSpokenName"
+            "usr": "plist:Information_Property_List.UIApplicationExitsOnSuspend"
         }
     },
     "pid": 505027,
     "paths": [
-        "documentation/bundleresources/information_property_list/cfbundlespokenname"
+        "documentation/bundleresources/information_property_list/uiapplicationexitsonsuspend"
     ],
     "hierarchy": [
         [
@@ -277,13 +242,13 @@
                 ]
             },
             {
-                "id": 3374879,
+                "id": 3375101,
                 "role": "collectionGroup",
                 "title": {
-                    "content": "Bundle Configuration"
+                    "content": "App Execution"
                 },
                 "paths": [
-                    "documentation/bundleresources/information_property_list/bundle_configuration"
+                    "documentation/bundleresources/information_property_list/app_execution"
                 ]
             }
         ]
@@ -294,4 +259,3 @@
         "privacyPolicy": "https://www.apple.com/privacy/privacy-policy"
     }
 }
-```

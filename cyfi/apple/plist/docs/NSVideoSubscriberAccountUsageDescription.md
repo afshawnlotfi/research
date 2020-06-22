@@ -2,7 +2,7 @@
 ## Privacy - Video Subscriber Account Usage Description
 ### A message that tells the user why the app is requesting access to the user&#8217;s TV provider account.
 ### [Default]: ""
-### [JSON](/json/NSVideoSubscriberAccountUsageDescription.json)
+### [JSON](../json/NSVideoSubscriberAccountUsageDescription.json)
 ```json 
 {
     "id": 3041009,

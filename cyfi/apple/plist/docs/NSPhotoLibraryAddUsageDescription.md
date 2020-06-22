@@ -2,7 +2,7 @@
 ## Privacy - Photo Library Additions Usage Description
 ### A message that tells the user why the app is requesting write-only access to the user&#8217;s photo library.
 ### [Default]: ""
-### [JSON](/json/NSPhotoLibraryAddUsageDescription.json)
+### [JSON](../json/NSPhotoLibraryAddUsageDescription.json)
 ```json 
 {
     "id": 3041121,

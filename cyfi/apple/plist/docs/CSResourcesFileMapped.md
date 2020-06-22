@@ -2,7 +2,7 @@
 ## Resources should be file-mapped
 ### A Boolean value indicating whether the app&#x27;s resources files should be mapped into memory.
 ### [Default]: false
-### [JSON](/json/CSResourcesFileMapped.json)
+### [JSON](../json/CSResourcesFileMapped.json)
 ```json 
 {
     "id": 3041356,

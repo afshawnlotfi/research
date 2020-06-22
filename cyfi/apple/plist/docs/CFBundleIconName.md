@@ -2,7 +2,7 @@
 ## Icon Name
 ### The name of the asset that represents the app icon.
 ### [Default]: ""
-### [JSON](/json/CFBundleIconName.json)
+### [JSON](../json/CFBundleIconName.json)
 ```json 
 {
     "id": 3041350,

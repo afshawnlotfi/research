@@ -2,7 +2,7 @@
 ## Status bar is initially hidden
 ### A Boolean value indicating whether the status bar is initially hidden when the app launches.
 ### [Default]: false
-### [JSON](/json/UIStatusBarHidden.json)
+### [JSON](../json/UIStatusBarHidden.json)
 ```json 
 {
     "id": 3041112,

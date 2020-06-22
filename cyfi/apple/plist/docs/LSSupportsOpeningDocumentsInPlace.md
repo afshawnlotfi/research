@@ -2,7 +2,7 @@
 ## Supports opening documents in place
 ### A Boolean value indicating whether the app may open the original document from a file provider, rather than a copy of the document.
 ### [Default]: false
-### [JSON](/json/LSSupportsOpeningDocumentsInPlace.json)
+### [JSON](../json/LSSupportsOpeningDocumentsInPlace.json)
 ```json 
 {
     "id": 3041024,

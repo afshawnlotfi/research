@@ -2,7 +2,7 @@
 ## Privacy - Access to a File Provider Domain Usage Description
 ### A message that tells the user why the app needs access to files managed by a file provider.
 ### [Default]: ""
-### [JSON](/json/NSFileProviderDomainUsageDescription.json)
+### [JSON](../json/NSFileProviderDomainUsageDescription.json)
 ```json 
 {
     "id": 3338901,

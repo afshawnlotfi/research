@@ -2,7 +2,7 @@
 ## Bundle name
 ### A user-visible short name for the bundle.
 ### [Default]: ""
-### [JSON](/json/CFBundleName.json)
+### [JSON](../json/CFBundleName.json)
 ```json 
 {
     "id": 3040945,

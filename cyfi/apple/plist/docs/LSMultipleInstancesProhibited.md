@@ -2,7 +2,7 @@
 ## Application prohibits multiple instances
 ### A Boolean value indicating whether more than one user can launch the app simultaneously.
 ### [Default]: false
-### [JSON](/json/LSMultipleInstancesProhibited.json)
+### [JSON](../json/LSMultipleInstancesProhibited.json)
 ```json 
 {
     "id": 3041364,

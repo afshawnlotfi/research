@@ -2,7 +2,7 @@
 ## App is only available as a standalone watchOS app
 ### A Boolean value indicating whether the app is a watch-only app.
 ### [Default]: false
-### [JSON](/json/WKWatchOnly.json)
+### [JSON](../json/WKWatchOnly.json)
 ```json 
 {
     "id": 3242664,

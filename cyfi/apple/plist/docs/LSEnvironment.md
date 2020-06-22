@@ -2,7 +2,7 @@
 ## Environment variables
 ### Environment variables to set before launching the app.
 ### [Default]: {}
-### [JSON](/json/LSEnvironment.json)
+### [JSON](../json/LSEnvironment.json)
 ```json 
 {
     "id": 3041360,

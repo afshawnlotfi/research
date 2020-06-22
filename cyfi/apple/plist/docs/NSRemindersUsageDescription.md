@@ -2,7 +2,7 @@
 ## Privacy - Reminders Usage Description
 ### A message that tells the user why the app is requesting access to the user&#8217;s reminders.
 ### [Default]: ""
-### [JSON](/json/NSRemindersUsageDescription.json)
+### [JSON](../json/NSRemindersUsageDescription.json)
 ```json 
 {
     "id": 3041042,

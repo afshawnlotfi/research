@@ -2,7 +2,7 @@
 ## Icon files
 ### The names of the bundle&#8217;s icon image files.
 ### [Default]: [""]
-### [JSON](/json/CFBundleIconFiles.json)
+### [JSON](../json/CFBundleIconFiles.json)
 ```json 
 {
     "id": 3040938,

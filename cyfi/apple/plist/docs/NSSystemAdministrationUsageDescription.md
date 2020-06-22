@@ -2,7 +2,7 @@
 ## Privacy - System Administration Usage Description
 ### A message in macOS that tells the user why the app is requesting to manipulate the system configuration.
 ### [Default]: ""
-### [JSON](/json/NSSystemAdministrationUsageDescription.json)
+### [JSON](../json/NSSystemAdministrationUsageDescription.json)
 ```json 
 {
     "id": 3041412,

@@ -2,7 +2,7 @@
 ## File quarantine enabled
 ### A Boolean value indicating whether the files this app creates are quarantined by default.
 ### [Default]: false
-### [JSON](/json/LSFileQuarantineEnabled.json)
+### [JSON](../json/LSFileQuarantineEnabled.json)
 ```json 
 {
     "id": 3041361,

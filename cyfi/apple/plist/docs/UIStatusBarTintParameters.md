@@ -2,7 +2,7 @@
 ## Status bar tinting parameters
 ### The status bar tint.
 ### [Default]: {}
-### [JSON](/json/UIStatusBarTintParameters.json)
+### [JSON](../json/UIStatusBarTintParameters.json)
 ```json 
 {
     "id": 3040981,

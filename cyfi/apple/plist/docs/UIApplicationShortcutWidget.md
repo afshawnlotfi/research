@@ -2,7 +2,7 @@
 ## Home Screen Widget
 ### The bundle ID of the widget that&#x27;s available as a Home screen quick action in apps that have more than one widget.
 ### [Default]: ""
-### [JSON](/json/UIApplicationShortcutWidget.json)
+### [JSON](../json/UIApplicationShortcutWidget.json)
 ```json 
 {
     "id": 3040972,

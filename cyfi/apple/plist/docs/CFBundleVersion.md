@@ -2,7 +2,7 @@
 ## Bundle version
 ### The version of the build that identifies an iteration of the bundle.
 ### [Default]: ""
-### [JSON](/json/CFBundleVersion.json)
+### [JSON](../json/CFBundleVersion.json)
 ```json 
 {
     "id": 3040956,

@@ -2,7 +2,7 @@
 ## App Uses Non-Exempt Encryption
 ### A Boolean value indicating whether the app uses encryption.
 ### [Default]: false
-### [JSON](/json/ITSAppUsesNonExemptEncryption.json)
+### [JSON](../json/ITSAppUsesNonExemptEncryption.json)
 ```json 
 {
     "id": 3040993,

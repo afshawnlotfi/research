@@ -2,7 +2,7 @@
 ## Bundle identifier
 ### A unique identifier for a bundle.
 ### [Default]: ""
-### [JSON](/json/CFBundleIdentifier.json)
+### [JSON](../json/CFBundleIdentifier.json)
 ```json 
 {
     "id": 3040942,

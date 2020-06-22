@@ -2,7 +2,7 @@
 ## Privacy - Bluetooth Peripheral Usage Description
 ### A message that tells the user why the app is requesting the ability to connect to Bluetooth peripherals.
 ### [Default]: ""
-### [JSON](/json/NSBluetoothPeripheralUsageDescription.json)
+### [JSON](../json/NSBluetoothPeripheralUsageDescription.json)
 ```json 
 {
     "id": 3041015,

@@ -2,7 +2,7 @@
 ## Privacy - Location Usage Description
 ### A message that tells the user why the app is requesting access to the user&#8217;s location information.
 ### [Default]: ""
-### [JSON](/json/NSLocationUsageDescription.json)
+### [JSON](../json/NSLocationUsageDescription.json)
 ```json 
 {
     "id": 3041018,

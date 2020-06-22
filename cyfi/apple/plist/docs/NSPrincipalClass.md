@@ -2,7 +2,7 @@
 ## Principal class
 ### The name of the bundle&#8217;s main executable class.
 ### [Default]: ""
-### [JSON](/json/NSPrincipalClass.json)
+### [JSON](../json/NSPrincipalClass.json)
 ```json 
 {
     "id": 3041393,

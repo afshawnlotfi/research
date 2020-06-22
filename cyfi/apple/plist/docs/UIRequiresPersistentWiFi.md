@@ -2,7 +2,7 @@
 ## Application uses Wi-Fi
 ### A Boolean value indicating whether the app requires a Wi-Fi connection.
 ### [Default]: false
-### [JSON](/json/UIRequiresPersistentWiFi.json)
+### [JSON](../json/UIRequiresPersistentWiFi.json)
 ```json 
 {
     "id": 3041111,

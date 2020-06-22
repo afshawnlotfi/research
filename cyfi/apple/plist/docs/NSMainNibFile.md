@@ -2,7 +2,7 @@
 ## Main nib file base name
 ### The name of an app&#8217;s main user interface file.
 ### [Default]: ""
-### [JSON](/json/NSMainNibFile.json)
+### [JSON](../json/NSMainNibFile.json)
 ```json 
 {
     "id": 3040965,

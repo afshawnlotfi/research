@@ -2,7 +2,7 @@
 ## Main storyboard file base name
 ### The name of an app&#x27;s storyboard resource file.
 ### [Default]: ""
-### [JSON](/json/NSMainStoryboardFile.json)
+### [JSON](../json/NSMainStoryboardFile.json)
 ```json 
 {
     "id": 3041392,

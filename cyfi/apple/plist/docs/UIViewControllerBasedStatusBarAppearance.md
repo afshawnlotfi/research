@@ -2,7 +2,7 @@
 ## View controller-based status bar appearance
 ### A Boolean value indicating whether the status bar appearance is based on the style preferred for the current view controller.
 ### [Default]: false
-### [JSON](/json/UIViewControllerBasedStatusBarAppearance.json)
+### [JSON](../json/UIViewControllerBasedStatusBarAppearance.json)
 ```json 
 {
     "id": 3041119,

@@ -2,7 +2,7 @@
 ## App Transport Security Settings
 ### A description of changes made to the default security for HTTP connections.
 ### [Default]: {}
-### [JSON](/json/NSAppTransportSecurity.json)
+### [JSON](../json/NSAppTransportSecurity.json)
 ```json 
 {
     "id": 3041043,

@@ -2,7 +2,7 @@
 ## Core Data persistent store type
 ### The Core Data persistent store type associated with a document type.
 ### [Default]: ""
-### [JSON](/json/NSPersistentStoreTypeKey.json)
+### [JSON](../json/NSPersistentStoreTypeKey.json)
 ```json 
 {
     "id": 3041346,

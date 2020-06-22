@@ -2,7 +2,7 @@
 ## URL types
 ### A list of URL schemes (http, ftp, and so on) supported by the app.
 ### [Default]: [{"CFBundleURLName":""}]
-### [JSON](/json/CFBundleURLTypes.json)
+### [JSON](../json/CFBundleURLTypes.json)
 ```json 
 {
     "id": 3040951,

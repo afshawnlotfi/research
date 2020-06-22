@@ -2,7 +2,7 @@
 ## InfoDictionary version
 ### The current version of the Information Property List structure.
 ### [Default]: "6.0"
-### [JSON](/json/CFBundleInfoDictionaryVersion.json)
+### [JSON](../json/CFBundleInfoDictionaryVersion.json)
 ```json 
 {
     "id": 3040943,

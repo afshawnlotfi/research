@@ -2,7 +2,7 @@
 ## Minimum system version
 ### The minimum operating system version required for the app to run.
 ### [Default]: "10.0.0"
-### [JSON](/json/LSMinimumSystemVersion.json)
+### [JSON](../json/LSMinimumSystemVersion.json)
 ```json 
 {
     "id": 3041022,
@@ -168,6 +168,9 @@
         "domain": "plist",
         "kind": "schema",
         "role": "dictionarySymbol",
+        "paths": [
+            "documentation/bundleresources/information_property_list"
+        ],
         "title": {
             "content": "Information Property List"
         },
@@ -242,7 +245,7 @@
             "usr": "plist:Information_Property_List.LSMinimumSystemVersion"
         }
     },
-    "pid": 492525,
+    "pid": 505027,
     "paths": [
         "documentation/bundleresources/information_property_list/lsminimumsystemversion"
     ],

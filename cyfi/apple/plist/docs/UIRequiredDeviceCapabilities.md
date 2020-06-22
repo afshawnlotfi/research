@@ -2,7 +2,7 @@
 ## Required device capabilities
 ### The device-related features that the app requires to run.
 ### [Default]: [""]
-### [JSON](/json/UIRequiredDeviceCapabilities.json)
+### [JSON](../json/UIRequiredDeviceCapabilities.json)
 ```json 
 {
     "id": 3040980,

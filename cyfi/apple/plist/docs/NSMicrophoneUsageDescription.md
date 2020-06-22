@@ -2,7 +2,7 @@
 ## Privacy - Microphone Usage Description
 ### A message that tells the user why the app is requesting access to the device&#8217;s microphone.
 ### [Default]: ""
-### [JSON](/json/NSMicrophoneUsageDescription.json)
+### [JSON](../json/NSMicrophoneUsageDescription.json)
 ```json 
 {
     "id": 3041013,

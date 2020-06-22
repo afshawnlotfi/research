@@ -2,7 +2,7 @@
 ## Application can be killed immediately after launch
 ### A Boolean value indicating whether the system may terminate the app to log out or shut down more quickly.
 ### [Default]: false
-### [JSON](/json/NSSupportsSuddenTermination.json)
+### [JSON](../json/NSSupportsSuddenTermination.json)
 ```json 
 {
     "id": 3041345,

@@ -2,7 +2,7 @@
 ## Renders with edge antialiasing
 ### A Boolean value indicating whether Core Animation layers use antialiasing when drawing a layer that&#x27;s not aligned to pixel boundaries.
 ### [Default]: false
-### [JSON](/json/UIViewEdgeAntialiasing.json)
+### [JSON](../json/UIViewEdgeAntialiasing.json)
 ```json 
 {
     "id": 3040983,

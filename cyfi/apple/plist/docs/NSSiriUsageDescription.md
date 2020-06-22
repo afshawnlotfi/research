@@ -2,7 +2,7 @@
 ## Privacy - Siri Usage Description
 ### A message that tells the user why the app is requesting to send user data to Siri.
 ### [Default]: ""
-### [JSON](/json/NSSiriUsageDescription.json)
+### [JSON](../json/NSSiriUsageDescription.json)
 ```json 
 {
     "id": 3041097,

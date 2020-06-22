@@ -2,7 +2,7 @@
 ## Bundle versions string, short
 ### The release or version number of the bundle.
 ### [Default]: ""
-### [JSON](/json/CFBundleShortVersionString.json)
+### [JSON](../json/CFBundleShortVersionString.json)
 ```json 
 {
     "id": 3040949,

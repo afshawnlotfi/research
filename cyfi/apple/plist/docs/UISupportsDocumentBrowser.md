@@ -2,7 +2,7 @@
 ## Supports Document Browser
 ### A Boolean value indicating whether the app is a document-based app.
 ### [Default]: false
-### [JSON](/json/UISupportsDocumentBrowser.json)
+### [JSON](../json/UISupportsDocumentBrowser.json)
 ```json 
 {
     "id": 3041118,

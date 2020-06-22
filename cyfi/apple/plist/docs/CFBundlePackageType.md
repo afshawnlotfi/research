@@ -2,7 +2,7 @@
 ## Bundle OS Type code
 ### The type of bundle.
 ### [Default]: ""
-### [JSON](/json/CFBundlePackageType.json)
+### [JSON](../json/CFBundlePackageType.json)
 ```json 
 {
     "id": 3040946,

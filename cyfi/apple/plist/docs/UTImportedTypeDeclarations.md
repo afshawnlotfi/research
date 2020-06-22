@@ -2,7 +2,7 @@
 ## Imported Type UTIs
 ### The uniform type identifiers inherently supported, but not owned, by the app.
 ### [Default]: [{"UTTypeConformsTo":[""],"UTTypeIdentifier":"","UTTypeTagSpecification":{}}]
-### [JSON](/json/UTImportedTypeDeclarations.json)
+### [JSON](../json/UTImportedTypeDeclarations.json)
 ```json 
 {
     "id": 3041033,

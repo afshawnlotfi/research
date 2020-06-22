@@ -2,7 +2,7 @@
 ## Privacy - Desktop Folder Usage Description
 ### A message that tells the user why the app needs access to the user&#8217;s Desktop folder.
 ### [Default]: ""
-### [JSON](/json/NSDesktopFolderUsageDescription.json)
+### [JSON](../json/NSDesktopFolderUsageDescription.json)
 ```json 
 {
     "id": 3338899,

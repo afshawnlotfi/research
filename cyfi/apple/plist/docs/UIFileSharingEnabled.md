@@ -2,7 +2,7 @@
 ## Application supports iTunes file sharing
 ### A Boolean value indicating whether the app shares files through iTunes.
 ### [Default]: false
-### [JSON](/json/UIFileSharingEnabled.json)
+### [JSON](../json/UIFileSharingEnabled.json)
 ```json 
 {
     "id": 3040974,

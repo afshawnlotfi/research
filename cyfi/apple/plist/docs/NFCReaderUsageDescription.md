@@ -2,7 +2,7 @@
 ## Privacy - NFC Scan Usage Description
 ### A message that tells the user why the app is requesting access to the device&#8217;s NFC hardware.
 ### [Default]: ""
-### [JSON](/json/NFCReaderUsageDescription.json)
+### [JSON](../json/NFCReaderUsageDescription.json)
 ```json 
 {
     "id": 3041021,

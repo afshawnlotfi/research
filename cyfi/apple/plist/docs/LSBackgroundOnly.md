@@ -2,7 +2,7 @@
 ## Application is background only
 ### A Boolean value indicating whether the app runs only in the background.
 ### [Default]: false
-### [JSON](/json/LSBackgroundOnly.json)
+### [JSON](../json/LSBackgroundOnly.json)
 ```json 
 {
     "id": 3041359,
