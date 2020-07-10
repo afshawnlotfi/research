@@ -4,30 +4,6 @@
 ### Parameters
  #### keysToFetch - An array of contact property keys and/or key descriptors from contacts objects to be fetched in the returned contacts. For a list of possible keys, see 
 
-# predicate
- The predicate to match contacts against.
-
-# mutableObjects
- A Boolean value that indicates whether to return mutable contacts.
-
-# unifyResults
- A Boolean value that indicates whether to return linked contacts as unified contacts.
-
-# sortOrder
- The sort order for contacts.
-
-# CNContactSortOrder
- Indicates the sorting order for contacts.
-
-# keysToFetch
- The properties to fetch in the returned contacts.
-
-# currentHistoryToken
- null
-
-# value
- null
-
 # addContact:toContainerWithIdentifier:
  Adds the specified contact to the contact store.
 ### Parameters

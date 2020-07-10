@@ -26,7 +26,7 @@ const fetchDoc = async (url: string) => {
   const result = await fetch(url);
   const json = await result.json()
   const description = (((json["abstract"] ?? [])[0] ?? [])["text"]) ?? null
-  const selector = json["metadata"]["title"]
+  const selector = json["metadata"]["title"] as string
   const primaryContentSections = (((json["primaryContentSections"] as { [key: string]: any }[]).filter((el) => el["kind"] === "parameters") ?? [])[0] ?? {})["parameters"] as { [key: string]: any }[]
   const parameters = (primaryContentSections ?? []).map((el) => { return { name: el["name"], description: el["content"][0]["inlineContent"][0]["text"] } })
   return { selector, description, parameters }
@@ -51,9 +51,10 @@ const fetchSubDoc = async (url: string) => {
 
 
 const fetchAllDocs = async () => {
-  const result = await fetch("https://developer.apple.com/tutorials/data/documentation/avfoundation/cameras_and_media_capture.json")
+  const result = await fetch("https://developer.apple.com/tutorials/data/documentation/contacts.json")
   const json = await result.json()
-  const element = 'Photo Capture'
+  const element = 'Fetch and Save Requests'
+  const name = "Contacts"
   const topicSections = json["topicSections"] as { [key: string]: any }[]
   const identifiers = topicSections.filter((topicSection) => {
     return topicSection.title === element
@@ -66,9 +67,9 @@ const fetchAllDocs = async () => {
   })
   const all = await Promise.all(subDoc)
 
-  let output = `# Contacts\n`
+  let output = `# ${name}\n`
   all.forEach((comp) => {
-    comp.forEach((subComp) => {
+    comp.filter((el) => el.selector.endsWith(":")).forEach((subComp) => {
       output += toMarkdown(subComp) + "\n"
     })
   })
