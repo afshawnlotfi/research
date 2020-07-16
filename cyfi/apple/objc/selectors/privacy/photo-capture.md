@@ -116,6 +116,7 @@
 # captureOutput:didFinishProcessingRawPhotoSampleBuffer:previewPhotoSampleBuffer:resolvedSettings:bracketSettings:error:
  Provides the delegate a captured image in RAW format.
 ### Parameters
+
 #### captureOutput - The photo output performing the capture.
 #### rawSampleBuffer - A sample buffer containing the captured RAW image. The format of this buffer matches the format you requested for the RAW image (see the 
 #### previewSampleBuffer - If you requested a thumbnail-sized version of the photo (with the 

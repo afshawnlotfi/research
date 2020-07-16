@@ -1,8 +1,13 @@
+import { writeFileSync } from "fs"
 import fetch from "node-fetch"
-
 const docs = [
-  { name: "Contacts", url: "https://developer.apple.com/tutorials/data/documentation/contacts.json" },
-  { name: "Capture", url : "https://developer.apple.com/tutorials/data/documentation/avfoundation/cameras_and_media_capture.json"}
+  { name: "Contact", url: "https://developer.apple.com/tutorials/data/documentation/contacts.json", sections: ["Fetch and Save Requests"] },
+  { name: "PhotoKit", url: "https://developer.apple.com/tutorials/data/documentation/photokit.json", sections: ["Asset Retrieval", "Asset Loading"] },
+  { name: "AVFoundation", url: "https://developer.apple.com/tutorials/data/documentation/avfoundation/cameras_and_media_capture.json", sections: ["Capture Devices"] },
+  { name: "EventKit", url: "https://developer.apple.com/tutorials/data/documentation/eventkit.json", sections: ["First Steps"] },
+  { name: "CoreLocation", url: "https://developer.apple.com/tutorials/data/documentation/corelocation.json", sections: ["Essentials"] },
+  { name: "CoreMotion", url: "https://developer.apple.com/tutorials/data/documentation/coremotion.json", sections: ["First Steps"] },
+
 ]
 const parameterMarkdown = ({ name, description }: { name: string, description: string }) => {
   return `#### ${name} - ${description}`
@@ -13,7 +18,7 @@ const toMarkdown = ({ selector, description, parameters }: { selector: string, d
   parameters.forEach((parameter) => {
     parameterStr += parameterMarkdown(parameter) + "\n"
   })
-  return `# ${selector}\n ${description}\n` + ((parameters.length > 0) ? `### Parameters\n ${parameterStr}` : "")
+  return `# ${selector}\n ${description}\n` + ((parameters.length > 0) ? `### Parameters\n${parameterStr}` : "")
 }
 
 const convertDocUrl = (urls: string[]) => {
@@ -27,7 +32,7 @@ const fetchDoc = async (url: string) => {
   const json = await result.json()
   const description = (((json["abstract"] ?? [])[0] ?? [])["text"]) ?? null
   const selector = json["metadata"]["title"] as string
-  const primaryContentSections = (((json["primaryContentSections"] as { [key: string]: any }[]).filter((el) => el["kind"] === "parameters") ?? [])[0] ?? {})["parameters"] as { [key: string]: any }[]
+  const primaryContentSections = ((((json["primaryContentSections"] ?? []) as { [key: string]: any }[]).filter((el) => el["kind"] === "parameters") ?? [])[0] ?? {})["parameters"] as { [key: string]: any }[]
   const parameters = (primaryContentSections ?? []).map((el) => { return { name: el["name"], description: el["content"][0]["inlineContent"][0]["text"] } })
   return { selector, description, parameters }
 }
@@ -50,14 +55,12 @@ const fetchSubDoc = async (url: string) => {
 
 
 
-const fetchAllDocs = async () => {
-  const result = await fetch("https://developer.apple.com/tutorials/data/documentation/contacts.json")
+const fetchAllDocs = async ({ name, url, sections }: { name: string, url: string, sections: string[] }) => {
+  const result = await fetch(url)
   const json = await result.json()
-  const element = 'Fetch and Save Requests'
-  const name = "Contacts"
   const topicSections = json["topicSections"] as { [key: string]: any }[]
   const identifiers = topicSections.filter((topicSection) => {
-    return topicSection.title === element
+    return sections.includes(topicSection.title)
   }).map(({ identifiers }) => {
     return identifiers
   })
@@ -73,9 +76,14 @@ const fetchAllDocs = async () => {
       output += toMarkdown(subComp) + "\n"
     })
   })
-  console.log(output)
+  writeFileSync(`./docs/${name.toLowerCase()}.md`, output)
 
 }
-fetchAllDocs()
+let readmeRoot = `# Privacy Functions\n\n`;
+docs.forEach((doc) => {
+  readmeRoot += `## [${doc.name}](/research/cyfi/apple/objc/selectors/privacy/docs/${doc.name.toLowerCase()})\n\n`
+  fetchAllDocs(doc)
+})
+writeFileSync("./README.md", readmeRoot)
 
 
